@@ -1,0 +1,16 @@
+plugin.slick {
+  item {
+    view {
+        # cat=Slick - Item Fluidtemplates/150/101; type=string; label=templates:Path to the templates (with an ending slash).
+      templateRootPath = EXT:slick/Resources/Private/Templates/
+        # cat=Slick - Item Fluidtemplates/150/102; type=string; label=partials:Path to the partials (with an ending slash).
+      partialRootPath = EXT:slick/Resources/Private/Partials/
+        # cat=Slick - Item Fluidtemplates/150/103; type=string; label=layouts:Path to the layouts (with an ending slash).
+      layoutRootPath = EXT:slick/Resources/Private/Layouts/
+      settings {
+          # cat=Slick - Item Fluidtemplates/150/201; type=string; label=headerTag:
+        headerTag = h4
+      }
+    }
+  }
+}
