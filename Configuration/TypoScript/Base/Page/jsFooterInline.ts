@@ -8,7 +8,7 @@ page {
       10 {
         value (
           jQuery(document).ready(function(){
-            jQuery(\'.{$plugin.slick.carousel.css.class}\').slick({
+            jQuery('.{$plugin.slick.carousel.css.class}').slick({
 )
       }
         // Configuration default
@@ -20,7 +20,7 @@ page {
               , arrows          : {$plugin.slick.carousel.javascript.properties.arrows}
               , autoplay        : {$plugin.slick.carousel.javascript.properties.autoplay}
               , autoplaySpeed   : {$plugin.slick.carousel.javascript.properties.autoplaySpeed}
-              , cssEase         : \'{$plugin.slick.carousel.javascript.properties.cssEase}\'
+              , cssEase         : '{$plugin.slick.carousel.javascript.properties.cssEase}'
               , dots            : {$plugin.slick.carousel.javascript.properties.dots}
               , fade            : {$plugin.slick.carousel.javascript.properties.fade}
               , infinite        : {$plugin.slick.carousel.javascript.properties.infinite}
