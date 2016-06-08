@@ -1,7 +1,7 @@
-2.3.0
+2.3.1
   16-06-08
   Improvement
-  * #i0015: Static template is mved to an include static template.
+  * #71043: Static template is moved to an include static template.
             You MUST now include the static template called basis
 
 2.2.7
