@@ -1,9 +1,15 @@
+2.4.1
+  16-06-20
+  Bugfix
+  * #i0017: tx_imagecrop_crop and tx_imagecrop_gravity were missed
+
 2.4.0
   16-06-20
   Improvement
   * #i0016: TYPO3 7.x compatibility
             Effected files:
             * ext_tables.php
+            * Configuration/TCA/Overrides/tt_content.php
 
 2.3.2
   16-06-16

@@ -24,18 +24,6 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'section_frame' ][ 'config' ][ '
   '0' => 'slick: gallery',
   '1' => '62474'
 );
-//
-///**
-// * tt_content: additional CTypes
-// */
-//$backupCTypeItems = $GLOBALS['TCA']['tt_content']['columns']['CType']['config']['items'];
-//
-//$GLOBALS['TCA']['tt_content']['columns']['CType']['config']['items'] = array(
-//    array(
-//        'slickcarousel',
-//        '--div--'
-//    ),
-//);
 
 
 /**
@@ -47,7 +35,7 @@ ExtensionManagementUtility::addFieldsToPalette(
         , ''
         . 'imagewidth;LLL:EXT:' . $cmsLL . ':imagewidth_formlabel,'
         . 'imageheight;LLL:EXT:' . $cmsLL . ':imageheight_formlabel,'
-//        . 'tx_imagecrop_crop,tx_imagecrop_gravity,'
+        . 'tx_imagecrop_crop,tx_imagecrop_gravity,'
         . 'section_frame;LLL:EXT:' . $cmsLL . ':section_frame_formlabel,'
         , ''
 );
