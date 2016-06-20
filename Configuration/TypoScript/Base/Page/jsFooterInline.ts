@@ -1,5 +1,8 @@
 page {
   jsFooterInline {
+      // For proper comment only
+    60807 {
+    }
       // slick
     60807 = COA
     60807 {
