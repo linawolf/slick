@@ -14,10 +14,12 @@ page {
         // Wrap begin
       10 = TEXT
       10 {
-				temp = jQuery('.{$plugin.slick.carousel.css.class}').slick({
         value (
           jQuery(document).ready(function(){
-            jQuery('#slickcarousel1').slick({
+						/* #i0018, 17-03-02, dwildt, 1-/+ */
+						/* jQuery('.{$plugin.slick.carousel.css.class}').slick({ */
+						jQuery('#slickcarousel1').slick({
+
 )
       }
         // Configuration default
