@@ -1,4 +1,9 @@
 page {
+      // For proper comment only
+  jsFooterInline {		
+	}
+		// slick: 60807
+  jsFooterInline =
   jsFooterInline {
       // For proper comment only
     60807 {
@@ -9,9 +14,10 @@ page {
         // Wrap begin
       10 = TEXT
       10 {
+				temp = jQuery('.{$plugin.slick.carousel.css.class}').slick({
         value (
           jQuery(document).ready(function(){
-            jQuery('.{$plugin.slick.carousel.css.class}').slick({
+            jQuery('#slickcarousel1').slick({
 )
       }
         // Configuration default

@@ -2,7 +2,7 @@
 
 $EM_CONF[ $_EXTKEY ] = array(
   'title' => 'Slick - responsive Carousel Slider',
-  'description' => 'Slick carousel slider by Ken Wheeler. Fully responsive. Scales with its container. Separate settings per breakpoint. Swipe, desktop mouse dragging, infinite looping among others. Slick is ready-for-use with the organiser and tt_news.',
+  'description' => 'Slick carousel slider by Ken Wheeler. Fully responsive. Scales with its container. Separate settings per breakpoint. Swipe, desktop mouse dragging, infinite looping among others. Slick is ready-for-use with the organiser, quick-shop and tt_news.',
   'category' => 'plugin',
   'author' => 'Dirk Wildt (Die Netzmacher)',
   'author_email' => 'http://wildt.at.die-netzmacher.de/',
@@ -11,7 +11,7 @@ $EM_CONF[ $_EXTKEY ] = array(
   'uploadfolder' => 0,
   'createDirs' => '',
   'clearcacheonload' => 0,
-  'version' => '2.4.1',
+  'version' => '2.5.0',
   'constraints' => array(
     'depends' => array(
       'typo3' => '6.0.0-7.6.99',
