@@ -2,13 +2,13 @@ page {
       // For proper comment only
   jsFooterInline {		
 	}
-		// slick: 60807
+		// slick: 60807, 60808, 60809
   jsFooterInline =
   jsFooterInline {
       // For proper comment only
     60807 {
     }
-      // slick
+      // slickcarousel1
     60807 = COA
     60807 {
         // Wrap begin
@@ -92,6 +92,32 @@ page {
 )
       }
     }
+		60808 < .60807
+      // slickcarousel2, #i0018, 17-03-02, dwildt
+    60808 = COA
+    60808 {
+      10 {
+        value (
+          jQuery(document).ready(function(){
+						/* #i0018, 17-03-02, dwildt, 1-/+ */
+						/* jQuery('.{$plugin.slick.carousel.css.class}').slick({ */
+						jQuery('#slickcarousel2').slick({
+
+)
+      }
+		}
+		60809 < .60807
+      // slickcarousel3, #i0018, 17-03-02, dwildt
+    60809 = COA
+    60809 {
+      10 {
+        value (
+          jQuery(document).ready(function(){
+						jQuery('#slickcarousel3').slick({
+
+)
+      }
+		}
   }
 }
 
