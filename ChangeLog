@@ -1,7 +1,14 @@
+2.5.1
+  17-03-20
+  Improvement
+  * #i0019: CSS is optimised for merging
+
 2.5.0
   17-03-02
   Feature
-  * #i0018: Slick can handle up to three carousels now 
+  * #i0018: Slick can handle up to three carousels now
+						* content element: Slick: Carousel [1-3]
+						* Constant Editor > Category > Slick - Carousel [1-3] - Javascript ...
 
 2.4.1
   16-06-20

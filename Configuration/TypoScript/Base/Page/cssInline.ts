@@ -49,14 +49,26 @@ page {
           font-weight: {$plugin.slick.carousel.css.text.font-weight};
         }
         /* color */
-        .slick-next:before,
-        .slick-prev:before {
+        #slickcarousel1 .slick-next:before,
+				#slickcarousel1 .slick-prev:before, 
+        #slickcarousel2 .slick-next:before,
+				#slickcarousel2 .slick-prev:before, 
+        #slickcarousel3 .slick-next:before,
+				#slickcarousel3 .slick-prev:before, 
+        #slickcarousel4 .slick-next:before,
+				#slickcarousel4 .slick-prev:before {
           color: {$plugin.slick.carousel.css.colors.arrows};
         }
-        .slick-dots li button:before {
+        #slickcarousel1 .slick-dots li button:before,
+        #slickcarousel2 .slick-dots li button:before,
+        #slickcarousel3 .slick-dots li button:before,
+        #slickcarousel4 .slick-dots li button:before {
           color: {$plugin.slick.carousel.css.colors.dots.default};
         }
-        .slick-dots li.slick-active button:before {
+        #slickcarousel1 .slick-dots li.slick-active button:before,
+        #slickcarousel2 .slick-dots li.slick-active button:before,
+        #slickcarousel3 .slick-dots li.slick-active button:before,
+        #slickcarousel4 .slick-dots li.slick-active button:before {
           color: {$plugin.slick.carousel.css.colors.dots.active};
         }
         /* position */
