@@ -1,7 +1,7 @@
 2.5.2
   17-05-16
 	Improvement
-	* #t1228: Compatibillity with Bootstrap Package (bootstrap_package). See:
+	* #t1228: slickcarousel: compatibillity with Bootstrap Package (bootstrap_package). See:
 						Configuration/TypoScript/Base/tt_content/_setup.ts
 						Thanks to Andrea Herzog-Kienast for the contract
 
