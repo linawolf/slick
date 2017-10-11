@@ -1,11 +1,14 @@
-2.6.0
-  17-10-08
-  UPGRADE slick
-	* #t1682: 1.5.0 > 1.8.0
-  UPGRADE TYPO3 8.x
+2.6.1
+  17-10-11
+  UPGRADE TYPO3 8.x IN PROGRESS!
 	* #t1683: TYPO3 8.x
 						BUGFIX
 						* Uncaught UnexpectedValueException: Missing "type" in TCA of field "['tt_content']['section_frame']['config']"
+
+2.6.0
+  17-10-11
+  UPGRADE slick
+	* #t1682: 1.5.0 > 1.8.0
 
 2.5.2
   17-05-16
