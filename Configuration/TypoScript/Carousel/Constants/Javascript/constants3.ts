@@ -23,17 +23,19 @@ plugin.slick {
 					infinite        = true
 						# cat=Slick - Carousel 3 - Javascript Properties//309; type=+int; label=initial slide:0 is the first slide.
 					initialSlide    = 0
-						# cat=Slick - Carousel 3 - Javascript Properties//310; type=+int; label=rows:Setting this to more than 1 initializes grid mode. Use slidesPerRow to set how many slides should be in each row.
+						# cat=Slick - Carousel 3 - Javascript Properties//310; type=options[true,false]; label=pauseOnHover:Pause Autoplay On Hover
+					pauseOnHover    = true
+						# cat=Slick - Carousel 3 - Javascript Properties//311; type=+int; label=rows:Setting this to more than 1 initializes grid mode. Use slidesPerRow to set how many slides should be in each row.
 					rows            = 1
-						# cat=Slick - Carousel 3 - Javascript Properties//311; type=+int; label=slidesPerRow:With grid mode intialized via the rows option, this sets how many slides are in each grid row.
+						# cat=Slick - Carousel 3 - Javascript Properties//312; type=+int; label=slidesPerRow:With grid mode intialized via the rows option, this sets how many slides are in each grid row.
 					slidesPerRow    = 1
-						# cat=Slick - Carousel 3 - Javascript Properties//312; type=+int; label=slides to show:# of slides to show
+						# cat=Slick - Carousel 3 - Javascript Properties//313; type=+int; label=slides to show:# of slides to show
 					slidesToShow    = 1
-						# cat=Slick - Carousel 3 - Javascript Properties//313; type=+int; label=slides to scroll:# of slides to scroll
+						# cat=Slick - Carousel 3 - Javascript Properties//314; type=+int; label=slides to scroll:# of slides to scroll
 					slidesToScroll  = 1
-						# cat=Slick - Carousel 3 - Javascript Properties//314; type=+int; label=speed:Slide/Fade animation speed in milliseconds
+						# cat=Slick - Carousel 3 - Javascript Properties//315; type=+int; label=speed:Slide/Fade animation speed in milliseconds
 					speed           = 3000
-						# cat=Slick - Carousel 3 - Javascript Properties//315; type=options[true,false]; label=vertical:Vertical slide mode
+						# cat=Slick - Carousel 3 - Javascript Properties//316; type=options[true,false]; label=vertical:Vertical slide mode
 					vertical        = false
 				}
 				responsive {
