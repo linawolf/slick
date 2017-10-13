@@ -16,14 +16,10 @@ plugin.slick {
 				partialRootPath = EXT:slick/Resources/Private/Fluid/Slick/Partials/
 					# cat=Slick - Item Fluidtemplates - 20/150/103; type=string; label=layouts:Path to the layouts (with an ending slash).
 				layoutRootPath = EXT:slick/Resources/Private/Fluid/Slick/Layouts/
-				settings {
-						# cat=Slick - Item Fluidtemplates - 20/150/201; type=string; label=headerTag:
-					headerTag = h4
-				}
 			}
 			settings {
 					# cat=Slick - Item Fluidtemplates - Settings/150/201; type=string; label=headerTag:
-				headerTag = h4
+				headerTag = h1
 			}
     }
   }

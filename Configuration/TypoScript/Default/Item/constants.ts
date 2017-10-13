@@ -19,7 +19,7 @@ plugin.slick {
 			}
 			settings {
 					# cat=Slick - Item Fluidtemplates - Settings/150/201; type=string; label=headerTag:
-				headerTag = h4
+				headerTag = h1
 			}
     }
   }
