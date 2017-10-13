@@ -1,6 +1,6 @@
-3.0.xx
-  17-10-xx
-  UPGRADE TYPO3 8.x IN PROGRESS!
+3.0.0
+  17-10-14
+  UPGRADE TYPO3 8.x
 	BE AWARE: You must include static templates again!
 	* #t1686: Template for fluid_styled_content
 						* Moved:
@@ -14,6 +14,8 @@
 						* SpriteManager > IconRegistry
 						Removed Features
 						* slick slideshow
+	Feature
+	* #i0021: ReST-Documentation
 
 2.6.2
   17-10-12
