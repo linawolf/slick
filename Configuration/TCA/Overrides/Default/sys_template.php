@@ -3,12 +3,12 @@
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 ExtensionManagementUtility::addStaticFile(
-				$_EXTKEY
-				, 'Configuration/TypoScript/Default'
+				'slick'
+				, 'Configuration/TypoScript/Default/'
 				, 'Slick [1] (based on fluid_css_templates)'
 );
 ExtensionManagementUtility::addStaticFile(
-				$_EXTKEY
-				, 'Configuration/TypoScript/7.6'
+				'slick'
+				, 'Configuration/TypoScript/7.6/'
 				, 'Slick [1] - DEPRECATED (based on fluid_css_templates)'
 );

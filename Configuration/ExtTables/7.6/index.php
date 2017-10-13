@@ -11,7 +11,7 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 /**
  * Include TypoScript
  */
-ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/7.6', 'Slick [1] (based on css_styled_content)' );
+ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/7.6/', 'Slick [1] (based on css_styled_content)' );
 //ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Default', 'Slick [1] (based on fluid_styled_content)' );
 //ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Base', 'Slick [1] Base' );
 //ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Carousel', 'Slick [2] Carousel' );
