@@ -9,7 +9,7 @@ plugin.slick {
       layoutRootPath = EXT:slick/Resources/Private/Fluid/FluidStyledContent/Layouts/
       settings {
           # cat=Slick - Carousel - Templates/150/201; type=string; label=headerTag:
-        headerTag = h4
+        headerTag = h1
       }
     }
   }

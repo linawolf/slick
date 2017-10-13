@@ -33,7 +33,7 @@ page {
         .slick-header .span {
           display: inline;
         }
-        .slick-header .span {$plugin.slick.item.view.settings.headerTag} {
+        .slick-header .span {$plugin.slick.item.templates.settings.headerTag} {
           background-color: {$plugin.slick.carousel.css.header.background-color};
           color: {$plugin.slick.carousel.css.header.color};
           font-size: {$plugin.slick.carousel.css.header.font-size};
