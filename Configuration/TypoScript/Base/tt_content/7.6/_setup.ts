@@ -1,2 +1,0 @@
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:slick/Configuration/TypoScript/Base/tt_content/7.6/slickcarousel.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:slick/Configuration/TypoScript/Base/tt_content/7.6/slickslideshow.ts">

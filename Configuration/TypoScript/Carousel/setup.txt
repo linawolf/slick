@@ -1,5 +1,0 @@
-includeLibs.image_crop = EXT:image_crop/pi1/class.tx_imagecrop_pi1.php
-tt_content.slickslideshow.20.1.stdWrap.postUserFunc = tx_imagecrop_pi1->main
-// #i0018, 17-03-02, dwildt, 2+
-tt_content.slickslideshow2.20.1.stdWrap.postUserFunc = tx_imagecrop_pi1->main
-tt_content.slickslideshow3.20.1.stdWrap.postUserFunc = tx_imagecrop_pi1->main

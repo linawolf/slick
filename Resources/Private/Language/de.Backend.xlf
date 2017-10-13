@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-10-12T19:11:39Z" product-name="start">
+    <header/>
+    <body>
+
+      <trans-unit id="tt_content.frame_class.slicknoframe">
+        <source>Slick: without any frame</source>
+        <target>Slick: ohne Rahmen</target>
+      </trans-unit>
+      <trans-unit id="tt_content.frame_class.slickbanner">
+        <source>Slick: banner</source>
+        <target>Slick: Banner</target>
+      </trans-unit>
+      <trans-unit id="tt_content.frame_class.slickgallery">
+        <source>Slick: gallery</source>
+        <target>Slick: Gallerie</target>
+      </trans-unit>
+
+		</body>
+  </file>
+</xliff>
