@@ -14,7 +14,8 @@
 						* SpriteManager > IconRegistry
 						Removed Features
 						* slick slideshow
-	Feature
+	Features
+	* #i0022: Slick Carousel for images (from TYPO3 8.x)
 	* #i0021: ReST-Documentation
 
 2.6.2

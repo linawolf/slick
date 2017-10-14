@@ -11,7 +11,10 @@
 What does it do?
 ================
 
-TYPO3 Slick integrates the Slick Carousel into TYPO3.
+TYPO3 Slick integrates the jQuery Slick Carousel into TYPO3.
+
+jQuery Slick Carousel
+---------------------
 
 The Slick Carousel is
 
@@ -37,21 +40,23 @@ The Slick Carousel is
 
 
 TYPO3 Slick 
+-----------
 
-- provides the both content elements
+TYPO3 Slick provides the three content elements
 
-  - Slick Carousel
+- Slick Slider with Content Elements 
 
-  - Slick Item
+- Slick Slider with Images
 
-- supports the single item slick ready-to-use.
+- Slick Slider Content Element
 
--  You can use every TYPO3 content element for your Slick Carousel.
 
-- Images can crop.
+Extensions
+----------
 
 - Ready-for-use with
 
   - the Organiser – TYPO3 for the lobby and the organisers – (organiser)
+
 
 The Slick Carousel is developed by Ken Wheeler.

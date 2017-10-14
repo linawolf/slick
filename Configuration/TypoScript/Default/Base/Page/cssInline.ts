@@ -1,8 +1,13 @@
 page {
+		// empty statement for proper comments only
+  cssInline {
+	}
+		// slick: 62478
+  cssInline =
   cssInline {
       // slick
-    {$plugin.slick.carousel.html.id} = TEXT
-    {$plugin.slick.carousel.html.id} {
+    62478 = TEXT
+    62478 {
       value (
         .{$plugin.slick.carousel.css.class}{
           margin:{$plugin.slick.carousel.css.margins.item};
@@ -54,21 +59,17 @@ page {
         #slickcarousel2 .slick-next:before,
 				#slickcarousel2 .slick-prev:before, 
         #slickcarousel3 .slick-next:before,
-				#slickcarousel3 .slick-prev:before, 
-        #slickcarousel4 .slick-next:before,
-				#slickcarousel4 .slick-prev:before {
+				#slickcarousel3 .slick-prev:before {
           color: {$plugin.slick.carousel.css.colors.arrows};
         }
         #slickcarousel1 .slick-dots li button:before,
         #slickcarousel2 .slick-dots li button:before,
-        #slickcarousel3 .slick-dots li button:before,
-        #slickcarousel4 .slick-dots li button:before {
+        #slickcarousel3 .slick-dots li button:before {
           color: {$plugin.slick.carousel.css.colors.dots.default};
         }
         #slickcarousel1 .slick-dots li.slick-active button:before,
         #slickcarousel2 .slick-dots li.slick-active button:before,
-        #slickcarousel3 .slick-dots li.slick-active button:before,
-        #slickcarousel4 .slick-dots li.slick-active button:before {
+        #slickcarousel3 .slick-dots li.slick-active button:before {
           color: {$plugin.slick.carousel.css.colors.dots.active};
         }
         .slider1 .slick-next:before,
@@ -76,21 +77,17 @@ page {
         .slider2 .slick-next:before,
 				.slider2 .slick-prev:before, 
         .slider3 .slick-next:before,
-				.slider3 .slick-prev:before, 
-        .slider4 .slick-next:before,
-				.slider4 .slick-prev:before {
+				.slider3 .slick-prev:before {
           color: {$plugin.slick.carousel.css.colors.arrows};
         }
         .slider1 .slick-dots li button:before,
         .slider2 .slick-dots li button:before,
-        .slider3 .slick-dots li button:before,
-        .slider4 .slick-dots li button:before {
+        .slider3 .slick-dots li button:before {
           color: {$plugin.slick.carousel.css.colors.dots.default};
         }
         .slider1 .slick-dots li.slick-active button:before,
         .slider2 .slick-dots li.slick-active button:before,
-        .slider3 .slick-dots li.slick-active button:before,
-        .slider4 .slick-dots li.slick-active button:before {
+        .slider3 .slick-dots li.slick-active button:before {
           color: {$plugin.slick.carousel.css.colors.dots.active};
         }
         /* position */

@@ -2,7 +2,7 @@ page {
       // For proper comment only
   jsFooterInline {		
 	}
-		// slick: 60807, 60808, 60809
+		// slick: 60807, 60808, 60809, 60817, 60818, 60819
   jsFooterInline =
   jsFooterInline {
       // slick: #slickcarousel1 (same like .columns.slider1 below)

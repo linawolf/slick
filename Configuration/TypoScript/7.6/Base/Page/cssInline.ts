@@ -1,8 +1,13 @@
 page {
+		// empty statement for proper comments only
+  cssInline {
+	}
+		// slick: 62478
+  cssInline =
   cssInline {
       // slick
-    {$plugin.slick.carousel.html.id} = TEXT
-    {$plugin.slick.carousel.html.id} {
+    62478 = TEXT
+    62478 {
       value (
         .{$plugin.slick.carousel.css.class}{
           margin:{$plugin.slick.carousel.css.margins.item};

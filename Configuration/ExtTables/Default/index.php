@@ -13,27 +13,46 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
  */
 ExtensionManagementUtility::addPlugin(
 				array(
-		'Slick: Carousel 1',
+		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.1.header',
 		'slickcarousel'
 				), 'CType'
 );
 // #i0018, 17-03-02, dwildt, 6+
 ExtensionManagementUtility::addPlugin(
 				array(
-		'Slick: Carousel 2',
+		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.2.header',
 		'slickcarousel2'
 				), 'CType'
 );
 // #i0018, 17-03-02, dwildt, 6+
 ExtensionManagementUtility::addPlugin(
 				array(
-		'Slick: Carousel 3',
+		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.3.header',
 		'slickcarousel3'
+				), 'CType'
+);
+// #i0022, 171014, dwildt, +
+ExtensionManagementUtility::addPlugin(
+				array(
+		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.1.header',
+		'slickgallery'
 				), 'CType'
 );
 ExtensionManagementUtility::addPlugin(
 				array(
-		'Slick: Carousel Item',
+		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.2.header',
+		'slickgallery2'
+				), 'CType'
+);
+ExtensionManagementUtility::addPlugin(
+				array(
+		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.3.header',
+		'slickgallery3'
+				), 'CType'
+);
+ExtensionManagementUtility::addPlugin(
+				array(
+		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.item.header',
 		'slickitem'
 				), 'CType'
 );
