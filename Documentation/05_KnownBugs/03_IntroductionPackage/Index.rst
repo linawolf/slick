@@ -8,13 +8,20 @@
 
 .. _bugs_introductionpackage:
 
+
 Introduction Package 
 ====================
 
 A lot of images won't displayed
 -------------------------------
 
-Please enable plugin.bootstrap_package_contentelements.preload.images. See
+Please set the constant
+
+.. code:: php
+
+  plugin.bootstrap_package_contentelements.preload.images = 1
+
+See
 
 * Contant Editor > Category [BOOTSTRAP PACKAGE: ADVANCED]
 

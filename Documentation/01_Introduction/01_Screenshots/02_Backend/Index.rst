@@ -15,7 +15,7 @@ Backend
 New Content Element Wizard
 --------------------------
 
-.. figure:: slick_content-wizard.jpg
+.. figure:: ../../../Images/Backend/slick_content-wizard.jpg
 	:width: 1000px
 	:alt: New Content Element Wizard with Slick
 
@@ -23,13 +23,13 @@ New Content Element Wizard
 
 You can use up to six sliders on one page: 3 sliders with content elements and three with images.
 
-TYPO3 6.x/7.x: Slick Sliders with images aren't available.
+TYPO3 6.2/7.6: Slick Sliders with images aren't available.
 
 
 Slick Slider with Content Elements
 ----------------------------------
 
-.. figure:: slick-slider-with-content-elements.jpg
+.. figure:: ../../../Images/Backend/slick-slider-with-content-elements.jpg
 	:width: 600px
 	:alt: Slick Slider with Content Elements
 
@@ -43,7 +43,7 @@ headers, texts, images, sitemaps and html code among others.
 Slick Slider with Images
 ------------------------
 
-.. figure:: slick-slider-with-images.jpg
+.. figure:: ../../../Images/Backend/slick-slider-with-images.jpg
 	:width: 600px
 	:alt: Slick Slider with Images
 

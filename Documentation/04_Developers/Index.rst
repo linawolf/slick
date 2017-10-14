@@ -12,7 +12,7 @@
 Developers
 ==========
 
-You are welcome to develop Launch TYPO3 Responsive!
+You are welcome to develop TYPO3 Slick.
 
 If you like to use the latest extensions, you can get them at `gitlab.die-netzmacher.de`_.
 

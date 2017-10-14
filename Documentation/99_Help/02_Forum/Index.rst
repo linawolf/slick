@@ -13,7 +13,7 @@ Forum
 
 Posts are welcome in English and German. The interface of the forum is German only - sorry.
 
-* Launch `Forum`_
+* Slick `Forum`_
 
 
 Bug Tracker
@@ -27,5 +27,5 @@ Please visit the Bug Tracker
 
 at
 
-*	Launch `Bugtracker`_ on typo3.org
+*	Slick `Bugtracker`_ on typo3.org
 

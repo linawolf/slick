@@ -11,6 +11,6 @@
 Credits
 =======
 
-If you like to support the development of Launch it!, please donate to the developer.
+If you like to support the development of TYPO3 Slick, please donate to the developer.
 
-* Start `Sponsoring`_
+* Slick `Sponsoring`_

@@ -6,25 +6,10 @@
 .. include:: ../../Includes.txt
 
 
-.. _help_alphabetical-index:
-
-Alphabetical Index
-==================
-
-.. contents::
+.. _integrators-bestpractise:
 
 
-F
--
+Best Practise
+=============
 
-* :ref:`Forum <help_forum>`
-
-G
--
-
-* :ref:`GIT <developers-git>`
-
-S
--
-
-* :ref:`Screenshots <introduction-screenshots>`
+Please refer to the Slick demo website at https://kenwheeler.github.io/slick/

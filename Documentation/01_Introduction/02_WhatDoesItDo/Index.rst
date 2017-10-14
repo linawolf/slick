@@ -50,13 +50,24 @@ TYPO3 Slick provides the three content elements
 
 - Slick Slider Content Element
 
+You can use up to six sliders on one page: 3 sliders with content elements and three with images.
+
+TYPO3 6.2/7.6: Slick Sliders with images aren't available.
+
 
 Extensions
 ----------
 
-- Ready-for-use with
+Some extensions have ready-to-use templates for the Slick Slider: 
 
-  - the Organiser – TYPO3 for the lobby and the organisers – (organiser)
+- Organiser – responsive TYPO3 for the lobby and the organisers (organiser)
 
+- Quick Shop – responsive e-commerce with TYPO3 
+
+
+Features and Developer
+----------------------
 
 The Slick Carousel is developed by Ken Wheeler.
+
+See details and features at: https://kenwheeler.github.io/slick/ 

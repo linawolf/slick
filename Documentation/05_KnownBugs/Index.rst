@@ -22,5 +22,5 @@ If you like to use the latest extensions, you can get them at `gitlab.die-netzma
   :maxdepth: 3
   :titlesonly:
 
-  01_TYPO3-6x/Index
   03_IntroductionPackage/Index
+  05_SlickSlider/Index

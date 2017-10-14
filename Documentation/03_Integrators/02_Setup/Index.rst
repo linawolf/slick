@@ -3,19 +3,23 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _editors:
+.. _integrators-setup:
 
-Editors
-=======
 
-.. figure:: ../Images/Backend/slick_content-wizard.jpg
-	:width: 1000px
-	:alt: New Content Element Wizard with Slick
+Setup
+=====
 
-	New Content Element Wizard with Slick
+
+.. figure:: slick-slider-constant_editor.jpg
+	:width: 600px
+	:alt: Slick Slider User-Interface
+
+	Slick Slider User-Interface
+
+You are controlling a lot of properties with the TYPO3-User-Interface Constant Editor.
 
 
 **Table of Contents**

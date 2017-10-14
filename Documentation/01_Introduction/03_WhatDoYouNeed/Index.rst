@@ -19,11 +19,12 @@ TYPO3 Versions
 
 Slick should run proper with
 
-- TYPO3 6.2
+- TYPO3 6.2 (limited features) with CSS Styled Content (css_styled_content)
 
-- TYPO3 7.6
+- TYPO3 7.6 (limited features) with CSS Styled Content (css_styled_content)
 
-- TYPO3 8.7
+- TYPO3 8.7 with Fluid Styled Content (fluid_styled_content)
+
 
 JavaScript
 ----------
