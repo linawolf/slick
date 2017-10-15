@@ -1,7 +1,7 @@
 3.0.0
   17-10-14
   UPGRADE TYPO3 8.x
-	BE AWARE: You must include static templates again!
+	BE AWARE: You should include static templates again!
 	THANKS to Andrea Herzog-Kienast to contract the upgrade :) http://www.kienastdv.de/
 	* #t1686: Template for fluid_styled_content
 						* Moved:
