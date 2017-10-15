@@ -4,54 +4,80 @@
     <header/>
     <body>
 
+      <trans-unit id="tca.tt_content.div.slider">
+        <source><![CDATA[Slick Slider]]></source>
+        <target><![CDATA[Slick Slider]]></target>
+      </trans-unit>
+      <trans-unit id="tca.tt_content.pi_flexform">
+        <source><![CDATA[Slick Slider]]></source>
+        <target><![CDATA[Slick Slider]]></target>
+      </trans-unit>
+
+			<trans-unit id="wizardItems.carousel.header">
+        <source><![CDATA[Slick Slider with Content Elements]]></source>
+        <target><![CDATA[Slick Slider mit Inhaltselementen]]></target>
+      </trans-unit>
+      <trans-unit id="wizardItems.carousel.description">
+        <source><![CDATA[You can take every kind of content element.]]></source>
+        <target><![CDATA[Du kannst alle Arten von Inhaltselementen verwenden.]]></target>
+      </trans-unit>
+			
       <trans-unit id="wizardItems.carousel.1.header">
         <source><![CDATA[Slick Slider with Content Elements 1]]></source>
         <target><![CDATA[Slick Slider mit Inhaltselementen 1]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.carousel.1.description">
-        <source><![CDATA[You can take every kind of content element. The corresponding category is in the Constant Editor [Slick Carousel 1].]]></source>
-        <target><![CDATA[Du kannst alle Arten von Inhaltselementen verwenden. Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Carousel 1].]]></target>
+        <source><![CDATA[[DEPRECATED!] You can take every kind of content element. The corresponding category is in the Constant Editor [Slick Carousel 1].]]></source>
+        <target><![CDATA[[DEPRECATED!] Du kannst alle Arten von Inhaltselementen verwenden. Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Carousel 1].]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.carousel.2.header">
         <source><![CDATA[Slick Slider with Content Elements 2]]></source>
         <target><![CDATA[Slick Slider mit Inhaltselementen 2]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.carousel.2.description">
-        <source><![CDATA[You can take every kind of content element. The corresponding category is in the Constant Editor [Slick Carousel 2].]]></source>
-        <target><![CDATA[Du kannst alle Arten von Inhaltselementen verwenden. Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Carousel 2].]]></target>
+        <source><![CDATA[[DEPRECATED!] You can take every kind of content element. The corresponding category is in the Constant Editor [Slick Carousel 2].]]></source>
+        <target><![CDATA[[DEPRECATED!] Du kannst alle Arten von Inhaltselementen verwenden. Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Carousel 2].]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.carousel.3.header">
         <source><![CDATA[Slick Slider with Content Elements 3]]></source>
         <target><![CDATA[Slick Slider mit Inhaltselementen 3]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.carousel.3.description">
-        <source><![CDATA[You can take every kind of content element. The corresponding category is in the Constant Editor [Slick Carousel 3].]]></source>
-        <target><![CDATA[Du kannst alle Arten von Inhaltselementen verwenden. Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Carousel 3].]]></target>
+        <source><![CDATA[[DEPRECATED!] You can take every kind of content element. The corresponding category is in the Constant Editor [Slick Carousel 3].]]></source>
+        <target><![CDATA[[DEPRECATED!] Du kannst alle Arten von Inhaltselementen verwenden. Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Carousel 3].]]></target>
       </trans-unit>
 
+			<trans-unit id="wizardItems.gallery.header">
+        <source><![CDATA[Slick Slider with Images]]></source>
+        <target><![CDATA[Slick Slider mit Bildern]]></target>
+      </trans-unit>
+      <trans-unit id="wizardItems.gallery.description">
+        <source><![CDATA[For images. Quick start!]]></source>
+        <target><![CDATA[Für Bilder. Schnell starten!]]></target>
+      </trans-unit>
 			<trans-unit id="wizardItems.gallery.1.header">
         <source><![CDATA[Slick Slider with Images 1]]></source>
         <target><![CDATA[Slick Slider mit Bildern 1]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.gallery.1.description">
-        <source><![CDATA[The corresponding category is in the Constant Editor [Slick Gallery 1].]]></source>
-        <target><![CDATA[Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Gallery 1].]]></target>
+        <source><![CDATA[[DEPRECATED!] The corresponding category is in the Constant Editor [Slick Gallery 1].]]></source>
+        <target><![CDATA[[DEPRECATED!] Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Gallery 1].]]></target>
       </trans-unit>
 			<trans-unit id="wizardItems.gallery.2.header">
         <source><![CDATA[Slick Slider with Images 2]]></source>
         <target><![CDATA[Slick Slider mit Bildern 2]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.gallery.2.description">
-        <source><![CDATA[The corresponding category is in the Constant Editor [Slick Gallery 2].]]></source>
-        <target><![CDATA[Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Gallery 2].]]></target>
+        <source><![CDATA[[DEPRECATED!] The corresponding category is in the Constant Editor [Slick Gallery 2].]]></source>
+        <target><![CDATA[[DEPRECATED!] Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Gallery 2].]]></target>
       </trans-unit>
 			<trans-unit id="wizardItems.gallery.3.header">
         <source><![CDATA[Slick Slider with Images 3]]></source>
         <target><![CDATA[Slick Slider mit Bildern 3]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.gallery.3.description">
-        <source><![CDATA[The corresponding category is in the Constant Editor [Slick Gallery 3].]]></source>
-        <target><![CDATA[Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Gallery 3].]]></target>
+        <source><![CDATA[[DEPRECATED!] The corresponding category is in the Constant Editor [Slick Gallery 3].]]></source>
+        <target><![CDATA[[DEPRECATED!] Weitere Einstellungen findest Du im Konstanten Editor in der Kategorie [Slick Gallery 3].]]></target>
       </trans-unit>
 
 			<trans-unit id="wizardItems.item.header">
@@ -65,4 +91,5 @@
 
 		</body>
   </file>
+
 </xliff>

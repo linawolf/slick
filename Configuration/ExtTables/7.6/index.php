@@ -77,4 +77,4 @@ $TCA[ 'pages' ][ 'ctrl' ][ 'typeicon_classes' ][ $extIcon[ 'identifier' ] ] = $e
 /**
  * Page TSConfig
  */
-require( PATH_typo3conf . 'ext/slick/Configuration/ExtTables/Default/TSconfig/index.php' );
+require( PATH_typo3conf . 'ext/slick/Configuration/ExtTables/7.6/TSconfig/index.php' );
