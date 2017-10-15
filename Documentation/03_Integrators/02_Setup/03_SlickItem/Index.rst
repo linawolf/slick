@@ -12,7 +12,7 @@
 Slick Slider Content Element
 ============================
 
-You are controlling a lot of properties with the TYPO3-User-Interface Constant Editor.
+You are controlling some properties with the TYPO3-User-Interface Constant Editor.
 
 See categories:
 

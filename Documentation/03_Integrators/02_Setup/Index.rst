@@ -12,14 +12,14 @@
 Setup
 =====
 
+You are controlling a lot of properties within the plugins
 
-.. figure:: slick-slider-constant_editor.jpg
-	:width: 600px
-	:alt: Slick Slider User-Interface
+* Slick Slider with Content Elements
 
-	Slick Slider User-Interface
+* Slick Slider with Images
 
-You are controlling a lot of properties with the TYPO3-User-Interface Constant Editor.
+The Slick Item has a small configuration by the Constant Editor.
+Usually you don't need to change any property.
 
 
 **Table of Contents**
@@ -28,6 +28,5 @@ You are controlling a lot of properties with the TYPO3-User-Interface Constant E
     :maxdepth: 2
     :titlesonly:
 
-    01_SlickContent/Index
-    02_SlickImages/Index
     03_SlickItem/Index
+    04_TYPO3_76/Index

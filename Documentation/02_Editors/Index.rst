@@ -11,8 +11,8 @@
 Editors
 =======
 
-.. figure:: ../Images/Backend/slick_content-wizard.jpg
-	:width: 1000px
+.. figure:: ../Images/Backend/slick-backend_content-wizard_small.jpg
+	:width: 800px
 	:alt: New Content Element Wizard with Slick
 
 	New Content Element Wizard with Slick

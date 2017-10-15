@@ -13,12 +13,9 @@ Slick Slider with Content Elements
 
 You can slide every content element with "Slick Slider with Content Elements".
 
-Slick Slider provides the three plugins from 1 to 3. 
-Therefor you can place upto three "Slick Slider with Content Elements" per a page.
-
 If you like to slide images only, the :ref:`Slick Slider with Images <editors_slickimages>` is recommended.
 
-The :ref:`Slick Slider Content Element <editors_slickitem>` is an content element optimised for sliding.
+The :ref:`Slick Slider Content Element <editors_slickitem>` is a content element optimised for sliding.
 
 
 Recommended
@@ -27,18 +24,13 @@ Recommended
 Number of columns should set to 1. Else you can get unwanted results.
 
 
-Properties
-----------
-
-Properties are controlled by the Constant Editor. You need administration access.
-
-* :ref:`Integrators > Setup > Slick Slider with Content Elements <integrators-setup-slickcontent>`
-
-
 TYPO3 6.2/7.6
 -------------
 
-"Slick Slider with Content Elements" was called "Slick Carousel".
+* "Slick Slider with Content Elements" was called "Slick Carousel".
+
+* Properties are controlled by the Constant Editor. You need administration access. See
+  :ref:`Integrators > Setup > TYPO3 6.2 / 7.6 > Slick Slider with Content Elements <integrators-setup-76-slickcontent>`
 
 
 Screenshots
