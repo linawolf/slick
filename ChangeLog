@@ -1,3 +1,8 @@
+4.0.2
+  17-12-14
+  Improvement
+	* #i0025: Fluid template: <v:asset.script> is moved to <![CDATA[<script>...]]>
+
 4.0.1
   17-12-05
   Improvement
