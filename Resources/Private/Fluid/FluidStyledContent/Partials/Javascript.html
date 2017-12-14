@@ -5,8 +5,8 @@
 	 data-namespace-typo3-fluid="true">
 
 	<f:section name="JS-Responsive">
-		<f:format.cdata>
 			<script type="text/javascript" name="slickid-{data.uid}">
+		<f:format.cdata>
 				$(document).ready(function () {
 				$('#slickid-{data.uid}').slick({
 							accessibility: <f:format.raw>{data.pi_flexform.accessibility}</f:format.raw>
@@ -87,7 +87,7 @@
 						]
 					});
 				});
-			</script>
 		</f:format.cdata>
+			</script>
 	</f:section>
 </div>
