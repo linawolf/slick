@@ -76,16 +76,40 @@ $x = '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:ge
 ;
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickimage' ] = 'FILE:EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform.xml';
 
+// #i0024, 171205, -
+// 
+///**
+// * slickitem
+// */
+//$cmsLL = 'frontend/Resources/Private/Language/locallang_ttc.xlf';
+//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickitem' ][ 'showitem' ] = ''
+//				. '  --palette--;LLL:EXT:' . $cmsLL . ':palette.general;general,'
+//				. '    hidden,'
+//				. '    header,'
+//				. '    header_link,'
+//				. '    bodytext;Text;;richtext:rte_transform[flag=rte_enabled|mode=ts_css],'
+//				. '    rte_enabled;LLL:EXT:' . $cmsLL . ':rte_enabled_formlabel,'
+//				. '--div--;LLL:EXT:' . $cmsLL . ':tabs.images,'
+//				. '	 --palette--;LLL:EXT:' . $cmsLL . ':palette.image_settings;slickgallery,'
+//				. '	 image,'
+//;
+
 /**
  * slickitem
  */
 $cmsLL = 'frontend/Resources/Private/Language/locallang_ttc.xlf';
+// #i0024, 171205, 4+
+$GLOBALS[ 'TCA' ][ 'tt_content' ]['types']['slickitem']['columnsOverrides']['bodytext']['config'] = array(
+		'enableRichtext' => '1',
+		'richtextConfiguration' => 'default',
+);
+// #i0024, 171205, +
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickitem' ][ 'showitem' ] = ''
 				. '  --palette--;LLL:EXT:' . $cmsLL . ':palette.general;general,'
 				. '    hidden,'
 				. '    header,'
 				. '    header_link,'
-				. '    bodytext;Text;;richtext:rte_transform[flag=rte_enabled|mode=ts_css],'
+				. '    bodytext,'
 				. '    rte_enabled;LLL:EXT:' . $cmsLL . ':rte_enabled_formlabel,'
 				. '--div--;LLL:EXT:' . $cmsLL . ':tabs.images,'
 				. '	 --palette--;LLL:EXT:' . $cmsLL . ':palette.image_settings;slickgallery,'

@@ -36,7 +36,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 				CType = slickitem
 				imagecols = 1
 				imageorient = 0
-				header = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.item.header
+				header = Slick Item
 			}
 		}	
 	}
