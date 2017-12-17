@@ -2,6 +2,8 @@
   17-12-17
 	Improvement
 	* #t1836: Slick Slider: Remove waste a-tag
+						Heavy intervention: Fluid template Default.html is overriden! See
+						* Resources/Private/Fluid/FluidStyledContent/Layouts/Default.html
 	* #t1833:	CSS Styled Content > Fluid Styled Content
 	* #i0026: Slick item and fluid_styled_content: div-wrap is moved from figure to figure and text. See
 						* Resources/Private/Fluid/Slick/Templates/Slickitem.html
