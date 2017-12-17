@@ -26,8 +26,10 @@
 		<f:else>
 
 			<f:comment>
+				// #t1836, 171217, dwildt, ~
 				<a id="c{data.uid}"></a>
 			</f:comment>
+			<!-- <a id="c{data.uid}"></a> is removed by Slick (slick). Fluid Default.html is replaced! Internal: #t1836 -->
 			<f:if condition="{data._LOCALIZED_UID}">
 				<a id="c{data._LOCALIZED_UID}"></a>
 			</f:if>
