@@ -25,8 +25,9 @@
 					</f:for>
 				</f:then>
 				<f:else>
-						<div>
-					<f:for each="{images}" as="image">
+					<f:comment>#i0026, 171217, dwildt, ~</f:comment>
+					<div>
+						<f:for each="{images}" as="image">
 							<figure>
 								<f:if condition="{image.link}">
 									<f:then>
@@ -42,29 +43,29 @@
 									<figcaption>{image.description}</figcaption>
 								</f:comment>
 							</figure>
-					</f:for>
-					<div class="border">
-						<div class="slick-header">
-							<div class="span">
-								<{settings.headerTag}>
-                <f:if condition="{data.header_link}">
-                  <f:then>
-                    <f:link.page pageUid="{data.header_link}">{data.header}</f:link.page>
-                  </f:then>
-                  <f:else>
-                    {data.header}
-                  </f:else>
-                </f:if>
-								</{settings.headerTag}>
+						</f:for>
+						<div class="border">
+							<div class="slick-header">
+								<div class="span">
+									<{settings.headerTag}>
+									<f:if condition="{data.header_link}">
+										<f:then>
+											<f:link.page pageUid="{data.header_link}">{data.header}</f:link.page>
+										</f:then>
+										<f:else>
+											{data.header}
+										</f:else>
+									</f:if>
+									</{settings.headerTag}>
+								</div>
 							</div>
-						</div>
-						<div class="slick-text">
-							<div class="span">
-								<f:format.html>{data.bodytext}</f:format.html>
+							<div class="slick-text">
+								<div class="span">
+									<f:format.html>{data.bodytext}</f:format.html>
+								</div>
 							</div>
 						</div>
 					</div>
-						</div>
 				</f:else>
 			</f:if>
 		</ce:fal>

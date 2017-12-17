@@ -1,6 +1,8 @@
 4.0.3
   17-12-17
 	Improvement
+	* #i0026: Slick item and fluid_styled_content: div-wrap is moved from figure to figure and text. See
+						* Resources/Private/Fluid/Slick/Templates/Slickitem.html
 	* #t1833:	CSS Styled Content > Fluid Styled Content
 
 4.0.2
