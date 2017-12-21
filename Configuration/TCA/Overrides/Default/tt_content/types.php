@@ -3,6 +3,7 @@
 /**
  * slickcontent
  */
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickcontent' ] = 'app-slick';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickcontent' ][ 'showitem' ] = ''
 				. '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,'
 				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,'
@@ -34,6 +35,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds
 /**
  * slickimage
  */
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickimage' ] = 'app-slick';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickimage' ][ 'showitem' ] = ''
 				. '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,'
 				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,'
