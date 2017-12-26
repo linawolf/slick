@@ -10,5 +10,5 @@ ExtensionManagementUtility::addStaticFile(
 ExtensionManagementUtility::addStaticFile(
 				'slick'
 				, 'Configuration/TypoScript/7.6/'
-				, 'Slick [1] - DEPRECATED (based on css_css_templates)'
+				, 'Slick [1] - DEPRECATED (based on css_styled_contents)'
 );
