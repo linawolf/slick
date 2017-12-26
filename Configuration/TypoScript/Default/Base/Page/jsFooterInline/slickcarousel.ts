@@ -12,9 +12,8 @@ page {
       10 = TEXT
       10 {
         value (
-          jQuery(document).ready(function(){
-						/* jQuery('.{$plugin.slick.carousel.css.class}').slick({ */
-						jQuery('#slickcarousel1').slick({
+          $(document).ready(function(){
+						$('#slickcarousel1').slick({
 
 )
       }
@@ -96,8 +95,8 @@ page {
       10 = TEXT
       10 {
         value (
-          jQuery(document).ready(function(){
-						jQuery('#slickcarousel2').slick({
+          $(document).ready(function(){
+						$('#slickcarousel2').slick({
 
 )
       }
@@ -179,8 +178,8 @@ page {
       10 = TEXT
       10 {
         value (
-          jQuery(document).ready(function(){
-						jQuery('#slickcarousel3').slick({
+          $(document).ready(function(){
+						$('#slickcarousel3').slick({
 
 )
       }

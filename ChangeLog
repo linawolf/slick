@@ -1,6 +1,7 @@
 4.0.4
   17-12-22
 	Improvement
+	* #i0029: TYPO3 8.7: moved jquery(.. to $(..
 	* #i0028: icon for tt_content type
 
 4.0.3

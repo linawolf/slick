@@ -12,9 +12,8 @@ page {
       10 = TEXT
       10 {
         value (
-          jQuery(document).ready(function(){
-						/* jQuery('.{$plugin.slick.gallery.css.class}').slick({ */
-						jQuery('#slickgallery1').slick({
+          $(document).ready(function(){
+						$('#slickgallery1').slick({
 
 )
       }
@@ -96,8 +95,8 @@ page {
       10 = TEXT
       10 {
         value (
-          jQuery(document).ready(function(){
-						jQuery('#slickgallery2').slick({
+          $(document).ready(function(){
+						$('#slickgallery2').slick({
 
 )
       }
@@ -179,8 +178,8 @@ page {
       10 = TEXT
       10 {
         value (
-          jQuery(document).ready(function(){
-						jQuery('#slickgallery3').slick({
+          $(document).ready(function(){
+						$('#slickgallery3').slick({
 
 )
       }
