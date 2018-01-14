@@ -1,3 +1,8 @@
+4.0.6
+  18-01-09
+	Improvement
+	* #i0031: Default.html is moved to EXT:browser (9.0.2). Reference EXT:slick #t1836
+
 4.0.5
   17-12-26
 	Improvement
@@ -12,7 +17,8 @@
 4.0.3
   17-12-17
 	Improvement
-	* #t1836: Slick Slider: Remove waste a-tag
+	* #t1836: IS CANCELED BY #i0031 above!
+						Slick Slider: Remove waste a-tag
 						Heavy intervention: Fluid template Default.html is overriden! See
 						* Resources/Private/Fluid/FluidStyledContent/Layouts/Default.html
 	* #t1833:	CSS Styled Content > Fluid Styled Content
