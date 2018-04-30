@@ -22,4 +22,5 @@ If you like to use the latest extensions, you can get them at `gitlab.die-netzma
   :maxdepth: 3
   :titlesonly:
 
-  02_Git/Index
+  Git/Index
+  ThirdPartyExtensions/Index

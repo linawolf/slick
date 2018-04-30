@@ -1,4 +1,4 @@
-﻿.. ==================================================
+.. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
@@ -22,5 +22,7 @@ If you like to use the latest extensions, you can get them at `gitlab.die-netzma
   :maxdepth: 3
   :titlesonly:
 
-  03_IntroductionPackage/Index
-  05_SlickSlider/Index
+  CssStyledContent/Index
+  IntroductionPackage/Index
+  jQuery/Index
+  SlickSlider/Index
