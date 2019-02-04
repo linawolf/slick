@@ -4,7 +4,10 @@
 	* #i0035: (c) 2019
 	* #i0034: JavaScript will loaded after jQuery is loaded.
 						Thanks to Max Dubiel from corussoft.de
-						Affected file:
+						New file:
+						* Resources/Public/JavaScript/initSlickDocumentReady.js
+						Affected files:
+						* Configuration/TypoScript/Default/Base/Page/includeJSFooter.ts
 						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
 
 4.0.8
