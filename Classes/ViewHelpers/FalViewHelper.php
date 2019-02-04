@@ -5,7 +5,7 @@ namespace Netzmacher\Slick\ViewHelpers;
 /* * *************************************************************
  *  Copyright notice
  *
- *  (c) 2014-2018 - Dirk Wildt <http://wildt.at.die-netzmacher.de/>
+ *  (c) 2014-2019 - Dirk Wildt <http://wildt.at.die-netzmacher.de/>
  *
  *  All rights reserved
  *

@@ -36,7 +36,7 @@ Slick - responsive Carousel Slider
 		slick, slider, carousel, org, organiser, responsive
 
 	:Copyright:
-		2014-2018
+		2014-2019
 
 	:Website:
 		

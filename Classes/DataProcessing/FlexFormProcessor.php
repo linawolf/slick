@@ -4,7 +4,7 @@ namespace Netzmacher\Slick\DataProcessing;
 /*
  *  The MIT License (MIT)
  *
- *  Copyright (c) 2015-2018 Benjamin Kott, http://www.bk2k.info
+ *  Copyright (c) 2015-2019 Benjamin Kott, http://www.bk2k.info
  *
  *  Permission is hereby granted, free of charge, to any person obtaining a copy
  *  of this software and associated documentation files (the "Software"), to deal

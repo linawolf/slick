@@ -4,7 +4,7 @@
 
 ---
 conf.py:
-  copyright: 2014-2018
+  copyright: 2014-2019
   project: Slick slider
   version: 4.0
   release: 4.0.8

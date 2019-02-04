@@ -1,3 +1,12 @@
+4.0.9
+  19-02-04
+	Improvement
+	* #i0035: (c) 2019
+	* #i0034: JavaScript will loaded after jQuery is loaded.
+						Thanks to Max Dubiel from corussoft.de
+						Affected file:
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+
 4.0.8
   18-04-30
 	Improvement
