@@ -4,7 +4,6 @@ function initSlickDocumentReady() {
 	}
 }
 
-
 $(document).ready(function () {
 	initSlickDocumentReady();
 });
