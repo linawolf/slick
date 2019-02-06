@@ -3,7 +3,7 @@ plugin.slick {
 	  2 {
 			javascript {
 					# cat=Slick - Gallery - 2 - Javascript File//300; type=string; label=file:slick javascript library
-				file = EXT:slick/Resources/Public/JavaScript/slick-1.8.0/slick/slick.js
+				file = EXT:slick/Resources/Public/JavaScript/slick-1.9.0/slick/slick.js
 				properties {
 						# cat=Slick - Gallery - 2 - Javascript Properties//301; type=options[true,false]; label=adaptiveHeight:Enables adaptive height for single slide horizontal galleries.
 					adaptiveHeight  = false

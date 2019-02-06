@@ -13,9 +13,9 @@ plugin.slick {
       }
       file {
           # cat=Slick - Gallery - CSS Files/120/101; type=string; label=CSS base:slick library CSS file
-        library   = EXT:slick/Resources/Public/JavaScript/slick-1.8.0/slick/slick.css
+        library   = EXT:slick/Resources/Public/JavaScript/slick-1.9.0/slick/slick.css
           # cat=Slick - Gallery - CSS Files/120/102; type=string; label=CSS default theme:slick default theme CSS file
-        theme     = EXT:slick/Resources/Public/JavaScript/slick-1.8.0/slick/slick-theme.css
+        theme     = EXT:slick/Resources/Public/JavaScript/slick-1.9.0/slick/slick-theme.css
           # cat=Slick - Gallery - CSS Files/120/103; type=boolean; label=Include CSS default theme:Recommended:Use the slick css default theme
         theme.if  = 1
           # cat=Slick - Gallery - CSS Files/120/109; type=string; label=extension:extension CSS file
