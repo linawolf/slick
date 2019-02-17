@@ -13,7 +13,7 @@
 					<config type="array">
 						<type>input</type>
 						<size>1</size>
-						<default>1170</default>
+						<default>1024</default>
 					</config>
 				</TCEforms>
 			</breakpoint-desktop>

@@ -66,9 +66,10 @@ Slick - responsive Carousel Slider
 	:maxdepth: 3
 	:titlesonly:
 
-	01_Introduction/Index
-	02_Editors/Index
-	03_Integrators/Index
-	04_Developers/Index
-	05_KnownBugs/Index
-	99_Help/Index
+	Introduction/Index
+	Users/Index
+	Administrators/Index
+	Developers/Index
+	KnownBugs/Index
+	WhatsNew/Index
+	Help/Index

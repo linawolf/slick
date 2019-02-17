@@ -13,7 +13,7 @@
 					<config type="array">
 						<type>input</type>
 						<size>1</size>
-						<default>750</default>
+						<default>480</default>
 					</config>
 				</TCEforms>
 			</breakpoint-smartphone>

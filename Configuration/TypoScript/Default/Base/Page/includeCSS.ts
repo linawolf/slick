@@ -1,13 +1,14 @@
 page {
   includeCSS {
-    slickLibrary  = {$plugin.slick.carousel.css.file.library}
-    slickTheme    = {$plugin.slick.carousel.css.file.theme}
+    slickLibrary  = {$plugin.slick.css.files.library}
+    slickTheme    = {$plugin.slick.css.files.theme}
     slickTheme {
         // constant editor
       if =
       if {
-        isTrue = {$plugin.slick.carousel.css.file.theme.if}
+        isTrue = {$plugin.slick.css.files.theme.if}
       }
     }
+    slickDefault    = {$plugin.slick.css.files.default}
   }
 }

@@ -6,8 +6,8 @@
 conf.py:
   copyright: 2014-2019
   project: Slick slider
-  version: 4.0
-  release: 4.0.8
+  version: 4.1
+  release: 4.1.1
   latex_documents:
   - - Index
     - launch.tex
