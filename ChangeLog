@@ -1,6 +1,6 @@
 4.1.1
   19-02-16
-	Improvement
+	Feature
 	* #i0038: Additional TypoScript templates: 
 						* Slick [01.2.1] +Image without figure (slick)
 						* Slick [99.1.1] +Dev: static JavaScript
