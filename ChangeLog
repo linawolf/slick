@@ -1,3 +1,11 @@
+4.1.2
+  19-02-21
+	Bugfix
+	* #i0039: CSS properties for color were lost.
+						Affected file
+						* Configuration/TypoScript/7.6/Base/Page/cssInline.ts
+						* Configuration/TypoScript/Default/Base/Page/cssInline.ts
+
 4.1.1
   19-02-16
 	Feature
