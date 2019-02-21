@@ -64,20 +64,12 @@ page {
 				#slickcarousel4 .slick-prev:before {
           color: {$plugin.slick.carousel.css.colors.arrows};
         }
-        #slickcarousel1 .slick-dots li button,
-        #slickcarousel2 .slick-dots li button,
-        #slickcarousel3 .slick-dots li button,
-        #slickcarousel4 .slick-dots li button,
         #slickcarousel1 .slick-dots li button:before,
         #slickcarousel2 .slick-dots li button:before,
         #slickcarousel3 .slick-dots li button:before,
         #slickcarousel4 .slick-dots li button:before {
           color: {$plugin.slick.carousel.css.colors.dots.default};
         }
-        #slickcarousel1 .slick-dots li.slick-active button,
-        #slickcarousel2 .slick-dots li.slick-active button,
-        #slickcarousel3 .slick-dots li.slick-active button,
-        #slickcarousel4 .slick-dots li.slick-active button,
         #slickcarousel1 .slick-dots li.slick-active button:before,
         #slickcarousel2 .slick-dots li.slick-active button:before,
         #slickcarousel3 .slick-dots li.slick-active button:before,
