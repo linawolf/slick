@@ -17,8 +17,16 @@ plugin.slick {
 					# cat=Slick - Fluid - Templates//203; type=string; label=layouts extended:Path to the layouts (with an ending slash).
 				layoutRootPath = 
 			}
+	    99 {
+					# cat=Slick - Fluid - Templates//901; type=string; label=templates extended:Path to the templates (with an ending slash).
+				templateRootPath = 
+					# cat=Slick - Fluid - Templates//902; type=string; label=partials extended:Path to the partials (with an ending slash).
+				partialRootPath = 
+					# cat=Slick - Fluid - Templates//903; type=string; label=layouts extended:Path to the layouts (with an ending slash).
+				layoutRootPath = 
+			}
 			settings {
-					# cat=Slick - Fluid - Templates//301; type=string; label=headerTag:
+					# cat=Slick - Fluid - Templates//999; type=string; label=headerTag:
 				headerTag = h1
 			}
     }
