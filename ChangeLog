@@ -1,6 +1,10 @@
 4.1.4
   19-03-13
 	Improvements
+	* #i0043: Font performance
+						New property: font-display: auto;
+						Affected file:
+						* Resources/Public/JavaScript/slick-1.9.0/slick/slick-theme.css
 	* #i0042: JS is minified
 	* #i0041: CSS is minified
 
