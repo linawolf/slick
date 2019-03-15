@@ -65,6 +65,7 @@ page {
         }
         /* position */
         .slick-dots {
+          bottom: {$plugin.slick.carousel.css.position.dots.bottom};
           margin-left:0;
           margin-right:0;
         }
