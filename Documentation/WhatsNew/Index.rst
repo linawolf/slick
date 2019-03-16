@@ -12,27 +12,28 @@
 What' new
 =========
 
-4.1
----
-
-jQuery
-''''''
-
-The library of jQuery can included in the footer of the HTML page in every case.
-There isn't any need, to include it at the top any longer.
+4.2
 
 
-Templates
-'''''''''
+Compatibility
+-------------
 
-There are two new TypoScript templates:
+Slick Slider is running from TYPO3 6.2 to 9.5.
 
-* Slick [01.2.1] +Image without figure (slick)
 
-* Slick [99.1.1] +Dev: static JavaScript
+Slick with Content Elements
+---------------------------
 
-The first one removes the figure wrap and the figure caption from the HTML image code.
-It is recommended to use this template!
+The plugin has the new property pages:
 
-The second one is for development. It includes a JavaScript code independent 
-of the properties of any slick plugin. See: :ref:`Developers > Debugging <developers_debugging>`
+* If you setup one or more pages, the slick slider will take all content elements of this pages.
+
+
+
+**Table of Contents**
+
+.. toctree::
+	:maxdepth: 3
+	:titlesonly:
+
+	4.1/Index

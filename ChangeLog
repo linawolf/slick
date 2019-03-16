@@ -1,3 +1,15 @@
+4.2.0
+  19-03-16
+	Feature
+	* #i0045: pid field for tt_content
+						New files:
+						* /opt/typo3/extensions/slick/ext_tables.sql
+						* /opt/typo3/extensions/slick/Configuration/TCA/Overrides/Default/tt_content/columns.php
+						* /opt/typo3/extensions/slick/Configuration/TypoScript/Default/Base/Lib/slick/tx_slick_pages.ts
+						Affected files:
+						* /opt/typo3/extensions/slick/Resources/Private/Language/Backend.xlf
+						* /opt/typo3/extensions/slick/Resources/Private/Fluid/FluidStyledContent/Templates/Slickcontent.html
+
 4.1.5
   19-03-15
 	Bugfix

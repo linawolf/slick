@@ -23,9 +23,9 @@ New Content Element Wizard
 
 Slick provides three content elements:
 
-* the slick slider with content elements (TYPO3 8.7)
+* the slick slider with content elements (from TYPO3 8.7)
 
-* the slick slider with images (TYPO3 8.7)
+* the slick slider with images (from TYPO3 8.7)
 
 * and the slich slider item
 

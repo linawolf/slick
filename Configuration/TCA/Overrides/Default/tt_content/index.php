@@ -1,5 +1,5 @@
 <?php
 
 require( PATH_typo3conf . 'ext/slick/Configuration/TCA/Overrides/Default/tt_content/addTcaSelectItem.php' );
-require( PATH_typo3conf . 'ext/slick/Configuration/TCA/Overrides/Default/tt_content/image.php' );
+require( PATH_typo3conf . 'ext/slick/Configuration/TCA/Overrides/Default/tt_content/columns.php' );
 require( PATH_typo3conf . 'ext/slick/Configuration/TCA/Overrides/Default/tt_content/types.php' );

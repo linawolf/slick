@@ -25,6 +25,8 @@ Slick should run proper with
 
 - TYPO3 8.7 with Fluid Styled Content (fluid_styled_content)
 
+- TYPO3 9.5 with Fluid Styled Content (fluid_styled_content)
+
 
 JavaScript
 ----------

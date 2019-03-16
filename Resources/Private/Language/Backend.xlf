@@ -4,6 +4,10 @@
     <header/>
     <body>
 
+      <trans-unit id="tca.tt_content.div.items">
+        <source>Slick Items</source>
+        <target>Slick Elemente</target>
+      </trans-unit>
       <trans-unit id="tca.tt_content.div.slider">
         <source><![CDATA[Slick Slider]]></source>
         <target><![CDATA[Slick Slider]]></target>
@@ -11,6 +15,10 @@
       <trans-unit id="tca.tt_content.pi_flexform">
         <source><![CDATA[Slick Slider]]></source>
         <target><![CDATA[Slick Slider]]></target>
+      </trans-unit>
+      <trans-unit id="tca.tt_content.tx_slick_pages">
+        <source>Items from pages</source>
+        <target>Inhalte von Seiten</target>
       </trans-unit>
 
 			<trans-unit id="wizardItems.carousel.header">

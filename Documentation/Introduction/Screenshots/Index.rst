@@ -17,5 +17,5 @@ Screenshots
     :maxdepth: 2
     :titlesonly:
 
-    01_Frontend/Index
-    02_Backend/Index
+    Frontend/Index
+    Backend/Index
