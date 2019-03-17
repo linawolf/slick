@@ -1,3 +1,15 @@
+4.2.1
+  19-03-17
+	Feature
+	* #i0046: Header of slickimage will displayed
+						Affected file:
+						* Configuration/TypoScript/Default/Image/tt_content/setup.ts
+						====
+						INFO
+						====
+						If you don't like the new feature, please remove
+						* tt_content.slickimage.10
+
 4.2.0
   19-03-16
 	Feature
