@@ -102,6 +102,25 @@
 					</config>
 				</TCEforms>
 			</vertical>
+			<randomized type="array">
+				<TCEforms type="array">
+					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.usual.randomized</label>
+					<config type="array">
+						<type>select</type>
+						<items type="array">
+							<numIndex index="0" type="array">
+								<numIndex index="0">LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.disabled</numIndex>
+								<numIndex index="1">false</numIndex>
+							</numIndex>
+							<numIndex index="1" type="array">
+								<numIndex index="0">LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.enabled</numIndex>
+								<numIndex index="1">true</numIndex>
+							</numIndex>
+						</items>
+						<default>false</default>
+					</config>
+				</TCEforms>
+			</randomized>
 		</el>
 	</ROOT>
 </T3DataStructure>

@@ -6,10 +6,16 @@
 .. include:: ../../Includes.txt
 
 
-.. _administrators-bestpractise:
+.. _users_bestpractice:
 
 
-Best Practise
+Best Practice
 =============
 
-Please refer to the Slick demo website at https://kenwheeler.github.io/slick/
+**Table of Contents**
+
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
+
+    Randomized/Index

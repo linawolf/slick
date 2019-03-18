@@ -8,6 +8,7 @@
 
 .. _help_alphabetical-index:
 
+
 Alphabetical Index
 ==================
 
@@ -24,7 +25,22 @@ G
 
 * :ref:`GIT <developers-git>`
 
+
+O
+-
+
+* :ref:`Order <users_bestpractice_randomized>`
+
+
+R
+-
+
+* :ref:`Randomized <users_bestpractice_randomized>`
+
+
 S
 -
+
+* :ref:`Sorting <users_bestpractice_randomized>`
 
 * :ref:`Screenshots <introduction-screenshots>`

@@ -15,6 +15,11 @@
       });
     }
 
+		var boolSlickRandomize{data.uid} = <f:format.raw>{data.pi_flexform.randomized}</f:format.raw>
+//		if( boolSlickRandomize{data.uid} == true ){
+//			alert(boolSlickRandomize{data.uid});
+//		}
+
     function _initSlick{data.uid}() {
       $('#slickid-{data.uid}').not('.slick-initialized').slick({
             accessibility: <f:format.raw>{data.pi_flexform.accessibility}</f:format.raw>

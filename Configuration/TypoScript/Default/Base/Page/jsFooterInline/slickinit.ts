@@ -9,8 +9,8 @@ page {
     60900 = COA
     60900 {
         // For development only!
-      XXX9 = TEXT
-      XXX9 {
+      DEV9 = TEXT
+      DEV9 {
 				value = XXX
 				wrap  = alert('|');
 			}
@@ -28,26 +28,76 @@ page {
 				slide.collect = -1
 				renderObj = COA
 				renderObj {
-					10 = TEXT
+						// function initSlickDocumentReadyUid() { if (typeof initSlickUid === "function") { initSlickUid();}}
+					10 = COA
 					10 {
-						field = uid
-						noTrimWrap = |function initSlickDocumentReady|() {|
+							// function initSlickDocumentReadyUid() {
+						10 = TEXT
+						10 {
+							field = uid
+							noTrimWrap = |function initSlickDocumentReady|() {|
 
+						}
+							// if (typeof initSlickUid === "function") {
+						20 = TEXT
+						20 {
+							field = uid
+							noTrimWrap  = | if (typeof initSlick| === "function") {|
+						}
+							// initSlickUid(#);}}
+						30 = TEXT
+						30 {
+							field = uid
+							noTrimWrap  = | initSlick|();}}|
+						}
 					}
-					20 = TEXT
+						// $(document).ready(function () { if( boolSlickRandomizeUid == true ) {$('#slickid-Uid').randomize();} }); 
+					20 = COA
 					20 {
-						field = uid
-						noTrimWrap  = | if (typeof initSlick| === "function") {|
+							// $(document).ready(function () { 
+						10 = TEXT
+						10 {
+							value				= $(document).ready(function () {
+							noTrimWrap  = | | |
+						}
+							// if( boolSlickRandomizeUid == true )
+						20 = TEXT
+						20 {
+							field = uid
+							noTrimWrap  = |if( boolSlickRandomize| == true ) |
+						}
+							//  {$('#slickid-Uid').randomize();}
+						30 = TEXT
+						30 {
+							field = uid
+							noTrimWrap  = |{$('#slickid-|').randomize();} |
+						}
+							// });
+						40 = TEXT
+						40 {
+							value = });
+						}
 					}
-					30 = TEXT
+						// $(document).ready(function () { initSlickDocumentReadyUid();});
+					30 = COA
 					30 {
-						field = uid
-						noTrimWrap  = | initSlick|();}}|
-					}
-					40 = TEXT
-					40 {
-						field = uid
-						noTrimWrap  = | $(document).ready(function () { initSlickDocumentReady|();});|
+							// $(document).ready(function () { 
+						10 = TEXT
+						10 {
+							value				= $(document).ready(function () {
+							noTrimWrap  = | | |
+						}
+							// initSlickDocumentReadyUid();
+						20 = TEXT
+						20 {
+							field = uid
+							noTrimWrap  = |initSlickDocumentReady|();|
+						}
+							// });
+						40 = TEXT
+						40 {
+							value = });
+						}
 					}
 				}
 			}

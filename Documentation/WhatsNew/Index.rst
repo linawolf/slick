@@ -12,21 +12,14 @@
 What' new
 =========
 
-4.2
+4.3
 
 
-Compatibility
--------------
+Slides in randomized order
+--------------------------
 
-Slick Slider is running from TYPO3 6.2 to 9.5.
+Slides can ordered randomized. See @ :ref:`Users > Best Practice <users_bestpractice_randomized>`
 
-
-Slick with Content Elements
----------------------------
-
-The plugin has the new property pages:
-
-* If you setup one or more pages, the slick slider will take all content elements of this pages.
 
 
 
@@ -36,4 +29,5 @@ The plugin has the new property pages:
 	:maxdepth: 3
 	:titlesonly:
 
+	4.2/Index
 	4.1/Index

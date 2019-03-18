@@ -17,6 +17,6 @@ Administrators
     :maxdepth: 2
     :titlesonly:
 
-    01_Installation/Index
-    02_Setup/Index
-    03_BestPractise/Index
+    Installation/Index
+    Setup/Index
+    BestPractice/Index

@@ -24,6 +24,7 @@ Users
     :maxdepth: 2
     :titlesonly:
 
-    01_SlickContent/Index
-    02_SlickImages/Index
-    03_SlickItem/Index
+    SlickContent/Index
+    SlickImages/Index
+    SlickItem/Index
+    BestPractice/Index

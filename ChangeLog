@@ -1,3 +1,17 @@
+4.3.0
+  19-03-18
+	Feature
+	* #i0047: Sliders in randomized order: new property plugin > usual > randomized
+						New files:
+						* Resources/Public/JavaScript/randomize.js
+						Affected files:
+						* Configuration
+							* FlexForms/Default/Slickcontent/flexform_sheet_usual.xml
+							* TypoScript/Default/Base/Page
+								* includeJSFooter.ts
+								* slickinit.ts
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+
 4.2.1
   19-03-17
 	Feature
