@@ -28,7 +28,7 @@ Slick - responsive Carousel Slider
 		en
 
 	:Description:
-		Slick carousel slider by Ken Wheeler. Fully responsive. Scales with its container. Separate settings per breakpoint. 
+		Slick carousel slider by Ken Wheeler. Responsive. For images and all content elements. Scales with its container. Separate settings per breakpoint. 
 		Swipe, desktop mouse dragging, infinite looping, randomized order among others. Users can setup more than 50 properties by the plugin. 
 
 	:Keywords:

@@ -20,6 +20,8 @@ The Slick Carousel is
 
 - Fully responsive
 
+- For images and all content elements
+
 - Scales with its container
 
 - Separate settings per breakpoint

@@ -2,7 +2,7 @@
 
 $EM_CONF[ $_EXTKEY ] = array(
   'title' => 'Slick - responsive Carousel Slider',
-  'description' => 'Slick carousel slider by Ken Wheeler. Fully responsive. Scales with its container. Separate settings per breakpoint. Swipe, desktop mouse dragging, infinite looping, randomized order among others. Users can setup more than 50 properties by the plugin.',
+  'description' => 'Slick carousel slider by Ken Wheeler. Responsive. For images and all content elements. Scales with its container. Separate settings per breakpoint. Swipe, desktop mouse dragging, infinite looping, randomized order among others. Users can setup more than 50 properties by the plugin.',
   'category' => 'plugin',
   'author' => 'Dirk Wildt (Die Netzmacher)',
   'author_email' => 'http://wildt.at.die-netzmacher.de/',
