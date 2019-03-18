@@ -11,17 +11,29 @@ lib {
 	slick =
 	slick {
 			// table = tt_content
-		tx_slick_pages = CONTENT
+		tx_slick_pages = COA
 		tx_slick_pages {
-			table = tt_content
-			select {
-				pidInList = TEXT
-				pidInList {
+				// if.isTrue.field = tx_slick_pages
+			if =
+			if {
+				isTrue =
+				isTrue {
 					field = tx_slick_pages
 				}
-				orderBy = sorting
 			}
-			renderObj = < tt_content		
+				// select.pidInList.field = tx_slick_pages
+			10 = CONTENT
+			10 {
+				table = tt_content
+				select {
+					pidInList = TEXT
+					pidInList {
+						field = tx_slick_pages
+					}
+					orderBy = sorting
+				}
+				renderObj = < tt_content		
+			}
 		}
 	}
 }

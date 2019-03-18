@@ -1,3 +1,9 @@
+4.3.1
+  19-03-18
+	Bugfix
+	* #i0048: pid field for content will respected only, if it isn't empty
+						:ref: #i0045
+
 4.3.0
   19-03-18
 	Feature
@@ -37,6 +43,7 @@
 						* Resources/Private
 							* Fluid/FluidStyledContent/Templates/Slickcontent.html
 							* Language/Backend.xlf
+						:ref: #i0048
 
 4.1.5
   19-03-15
