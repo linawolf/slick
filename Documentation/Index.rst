@@ -29,11 +29,10 @@ Slick - responsive Carousel Slider
 
 	:Description:
 		Slick carousel slider by Ken Wheeler. Fully responsive. Scales with its container. Separate settings per breakpoint. 
-		Swipe, desktop mouse dragging, infinite looping among others. Slick is ready-for-use with the Organiser - 
-		responsive TYPO3 for the Lobbies and the Organisers.
+		Swipe, desktop mouse dragging, infinite looping, randomized order among others. Users can setup more than 50 properties by the plugin. 
 
 	:Keywords:
-		slick, slider, carousel, org, organiser, responsive
+		carousel, contentslider, gallery, imageslider, jquery, random, responsive, slick, slider, slideshow,  
 
 	:Copyright:
 		2014-2019

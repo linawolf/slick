@@ -50,6 +50,8 @@ TYPO3 Slick provides the three content elements
 
 - Slick Slider Content Element
 
+- Slides can ordered randomized
+
 You can use the sliders unlimited on the same page.
 
 TYPO3 6.2/7.6

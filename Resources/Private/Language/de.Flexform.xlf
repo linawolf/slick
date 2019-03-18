@@ -223,8 +223,8 @@
 				<target>Endlosschleife</target>
 			</trans-unit>
 			<trans-unit id="sheet.usual.randomized">
-				<source>Display slides in randomized order (needs jQuery!)</source>
-				<target>Zeige Slides in zufälliger Reihenfolge (benötigt jQuery!)</target>
+				<source>Display slides in randomized order</source>
+				<target>Zeige Slides in zufälliger Reihenfolge</target>
 			</trans-unit>
 			<trans-unit id="sheet.usual.speed">
 				<source>Transition speed (milliseconds)</source>
