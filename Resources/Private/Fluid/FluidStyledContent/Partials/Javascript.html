@@ -5,20 +5,15 @@
    data-namespace-typo3-fluid="true">
 
   <f:section name="JS-Responsive">
-    <script>
-    function initSlick{data.uid}() {
-      _initSlick{data.uid}();
-      var r;
-      $(window).resize(function() {
-          clearTimeout(r);
-          r = setTimeout(_initSlick{data.uid}, 500);
-      });
-    }
 
-		var boolSlickRandomize{data.uid} = <f:format.raw>{data.pi_flexform.randomized}</f:format.raw>
-//		if( boolSlickRandomize{data.uid} == true ){
-//			alert(boolSlickRandomize{data.uid});
-//		}
+		<f:variable name="randomized"><f:format.raw>{data.pi_flexform.randomized}</f:format.raw></f:variable>
+		<f:if condition="{randomized} == ''">
+			<f:variable name="randomized">false</f:variable>
+		</f:if>
+
+    <script>
+
+		var boolSlickRandomize{data.uid} = {randomized};
 
     function _initSlick{data.uid}() {
       $('#slickid-{data.uid}').not('.slick-initialized').slick({
@@ -95,6 +90,14 @@
           ]
         });
       }
+			function initSlick{data.uid}() {
+				_initSlick{data.uid}();
+				var r;
+				$(window).resize(function() {
+						clearTimeout(r);
+						r = setTimeout(_initSlick{data.uid}, 500);
+				});
+			}
     </script>
   </f:section>
 </div>
