@@ -38,17 +38,31 @@ page {
 							noTrimWrap = |function initSlickDocumentReady|() {|
 
 						}
-							// if (typeof initSlickUid === "function") {
-						20 = TEXT
+							// if (typeof initSlickUid === "function") {initSlickUid(#);}
+						20 = COA
 						20 {
-							field = uid
-							noTrimWrap  = | if (typeof initSlick| === "function") {|
+								// if (typeof initSlickUid === "function") {
+							10 = TEXT
+							10 {
+								field = uid
+								noTrimWrap  = | if (typeof initSlick| === "function") {|
+							}
+								// initSlickUid(#);
+							20 = TEXT
+							20 {
+								field = uid
+								noTrimWrap  = | initSlick|();|
+							}
+								// }
+							30 = TEXT
+							30 {
+								value	= }
+							}
 						}
-							// initSlickUid(#);}}
+							// }
 						30 = TEXT
 						30 {
-							field = uid
-							noTrimWrap  = | initSlick|();}}|
+							value	= }
 						}
 					}
 						// $(document).ready(function () { if( boolSlickRandomizeUid == true ) {$('#slickid-Uid').randomize();} }); 
@@ -60,21 +74,40 @@ page {
 							value				= $(document).ready(function () {
 							noTrimWrap  = | | |
 						}
-							// if( boolSlickRandomizeUid == true )
-						20 = TEXT
+							// if (typeof boolSlickRandomizeUid === "function") {if( boolSlickRandomizeUid == true ){$('#slickid-Uid').randomize();}}
+						20 = COA
 						20 {
-							field = uid
-							noTrimWrap  = |if( boolSlickRandomize| == true ) |
-						}
-							//  {$('#slickid-Uid').randomize();}
-						30 = TEXT
-						30 {
-							field = uid
-							noTrimWrap  = |{$('#slickid-|').randomize();} |
+								// if (typeof boolSlickRandomizeUid === "function") {
+							10 = TEXT
+							10 {
+								field = uid
+								noTrimWrap  = | if (typeof boolSlickRandomize| === "function") {|
+							}
+								// if( boolSlickRandomizeUid == true ){$('#slickid-Uid').randomize();}
+							20 = COA
+							20 {
+									// if( boolSlickRandomizeUid == true )
+								10 = TEXT
+								10 {
+									field = uid
+									noTrimWrap  = |if( boolSlickRandomize| == true ) |
+								}
+									//  {$('#slickid-Uid').randomize();}
+								20 = TEXT
+								20 {
+									field = uid
+									noTrimWrap  = |{$('#slickid-|').randomize();} |
+								}
+							}
+								// }
+							30 = TEXT
+							30 {
+								value	= }
+							}
 						}
 							// });
-						40 = TEXT
-						40 {
+						30 = TEXT
+						30 {
 							value = });
 						}
 					}

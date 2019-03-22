@@ -1,3 +1,10 @@
+4.3.3
+  19-03-22
+	Bugfix
+	* #i0050: ReferenceError: boolSlickRandomizeXXX is not defined
+						Affected file:
+						*Configuration/TypoScript/Default/Base/Page/jsFooterInline/slickinit.ts
+
 4.3.2
   19-03-21
 	Bugfix
