@@ -1,3 +1,10 @@
+4.3.4
+  19-04-06
+	Bugfix
+	* #i0050: boolSlickRandomizeXXX is typeof boolean but not function
+						Affected file:
+						*Configuration/TypoScript/Default/Base/Page/jsFooterInline/slickinit.ts
+
 4.3.3
   19-03-22
 	Bugfix

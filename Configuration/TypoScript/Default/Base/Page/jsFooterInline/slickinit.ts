@@ -77,11 +77,11 @@ page {
 							// if (typeof boolSlickRandomizeUid === "function") {if( boolSlickRandomizeUid == true ){$('#slickid-Uid').randomize();}}
 						20 = COA
 						20 {
-								// if (typeof boolSlickRandomizeUid === "function") {
+								// if (typeof boolSlickRandomizeUid === "boolean") {
 							10 = TEXT
 							10 {
 								field = uid
-								noTrimWrap  = | if (typeof boolSlickRandomize| === "function") {|
+								noTrimWrap  = | if (typeof boolSlickRandomize| === "boolean") {|
 							}
 								// if( boolSlickRandomizeUid == true ){$('#slickid-Uid').randomize();}
 							20 = COA
