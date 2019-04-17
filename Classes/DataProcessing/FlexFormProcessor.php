@@ -62,6 +62,8 @@ class FlexFormProcessor implements DataProcessorInterface
     }
 
     /**
+		 * process(): Moves the value of pi_flexform from xml to array
+		 * 
      * @param ContentObjectRenderer $cObj The data of the content element or page
      * @param array $contentObjectConfiguration The configuration of Content Object
      * @param array $processorConfiguration The configuration of this processor

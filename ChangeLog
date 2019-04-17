@@ -1,3 +1,18 @@
+4.3.5
+  19-04-17
+	Workaround
+	* #i0051: https://forge.typo3.org/issues/88164
+						TypoScript label is moved
+						* from:	Slick [01.2.1] +Image without figure
+						* to:		Slick [01.2.1] +Image without figure [Dangerous: affects all images!]
+						TypoScript template "Slick [01.2.1] +Image without figure" removes figure 
+						from all images of the whole webiste.
+						Thanks to Ingo B. for the bug report
+						There isn't any quick solution:
+						* Slick content is using the list_type shortcut.
+						* Images will rendered before process is handled by Slick
+						* Controlling of images isn't posible
+
 4.3.4
   19-04-06
 	Bugfix

@@ -10,7 +10,7 @@ ExtensionManagementUtility::addStaticFile(
 ExtensionManagementUtility::addStaticFile(
 				'slick'
 				, 'Configuration/TypoScript/ImageWoFigure/'
-				, 'Slick [01.2.1] +Image without figure'
+				, 'Slick [01.2.1] +Image without figure [Dangerous: affects all images!]'
 );
 ExtensionManagementUtility::addStaticFile(
 				'slick'
