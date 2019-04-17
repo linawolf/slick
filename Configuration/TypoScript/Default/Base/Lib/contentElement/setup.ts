@@ -15,7 +15,7 @@ lib.contentElement {
 	partialRootPaths =
 	partialRootPaths {
 		1686 = {$plugin.slick.fluid.templates.10.partialRootPath}
-		1687 = {$plugin.slick.fluid.templates.99.partialRootPath}
+		1687 = {$plugin.slick.fluid.templates.20.partialRootPath}
 # :TODO: #i0051
 #		1687 =
 #		1687 {

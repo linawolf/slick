@@ -1,7 +1,12 @@
+4.3.6
+  19-04-17
+	Bugfix
+	* #i0052: small bugfix
+
 4.3.5
   19-04-17
 	Workaround
-	* #i0051: https://forge.typo3.org/issues/88164
+	* #i0051: https://forge.typo3.org/issues/88164 (https://bit.ly/2XmA3fZ)
 						TypoScript label is moved
 						* from:	Slick [01.2.1] +Image without figure
 						* to:		Slick [01.2.1] +Image without figure [Dangerous: affects all images!]
