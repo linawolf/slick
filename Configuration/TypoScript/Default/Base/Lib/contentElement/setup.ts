@@ -42,5 +42,36 @@ lib.contentElement {
 		1687 = {$plugin.slick.fluid.templates.20.layoutRootPath}
 		1688 = {$plugin.slick.fluid.templates.99.layoutRootPath}
 	}
+# #i0053
+# #variables.test8 and test9 are running
+# #tt_content.slickcontent.variables.test10 and text10 aren't running.
+# #test10: Netzmacher\Xblog\UserFunc\SessionUserfunc->SetXblogVar is checked with var_dump successfully
+#	variables {
+#		test8 = USER
+#		test8 {
+#			userFunc = Netzmacher\Xblog\UserFunc\SessionUserfunc->SetXblogVar
+#			uid = TEXT
+#			uid {
+#				value = 1234
+#			}
+#			param = TEXT
+#			param {
+#				value = test8
+#			}
+#			value = TEXT
+#			value {
+#				value = dirk8
+#			}
+#			dontClearCache = 0
+#		}
+#		test9 = TEXT
+#		test9 {
+#			data = session: tx_xblog|1234|test8
+#		}
+#		test10 = TEXT
+#		test10 {
+#			data = session: tx_xblog|1234|test10
+#		}
+#	}
 }
 
