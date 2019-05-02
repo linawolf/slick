@@ -1,3 +1,22 @@
+4.4.0
+  19-04-30
+	Feature
+	* #i0054: File Collections [UNDER CONSTRUCTION!]
+						New files:
+						* Configuration/TypoScript/Default/Image/tt_content/setup.ts
+						* Resources/Private/Fluid/FluidStyledContent/Templates/Slickfilecollection.html
+						Affected files:
+						* Configuration
+							* ExtTables/Default/TSconfig/mod.wizards.newContentElement.wizardItems.slick.ts
+						  * TCA/Overrides/Default/tt_content
+								* addTcaSelectItem.php
+								* types.php
+						  * TypoScript/Default
+								* Base/Page/jsFooterInline/slickinit.ts
+								* Content/tt_content/setup.ts
+						* Resources/Private/Language
+							* Backend.xlf
+							* de.Backend.xlf
 4.3.7
   19-04-18
 	Development

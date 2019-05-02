@@ -19,6 +19,15 @@
 				'tt_content'
 				, 'CType'
 				, [
+		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.filecollection.header'
+		, 'slickfilecollection'
+		, 'app-slick'
+				]
+);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
+				'tt_content'
+				, 'CType'
+				, [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.header'
 		, 'slickimage'
 		, 'app-slick'

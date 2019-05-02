@@ -14,13 +14,13 @@ page {
 				value = XXX
 				wrap  = alert('|');
 			}
-				// Get uid sof content elements with CTYPE: slickcontent, slickimage or slickitem. Respects the root line.
+				// Get uid sof content elements with CTYPE: slickcontent, slickfilecollection, slickimage or slickitem. Respects the root line.
 			10 = CONTENT
 			10 {
 				table = tt_content
 				select {
 					 pidInList = this
-					 where = (CTYPE = 'slickcontent' OR CTYPE = 'slickimage' OR CTYPE = 'slickitem')
+					 where = (CTYPE = 'slickcontent' OR CTYPE = 'slickfilecollection' OR CTYPE = 'slickimage' OR CTYPE = 'slickitem')
 				}
 					// slide back up to the siteroot
 				slide = -1

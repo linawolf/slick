@@ -12,6 +12,17 @@ mod.wizards.newContentElement.wizardItems.slick {
 				header = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.header
 			}
 		}
+		filecollection {
+			iconIdentifier = app-slick
+			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.filecollection.header
+			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.filecollection.description
+			tt_content_defValues {
+				CType = slickfilecollection
+				imagecols = 1
+				imageorient = 0
+				header = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.filecollection.header
+			}
+		}
 		image {
 			iconIdentifier = app-slick
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.header
