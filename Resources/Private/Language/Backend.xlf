@@ -56,11 +56,11 @@
       </trans-unit>
 
 			<trans-unit id="wizardItems.filecollection.header">
-        <source><![CDATA[Slick Slider with file collections]]></source>
+        <source><![CDATA[Slick Slider with File Collections]]></source>
         <target><![CDATA[Slick Slider mit Dateisammlungen]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.filecollection.description">
-        <source><![CDATA[Display files from directories enabled by file collections.]]></source>
+        <source><![CDATA[Display files from directories enabled by File Collections.]]></source>
         <target><![CDATA[Mit Dateisammlungen Dateien aus Verzeichnissen einbinden.]]></target>
       </trans-unit>
 			
