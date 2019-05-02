@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _administrators-setup-slickitem
+.. _administrators_setup_slickitem:
 
 
 Slick Slider Content Element

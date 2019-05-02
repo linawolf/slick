@@ -32,8 +32,6 @@ Include the static templates:
 
 * Slick [01.1.1] (based on fluid_css_templates) (slick)
 
-* Slick [01.2.1] +Image without figure (slick)
-
 * ... 
 
 
@@ -46,9 +44,8 @@ Include the static templates:
 
 * Slick [01.1.1] (based on fluid_css_templates) (slick)
 
-* Slick [01.2.1] +Image without figure (slick)
-
 * ... 
+
 
 TYPO3 6.2/7.6
 ^^^^^^^^^^^^^

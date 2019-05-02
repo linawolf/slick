@@ -6,7 +6,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _introduction-what-does-it-do:
+.. _introduction_whatdoesitdo:
 
 What does it do?
 ================
@@ -44,9 +44,11 @@ The Slick Carousel is
 TYPO3 Slick 
 -----------
 
-TYPO3 Slick provides the three content elements
+TYPO3 Slick provides the four content elements
 
 - Slick Slider with Content Elements 
+
+- Slick Slider with File Collections 
 
 - Slick Slider with Images
 
@@ -72,6 +74,8 @@ Some extensions have ready-to-use templates for the Slick Slider:
 - Organiser – responsive TYPO3 for the lobby and the organisers (organiser)
 
 - Quick Shop – responsive e-commerce with TYPO3 
+
+- :ref:`xBlog <users_slick_xblog>` – Frontend Simplifier
 
 
 Features and Developer

@@ -3,13 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _users_slickitem:
+.. _users_slick_item:
 
-Slick Slider Content Element
-============================
+
+Slick Content Element
+=====================
 
 Slick Slider Content Element is an content element optimised for sliding.
 It is similar to a banner.
@@ -30,7 +31,7 @@ Properties
 
 Properties are controlled by the Constant Editor. You need administration access.
 
-* :ref:`Administrators > Setup > Slick Slider Content Element <administrators-setup-slickitem>`
+* :ref:`Administrators > Setup > Slick Slider Content Element <administrators_setup_slickitem>`
 
 
 TYPO3 6.2/7.6
@@ -46,4 +47,4 @@ Please refer to
 
 * :ref:`Screenshots > Frontend <introduction-screenshots-frontend>`
 
-* :ref:`Screenshots > Backend <introduction-screenshots-backend>`
+* :ref:`Screenshots > Backend <introduction_screenshots_backend>`

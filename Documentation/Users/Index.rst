@@ -11,12 +11,6 @@
 Users
 =======
 
-.. figure:: ../Images/Backend/slick-backend_content-wizard_small.jpg
-	:width: 800px
-	:alt: New Content Element Wizard with Slick
-
-	New Content Element Wizard with Slick
-
 
 **Table of Contents**
 
@@ -24,7 +18,5 @@ Users
     :maxdepth: 2
     :titlesonly:
 
-    SlickContent/Index
-    SlickImages/Index
-    SlickItem/Index
+    Slick/Index
     BestPractice/Index

@@ -3,13 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _users_slickimages:
+.. _users_slick_images:
 
-Slick Slider with Images
-========================
+
+With Images
+===========
 
 You can slide images with "Slick Slider with Images".
 
@@ -32,7 +33,7 @@ TYPO3 6.2/7.6
   Content Element <users_slickcontent>` and add images.
 
 * Properties are controlled by the Constant Editor. You need administration access. See
-  :ref:`Administrators > Setup > TYPO3 6.2 / 7.6 > Slick Slider with Images <administrators-setup-76-slickimage>`
+  :ref:`Administrators > Setup > TYPO3 6.2 / 7.6 > Slick Slider with Images <administrators_setup_76_slickimage>`
 
 
 Screenshots
@@ -42,4 +43,4 @@ Please refer to
 
 * :ref:`Screenshots > Frontend <introduction-screenshots-frontend>`
 
-* :ref:`Screenshots > Backend <introduction-screenshots-backend>`
+* :ref:`Screenshots > Backend <introduction_screenshots_backend>`

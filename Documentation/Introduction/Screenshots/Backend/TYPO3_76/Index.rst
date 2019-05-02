@@ -6,7 +6,7 @@
 .. include:: ../../../../Includes.txt
 
 
-.. _introduction-screenshots-backend-typo3-76:
+.. _introduction_screenshots_backend-typo3-76:
 
 
 TYPO3 6.2 and 7.6
@@ -16,7 +16,7 @@ TYPO3 6.2 and 7.6
 New Content Element Wizard
 --------------------------
 
-.. figure:: ../../../../Images/Backend/slick_content-wizard-76.jpg
+.. figure:: slick_content-wizard-76.jpg
 	:width: 1000px
 	:alt: New Content Element Wizard with Slick
 

@@ -9,18 +9,26 @@
 .. _whatsnew:
 
 
-What' new
+What's new
 =========
 
-4.3
+4.4
 
 
-Slides in randomized order
---------------------------
+Slick Slider with File Collections
+----------------------------------
 
-Slides can ordered randomized. See @ :ref:`Users > Best Practice <users_bestpractice_randomized>`
+Display files from directories enabled by File Collections. Please refer to
+
+* :ref:`Users > Slick > File Collections <users_slick_filecollection>`
 
 
+Slick Slider with Records
+-------------------------
+
+The extension xBlog enables you, to display records of each extension with the Slick Slider.
+
+* :ref:`Users > Slick > Records <users_slick_xblog>`
 
 
 **Table of Contents**
@@ -29,5 +37,6 @@ Slides can ordered randomized. See @ :ref:`Users > Best Practice <users_bestprac
 	:maxdepth: 3
 	:titlesonly:
 
+	4.3/Index
 	4.2/Index
 	4.1/Index

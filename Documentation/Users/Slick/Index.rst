@@ -3,13 +3,15 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _administrators:
+.. _users_slick:
 
-Administrators
-==============
+
+Slick Slider
+============
+
 
 **Table of Contents**
 
@@ -17,6 +19,8 @@ Administrators
     :maxdepth: 2
     :titlesonly:
 
-    Installation/Index
-    Setup/Index
-    BestPractice/Index
+    Slickcontent/Index
+    Slickfilecollection/Index
+    Slickimages/Index
+    Xblog/Index
+    Slickitem/Index

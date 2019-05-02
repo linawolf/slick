@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../../Includes.txt
+.. include:: ../../../../Includes.txt
 
 
-.. _administrators-setup-76-slickimage
+.. _administrators_setup_76_slickimage:
 
 
 Slick Slider with Images

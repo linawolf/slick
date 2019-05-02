@@ -6,7 +6,7 @@
 .. include:: ../../../Includes.txt
 
 
-.. _administrators-setup-76:
+.. _administrators_setup_76:
 
 
 TYPO3 6.2 / 7.6
@@ -28,5 +28,5 @@ You are controlling a lot of properties with the TYPO3-User-Interface Constant E
     :maxdepth: 2
     :titlesonly:
 
-    01_SlickContent/Index
-    02_SlickImages/Index
+    Slickcontent/Index
+    Slickimages/Index

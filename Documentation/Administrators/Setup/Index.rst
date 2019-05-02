@@ -16,6 +16,8 @@ You are controlling a lot of properties within the plugins
 
 * Slick Slider with Content Elements
 
+* Slick Slider with File Collections
+
 * Slick Slider with Images
 
 The Slick Item has a small configuration by the Constant Editor.
@@ -28,5 +30,5 @@ Usually you don't need to change any property.
     :maxdepth: 2
     :titlesonly:
 
-    03_SlickItem/Index
-    04_TYPO3_76/Index
+    SlickItem/Index
+    TYPO3_76/Index

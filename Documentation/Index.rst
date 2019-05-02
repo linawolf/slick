@@ -72,3 +72,4 @@ Slick - responsive Carousel Slider
 	KnownBugs/Index
 	WhatsNew/Index
 	Help/Index
+	Index/Index
