@@ -1,7 +1,8 @@
 4.4.0
   19-04-30
 	Feature
-	* #i0054: File Collections [UNDER CONSTRUCTION!]
+	* #i0054: File Collections
+						Thanks to Marjan Ratkovic (solutix.com) for the contract :)
 						New files:
 						* Configuration/TypoScript/Default/Image/tt_content/setup.ts
 						* Resources/Private/Fluid/FluidStyledContent/Templates/Slickfilecollection.html
