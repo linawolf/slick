@@ -1,4 +1,4 @@
-# Slick - responsive Carousel Slider
+# TYPO3 Slick Slider
 Slick carousel slider by Ken Wheeler. Fully responsive. Scales with its container. Separate settings per breakpoint. 
 Swipe, desktop mouse dragging, infinite looping among others. Slick is ready-for-use with the Organiser - 
 responsive TYPO3 for the Lobbies and the Organisers.

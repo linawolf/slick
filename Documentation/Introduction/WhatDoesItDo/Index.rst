@@ -11,7 +11,12 @@
 What does it do?
 ================
 
-TYPO3 Slick integrates the jQuery Slick Carousel into TYPO3.
+Manage content elements, file collections and images with this responsive slider!
+Based on the slick carousel slider by Ken Wheeler. Scales with its container. 
+Separate settings per breakpoint. Swipe, desktop mouse dragging, infinite looping, 
+randomized order among others. Users can setup more than 50 properties by the plugin.
+
+TYPO3 Slick Slider integrates Ken Wheelers responsive slider into TYPO3.
 
 jQuery Slick Carousel
 ---------------------

@@ -10,11 +10,11 @@
 
 	.. figure:: ext_icon_300x300.jpg
 		:width: 300px
-		:alt: Slick - responsive Carousel Slider
+		:alt: TYPO3 Slick Slider
 
-=============================================================
-Slick - responsive Carousel Slider
-=============================================================
+======================
+Slick Slider for TYPO3
+======================
 
 .. only:: html
 
@@ -28,8 +28,10 @@ Slick - responsive Carousel Slider
 		en
 
 	:Description:
-		Slick carousel slider by Ken Wheeler. Responsive. For images and all content elements. Scales with its container. Separate settings per breakpoint. 
-		Swipe, desktop mouse dragging, infinite looping, randomized order among others. Users can setup more than 50 properties by the plugin. 
+		Manage content elements, file collections and images with this responsive slider!
+		Based on the slick carousel slider by Ken Wheeler. Scales with its container. 
+		Separate settings per breakpoint. Swipe, desktop mouse dragging, infinite looping, 
+		randomized order among others. Users can setup more than 50 properties by the plugin.
 
 	:Keywords:
 		carousel, contentslider, gallery, imageslider, jquery, random, responsive, slick, slider, slideshow,  
