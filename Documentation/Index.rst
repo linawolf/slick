@@ -6,7 +6,7 @@
 .. include:: Includes.txt
 
 
-.. _slick:
+.. _root:
 
 	.. figure:: ext_icon_300x300.jpg
 		:width: 300px

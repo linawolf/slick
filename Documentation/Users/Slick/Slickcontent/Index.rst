@@ -15,9 +15,9 @@ You can slide every content element with "Slick Slider with Content Elements".
 
 You can slide every element of a one or several pages two.
 
-If you like to slide images only, the :ref:`Slick Slider with Images <users_slickimages>` is recommended.
+If you like to slide images only, the :ref:`Slick Slider with Images <users_slick_images>` is recommended.
 
-The :ref:`Slick Slider Content Element <users_slickitem>` is a content element optimised for sliding.
+The :ref:`Slick Slider Content Element <users_slick_item>` is a content element optimised for sliding.
 
 
 Recommended
@@ -43,3 +43,13 @@ Please refer to
 * :ref:`Screenshots > Frontend <introduction-screenshots-frontend>`
 
 * :ref:`Screenshots > Backend <introduction_screenshots_backend>`
+
+
+**Table of Contents**
+
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
+
+    xBlog/Index
+

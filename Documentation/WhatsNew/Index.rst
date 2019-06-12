@@ -10,7 +10,7 @@
 
 
 What's new
-=========
+==========
 
 4.4
 
@@ -28,7 +28,7 @@ Slick Slider with Records
 
 The extension xBlog enables you, to display records of each extension with the Slick Slider.
 
-* :ref:`Users > Slick > Records <users_slick_xblog>`
+* :ref:`Users > Slick > Content > xBlog <users_slick_content_xblog>`
 
 
 **Table of Contents**

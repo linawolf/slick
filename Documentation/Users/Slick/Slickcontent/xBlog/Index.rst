@@ -3,14 +3,21 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../../Includes.txt
+.. include:: ../../../../Includes.txt
 
 
-.. _users_slick_xblog:
+.. _users_slick_content_xblog:
 
 
-With Records
-============
+.. figure:: xBlogSliderDocu.jpg
+	:width: 800px
+	:alt: TYPO3 xBlog Slider and the Slick Slider (schematic representation)
+
+	TYPO3 xBlog Slider and the Slick Slider (schematic representation)
+
+
+xBlog
+=====
 
 The extension xBlog enables you, to display records of each extension with the Slick Slider.
 

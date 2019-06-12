@@ -80,7 +80,7 @@ Some extensions have ready-to-use templates for the Slick Slider:
 
 - Quick Shop – responsive e-commerce with TYPO3 
 
-- :ref:`xBlog <users_slick_xblog>` – Frontend Simplifier
+- :ref:`xBlog <users_slick_content_xblog>` – Frontend Simplifier
 
 
 Features and Developer

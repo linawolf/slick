@@ -1,6 +1,13 @@
 What's new	https://bit.ly/2WqXmp6
 ChangeLog		https://bit.ly/2WuaDgK
 
+4.4.2
+  19-06-12
+	Manual
+	* #i0056: xBlog Slider with schematic representation
+						Affected files:
+						* /opt/typo3/extensions/slick/Documentation/Users/Slick/Slickcontent/xBlog/Index.rst
+
 4.4.1
   19-05-08
 	Improvement
@@ -48,7 +55,7 @@ ChangeLog		https://bit.ly/2WuaDgK
 						* from:	Slick [01.2.1] +Image without figure
 						* to:		Slick [01.2.1] +Image without figure [Dangerous: affects all images!]
 						TypoScript template "Slick [01.2.1] +Image without figure" removes figure 
-						from all images of the whole webiste.
+						from all images of the whole website.
 						Thanks to Ingo B. for the bug report
 						There isn't any quick solution:
 						* Slick content is using the list_type shortcut.

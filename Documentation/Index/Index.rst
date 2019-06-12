@@ -76,7 +76,7 @@ R
 
 * :ref:`Randomized <users_bestpractice_randomized>`
 
-* :ref:`Records <users_slick_xblog>`
+* :ref:`Records <users_slick_content_xblog>`
 
 
 S
@@ -90,4 +90,4 @@ S
 X
 -
 
-* :ref:`xBlog <users_slick_xblog>`
+* :ref:`xBlog <users_slick_content_xblog>`

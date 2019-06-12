@@ -23,7 +23,7 @@ It consists of
 
 * a prompt
 
-You can slide it with the :ref:`Slick Slider with Content Element <users_slickcontent>`.
+You can slide it with the :ref:`Slick Slider with Content Element <users_slick_content>`.
 
 
 Properties
