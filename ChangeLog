@@ -1,12 +1,17 @@
 What's new	https://bit.ly/2WqXmp6
 ChangeLog		https://bit.ly/2WuaDgK
 
+4.4.3
+  19-08-27	
+	BUgfix
+	* #i0057: composer.json
+
 4.4.2
   19-06-12
 	Manual
 	* #i0056: xBlog Slider with schematic representation
 						Affected files:
-						* /opt/typo3/extensions/slick/Documentation/Users/Slick/Slickcontent/xBlog/Index.rst
+						* Documentation/Users/Slick/Slickcontent/xBlog/Index.rst
 
 4.4.1
   19-05-08
