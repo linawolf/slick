@@ -24,4 +24,5 @@ If you like to use the latest extensions, you can get them at `gitlab.die-netzma
 
   CssStyledContent/Index
   IntroductionPackage/Index
+  Reference/Index
   SlickSlider/Index

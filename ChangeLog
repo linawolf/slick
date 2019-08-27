@@ -3,7 +3,9 @@ ChangeLog		https://bit.ly/2WuaDgK
 
 4.4.3
   19-08-27	
-	BUgfix
+	Manual
+	* #i0058: New section: Known bugs > Reference
+	Bugfix
 	* #i0057: composer.json
 
 4.4.2
