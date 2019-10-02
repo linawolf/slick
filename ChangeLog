@@ -14,6 +14,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						* Resources
 							* Private/Fluid/FluidStyledContent/Layouts/Slickcontent.html
 							* Public/CSS/default.css
+	Bugfix
+	* #t4180: CSS for dots and arrows
+						Affected files:
+						* Configuration/TypoScript
+							* 7.6/Base/Page/cssInline.ts
+							* Default/Base/Page/cssInline.ts
 
 4.4.4
   19-10-02
