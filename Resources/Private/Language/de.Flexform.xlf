@@ -189,12 +189,29 @@
 			</trans-unit>
 			<trans-unit id="sheet.rare.zIndex">
 				<source>Set the zIndex values for slides, useful for IE9 and lower</source>
-				<target>Z-Index der reiter. Nützlich für Internet Explorer 9 und älter</target>
+				<target>Z-Index der Reiter. Nützlich für Internet Explorer 9 und älter</target>
 			</trans-unit>
 			
 			<trans-unit id="sheet.smartphone.title">
 				<source>Smartphone</source>
 				<target>Smartphone</target>
+			</trans-unit>
+
+			<trans-unit id="sheet.sync.centerMode">
+				<source>Center mode</source>
+				<target>Ränder mit Anschnitt</target>
+			</trans-unit>
+			<trans-unit id="sheet.sync.enabled">
+				<source>Syncing</source>
+				<target>Synchronisieren</target>
+			</trans-unit>
+			<trans-unit id="sheet.sync.focusOnSelect">
+				<source>Focus on select</source>
+				<target>Auswahl in die Mitte</target>
+			</trans-unit>
+			<trans-unit id="sheet.sync.title">
+				<source>Syncing</source>
+				<target>Synchronisieren</target>
 			</trans-unit>
 
 			<trans-unit id="sheet.tablet.title">

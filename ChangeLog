@@ -12,8 +12,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						Affected files:
 						* Configuration/FlexForms/Default/Slickcontent/flexform.xml
 						* Resources
-							* Private/Fluid/FluidStyledContent/Layouts/Slickcontent.html
+							* Private
+								* Fluid/FluidStyledContent/Layouts/Slickcontent.html
+								* Language/Flexform.xlf
 							* Public/CSS/default.css
+
 	Bugfix
 	* #t4180: CSS for dots and arrows
 						Affected files:
