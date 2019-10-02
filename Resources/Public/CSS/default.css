@@ -29,3 +29,7 @@
 	display: inline;
 }
 
+/* #t4060 */
+.slick-sync figcaption {
+	display: none;
+}

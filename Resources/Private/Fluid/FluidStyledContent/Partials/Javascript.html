@@ -6,25 +6,55 @@
 
   <f:section name="JS-Responsive">
 
-		<f:variable name="randomized"><f:format.raw>{data.pi_flexform.randomized}</f:format.raw></f:variable>
-		<f:if condition="{randomized} == ''">
-			<f:variable name="randomized">false</f:variable>
-		</f:if>
+    <f:variable name="randomized"><f:format.raw>{data.pi_flexform.randomized}</f:format.raw></f:variable>
+    <f:if condition="{randomized} == ''">
+      <f:variable name="randomized">false</f:variable>
+    </f:if>
+
+    <f:comment>#t4060</f:comment>
+    <f:variable name="sync-enabled"><f:format.raw>{data.pi_flexform.sync-enabled}</f:format.raw></f:variable>
+    <f:if condition="{sync-enabled}">
+      <f:variable name="sliderAsNavFor">, asNavFor: '#slicksync-{data.uid}'</f:variable>
+      <f:variable name="syncAsNavFor">, asNavFor: '#slicksync-{data.uid}'</f:variable>
+    </f:if>
+    <f:variable name="centerMode-sync"><f:format.raw>{data.pi_flexform.centerMode-sync}</f:format.raw></f:variable>
+    <f:if condition="{centerMode-sync} == ''">
+      <f:variable name="centerMode-sync">false</f:variable>
+    </f:if>
+    <f:variable name="dots-sync"><f:format.raw>{data.pi_flexform.dots-sync}</f:format.raw></f:variable>
+    <f:if condition="{dots-sync} == ''">
+      <f:variable name="dots-sync">false</f:variable>
+    </f:if>
+    <f:variable name="focusOnSelect-sync"><f:format.raw>{data.pi_flexform.focusOnSelect-sync}</f:format.raw></f:variable>
+    <f:if condition="{focusOnSelect-sync} == ''">
+      <f:variable name="focusOnSelect-sync">false</f:variable>
+    </f:if>
+    <f:variable name="slidesToScroll-sync"><f:format.raw>{data.pi_flexform.slidesToScroll-sync}</f:format.raw></f:variable>
+    <f:if condition="{slidesToScroll-sync} == ''">
+      <f:variable name="slidesToScroll-sync">1</f:variable>
+    </f:if>
+    <f:variable name="slidesToShow-sync"><f:format.raw>{data.pi_flexform.slidesToShow-sync}</f:format.raw></f:variable>
+    <f:if condition="{slidesToShow-sync} == ''">
+      <f:variable name="slidesToShow-sync">5</f:variable>
+    </f:if>
+    
 
     <script>
 
-		var boolSlickRandomize{data.uid} = {randomized};
-		
-			/* #i0059, 190912, dwildt, 6+ */
-		if(!Array.isArray(slickUids)){
-			var slickUids = new Array();
-		}
-		slickUids.push({data.uid});
+    var boolSlickRandomize{data.uid} = {randomized};
+    
+      /* #i0059, 190912, dwildt, 6+ */
+    if(!Array.isArray(slickUids)){
+      var slickUids = new Array();
+    }
+    slickUids.push({data.uid});
 
     function _initSlick{data.uid}() {
+      var dataUid = {data.uid};
       $('#slickid-{data.uid}').not('.slick-initialized').slick({
             accessibility: <f:format.raw>{data.pi_flexform.accessibility}</f:format.raw>
           , arrows: <f:format.raw>{data.pi_flexform.arrows-widescreen}</f:format.raw>
+          <f:format.raw>{sliderAsNavFor}</f:format.raw>
           , autoplay: <f:format.raw>{data.pi_flexform.autoplay}</f:format.raw>
           , autoplaySpeed: <f:format.raw>{data.pi_flexform.autoplaySpeed}</f:format.raw>
           , centerMode: <f:format.raw>{data.pi_flexform.centerMode}</f:format.raw>
@@ -95,22 +125,33 @@
             }
           ]
         });
+        /* #t4060 */
+        if(<f:format.raw>{sync-enabled}</f:format.raw>) {
+          $('#slicksync-{data.uid}').slick({
+            asNavFor: '#slickid-<f:format.raw>{data.uid}</f:format.raw>'
+            , centerMode: <f:format.raw>{centerMode-sync}</f:format.raw>
+            , dots: <f:format.raw>{dots-sync}</f:format.raw>
+            , focusOnSelect: <f:format.raw>{focusOnSelect-sync}</f:format.raw>
+            , slidesToScroll: <f:format.raw>{slidesToScroll-sync}</f:format.raw>
+            , slidesToShow: <f:format.raw>{slidesToShow-sync}</f:format.raw>
+          });        
+        }
       }
-			function initSlick{data.uid}() {
-				_initSlick{data.uid}();
-				var r;
-				$(window).resize(function() {
-						clearTimeout(r);
-						r = setTimeout(_initSlick{data.uid}, 500);
-				});
-			}
-			/* #i0059, 190912, dwildt, 6+ */
-			if((typeof obj === "undefined"))
-			{
-				var obj = {};
-			}			
-			Object.assign(obj, {initSlickDocumentReady{data.uid}: function () { initSlick{data.uid}(); } })
-			//alert(typeof obj.initSlickDocumentReady{data.uid});
-		</script>
+      function initSlick{data.uid}() {
+        _initSlick{data.uid}();
+        var r;
+        $(window).resize(function() {
+            clearTimeout(r);
+            r = setTimeout(_initSlick{data.uid}, 500);
+        });
+      }
+      /* #i0059, 190912, dwildt, 6+ */
+      if((typeof obj === "undefined"))
+      {
+        var obj = {};
+      }      
+      Object.assign(obj, {initSlickDocumentReady{data.uid}: function () { initSlick{data.uid}(); } })
+      //alert(typeof obj.initSlickDocumentReady{data.uid});
+    </script>
   </f:section>
 </div>

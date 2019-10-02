@@ -9,6 +9,7 @@
 		<tablet>EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform_sheet_tablet.xml</tablet>
 		<desktop>EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform_sheet_desktop.xml</desktop>
 		<widescreen>EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform_sheet_widescreen.xml</widescreen>
+		<sync>EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform_sheet_sync.xml</sync>
 		<rare>EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform_sheet_rare.xml</rare>
 		<help>EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform_sheet_help.xml</help>
 	</sheets>

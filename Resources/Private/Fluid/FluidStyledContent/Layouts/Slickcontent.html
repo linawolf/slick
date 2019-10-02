@@ -4,6 +4,12 @@
 	<div id="slickid-{data.uid}" class="slick-slider slick-default">
 		<f:render section="Main" optional="true" />
 	</div>
+	<f:comment>#t4060</f:comment>
+	<f:if condition="{data.pi_flexform.sync-enabled}">
+		<div id="slicksync-{data.uid}" class="slick-sync slick-default">
+			<f:render section="Main" optional="true" />
+		</div>
+	</f:if>
 	</f:spaceless>
 	<f:render partial="Javascript" section="JS-Responsive" arguments="{_all}" />	
 </html>

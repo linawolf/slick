@@ -2,6 +2,19 @@ What's new	https://bit.ly/2WqXmp6
 ChangeLog		https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+4.5.0
+  19-10-02
+	Feature
+	* #t4060: Syncing
+						New files:
+						* Configuration/FlexForms/Default/Slickcontent/flexform_sheet_sync.xml
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						Affected files:
+						* Configuration/FlexForms/Default/Slickcontent/flexform.xml
+						* Resources
+							* Private/Fluid/FluidStyledContent/Layouts/Slickcontent.html
+							* Public/CSS/default.css
+
 4.4.4
   19-10-02
 	Manual
