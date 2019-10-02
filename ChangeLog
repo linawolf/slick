@@ -1,8 +1,12 @@
 What's new	https://bit.ly/2WqXmp6
 ChangeLog		https://bit.ly/2WuaDgK
+NEWSLETTER: https://die-netzmacher.de/newsletter
 
 4.4.4
-  19-09-12	
+  19-10-02
+	Manual
+	* #i0060: Section is removed: Known bugs > Reference
+						:ref: #i0058
 	Feature
 	* #i0059: Javascript with new feature: slick slider can used as reference
 						Affected files:
@@ -13,6 +17,7 @@ ChangeLog		https://bit.ly/2WuaDgK
   19-08-27	
 	Manual
 	* #i0058: New section: Known bugs > Reference
+						:ref: #i0060
 	Bugfix
 	* #i0057: composer.json
 
