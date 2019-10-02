@@ -13,6 +13,9 @@
 
     <f:comment>#t4060</f:comment>
     <f:variable name="sync-enabled"><f:format.raw>{data.pi_flexform.sync-enabled}</f:format.raw></f:variable>
+    <f:if condition="{sync-enabled} == ''">
+      <f:variable name="sync-enabled">false</f:variable>
+    </f:if>
     <f:if condition="{sync-enabled}">
       <f:variable name="sliderAsNavFor">, asNavFor: '#slicksync-{data.uid}'</f:variable>
       <f:variable name="syncAsNavFor">, asNavFor: '#slicksync-{data.uid}'</f:variable>
