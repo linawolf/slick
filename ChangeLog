@@ -1,6 +1,14 @@
 What's new	https://bit.ly/2WqXmp6
 ChangeLog		https://bit.ly/2WuaDgK
 
+4.4.4
+  19-09-12	
+	Feature
+	* #i0059: Javascript with new feature: slick slider can used as reference
+						Affected files:
+						* Configuration/TypoScript/Default/Base/Page/jsFooterInline/slickinit.ts
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+
 4.4.3
   19-08-27	
 	Manual

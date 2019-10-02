@@ -15,124 +15,34 @@ page {
 				wrap  = alert('|');
 			}
 				// Get uid sof content elements with CTYPE: slickcontent, slickfilecollection, slickimage or slickitem. Respects the root line.
-			10 = CONTENT
+				// #i0059, 190912, dwildt, ~
+			10 = TEXT
 			10 {
-				table = tt_content
-				select {
-					 pidInList = this
-					 where = (CTYPE = 'slickcontent' OR CTYPE = 'slickfilecollection' OR CTYPE = 'slickimage' OR CTYPE = 'slickitem')
-				}
-					// slide back up to the siteroot
-				slide = -1
-					// Set this value to the amount of levels to collect on, or use -1 to collect up to the siteroot
-				slide.collect = -1
-				renderObj = COA
-				renderObj {
-						// function initSlickDocumentReadyUid() { if (typeof initSlickUid === "function") { initSlickUid();}}
-					10 = COA
-					10 {
-							// function initSlickDocumentReadyUid() {
-						10 = TEXT
-						10 {
-							field = uid
-							noTrimWrap = |function initSlickDocumentReady|() {|
-
-						}
-							// if (typeof initSlickUid === "function") {initSlickUid(#);}
-						20 = COA
-						20 {
-								// if (typeof initSlickUid === "function") {
-							10 = TEXT
-							10 {
-								field = uid
-								noTrimWrap  = | if (typeof initSlick| === "function") {|
+				value (
+					if(Array.isArray(slickUids)){
+						$(document).ready(function () {
+							for (var i = 0; i < slickUids.length; i++) {
+								var boolSlickRandomizeX = eval("boolSlickRandomize" + slickUids[i]);
+								//alert(boolSlickRandomizeX);
+								if( boolSlickRandomizeX == true ) {
+									$('#slickid-' + slickUids[i]).randomize();
+								} 
 							}
-								// initSlickUid(#);
-							20 = TEXT
-							20 {
-								field = uid
-								noTrimWrap  = | initSlick|();|
-							}
-								// }
-							30 = TEXT
-							30 {
-								value	= }
-							}
-						}
-							// }
-						30 = TEXT
-						30 {
-							value	= }
-						}
+						});
 					}
-						// $(document).ready(function () { if( boolSlickRandomizeUid == true ) {$('#slickid-Uid').randomize();} }); 
-					20 = COA
-					20 {
-							// $(document).ready(function () { 
-						10 = TEXT
-						10 {
-							value				= $(document).ready(function () {
-							noTrimWrap  = | | |
-						}
-							// if (typeof boolSlickRandomizeUid === "function") {if( boolSlickRandomizeUid == true ){$('#slickid-Uid').randomize();}}
-						20 = COA
-						20 {
-								// if (typeof boolSlickRandomizeUid === "boolean") {
-							10 = TEXT
-							10 {
-								field = uid
-								noTrimWrap  = | if (typeof boolSlickRandomize| === "boolean") {|
-							}
-								// if( boolSlickRandomizeUid == true ){$('#slickid-Uid').randomize();}
-							20 = COA
-							20 {
-									// if( boolSlickRandomizeUid == true )
-								10 = TEXT
-								10 {
-									field = uid
-									noTrimWrap  = |if( boolSlickRandomize| == true ) |
-								}
-									//  {$('#slickid-Uid').randomize();}
-								20 = TEXT
-								20 {
-									field = uid
-									noTrimWrap  = |{$('#slickid-|').randomize();} |
+					$(document).ready(function () {
+						if( (typeof obj === "object") && (obj !== null) ) {
+							var sortedKeys = Object.keys(obj).sort();
+							//alert( sortedKeys[0] );
+							if(Array.isArray(sortedKeys)){
+								for (var i = 0; i < sortedKeys.length; i++) {
+									obj[sortedKeys[i]]();
 								}
 							}
-								// }
-							30 = TEXT
-							30 {
-								value	= }
-							}
 						}
-							// });
-						30 = TEXT
-						30 {
-							value = });
-						}
-					}
-						// $(document).ready(function () { initSlickDocumentReadyUid();});
-					30 = COA
-					30 {
-							// $(document).ready(function () { 
-						10 = TEXT
-						10 {
-							value				= $(document).ready(function () {
-							noTrimWrap  = | | |
-						}
-							// initSlickDocumentReadyUid();
-						20 = TEXT
-						20 {
-							field = uid
-							noTrimWrap  = |initSlickDocumentReady|();|
-						}
-							// });
-						40 = TEXT
-						40 {
-							value = });
-						}
-					}
-				}
+					});
+					
+)
 			}
 		}
 	}

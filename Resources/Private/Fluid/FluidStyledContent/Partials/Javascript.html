@@ -14,6 +14,12 @@
     <script>
 
 		var boolSlickRandomize{data.uid} = {randomized};
+		
+			/* #i0059, 190912, dwildt, 6+ */
+		if(!Array.isArray(slickUids)){
+			var slickUids = new Array();
+		}
+		slickUids.push({data.uid});
 
     function _initSlick{data.uid}() {
       $('#slickid-{data.uid}').not('.slick-initialized').slick({
@@ -98,6 +104,13 @@
 						r = setTimeout(_initSlick{data.uid}, 500);
 				});
 			}
-    </script>
+			/* #i0059, 190912, dwildt, 6+ */
+			if((typeof obj === "undefined"))
+			{
+				var obj = {};
+			}			
+			Object.assign(obj, {initSlickDocumentReady{data.uid}: function () { initSlick{data.uid}(); } })
+			//alert(typeof obj.initSlickDocumentReady{data.uid});
+		</script>
   </f:section>
 </div>
