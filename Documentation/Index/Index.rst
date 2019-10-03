@@ -30,7 +30,8 @@ D
 E
 -
 
-* Extensions 
+Extensions
+''''''''''
 
   * :ref:`Organiser <introduction_whatdoesitdo>`
 
@@ -82,9 +83,16 @@ R
 S
 -
 
+* :ref:`Screenshots <introduction-screenshots>`
+
 * :ref:`Sorting <users_bestpractice_randomized>`
 
-* :ref:`Screenshots <introduction-screenshots>`
+Syncing
+'''''''
+
+* :ref:`Frontend <introduction-screenshots-frontendSyncing>`
+
+* :ref:`Backend <introduction_screenshots_backend_syncing>`
 
 
 X

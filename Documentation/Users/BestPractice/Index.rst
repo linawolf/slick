@@ -19,3 +19,4 @@ Best Practice
     :titlesonly:
 
     Randomized/Index
+    Syncing/Index

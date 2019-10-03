@@ -12,31 +12,26 @@
 What's new
 ==========
 
-4.4
+4.5
 
 
-Slick Slider with File Collections
-----------------------------------
-
-Display files from directories enabled by File Collections. Please refer to
-
-* :ref:`Users > Slick > File Collections <users_slick_filecollection>`
-
-
-Slick Slider with Records
+Slick Slider with Syncing
 -------------------------
 
-The extension xBlog enables you, to display records of each extension with the Slick Slider.
+You can enable and syncing by the plugin / flexform. See
 
-* :ref:`Users > Slick > Content > xBlog <users_slick_content_xblog>`
+* :ref:`Frontend <introduction-screenshots-frontendSyncing>`
+
+* :ref:`Backend <introduction_screenshots_backend_syncing>`
 
 
-**Table of Contents**
+**What was new:**
 
 .. toctree::
 	:maxdepth: 3
 	:titlesonly:
 
+	4.4/Index
 	4.3/Index
 	4.2/Index
 	4.1/Index

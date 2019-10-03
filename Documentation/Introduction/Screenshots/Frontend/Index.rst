@@ -100,4 +100,18 @@ Live
 ^^^^
 
 Live at https://die-netzmacher.de
- 
+
+
+.. _introduction-screenshots-frontendSyncing:
+
+Syncing
+-------
+
+.. figure:: typo3_slick_slider_syncing.jpg
+	:width: 600px
+	:alt: Sample Slider Syncing
+
+	Sample with Slick Slider Syncing
+
+
+Sample with Slick Slider Syncing
