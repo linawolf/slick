@@ -18,17 +18,21 @@ page {
 				// #i0059, 190912, dwildt, ~
 			10 = TEXT
 			10 {
+					// #i0061, 191031, dhaupt: +typeof
 				value (
-					if(Array.isArray(slickUids)){
-						$(document).ready(function () {
-							for (var i = 0; i < slickUids.length; i++) {
-								var boolSlickRandomizeX = eval("boolSlickRandomize" + slickUids[i]);
-								//alert(boolSlickRandomizeX);
-								if( boolSlickRandomizeX == true ) {
-									$('#slickid-' + slickUids[i]).randomize();
-								} 
-							}
-						});
+					var typeOfSlickUids = typeof slickUids;
+					if( typeOfSlickUids != 'undefined' ) {
+						if(Array.isArray(slickUids)){
+							$(document).ready(function () {
+								for (var i = 0; i < slickUids.length; i++) {
+									var boolSlickRandomizeX = eval("boolSlickRandomize" + slickUids[i]);
+									//alert(boolSlickRandomizeX);
+									if( boolSlickRandomizeX == true ) {
+										$('#slickid-' + slickUids[i]).randomize();
+									} 
+								}
+							});
+						}
 					}
 					$(document).ready(function () {
 						if( (typeof obj === "object") && (obj !== null) ) {

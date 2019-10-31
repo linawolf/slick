@@ -2,6 +2,15 @@ WHAT'S NEW:	https://bit.ly/2WqXmp6
 ChangeLog		https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+4.5.1
+  19-10-31
+	Bugfix
+	* #i0061: Uncaught ReferenceError: slickUids is not defined
+						Thanks do Daniel Haupt for error message, https://forge.typo3.org/users/43947
+						Affected file:
+						* Configuration/TypoScript/Default/Base/Page/jsFooterInline/slickinit.ts
+						:ref: https://forge.typo3.org/issues/89539
+
 4.5.0
   19-10-02
 	Feature
