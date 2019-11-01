@@ -9,11 +9,7 @@ if ( !defined( 'TYPO3_MODE' ) )
  * Set TYPO3 version
  * **************************************************************************** */
 
-// #t1597, 171007, ~
-list( $main, $sub, $bugfix ) = explode( '.', TYPO3_version );
-$typo3Version = ( ( int ) $main ) * 1000000;
-$typo3Version = $typo3Version + ( ( int ) $sub ) * 1000;
-$typo3Version = $typo3Version + ( ( int ) $bugfix ) * 1;
+$typo3Version = Netzmacher\Slick\Utility\Typo3VersionUtility::get();
 
 switch( TRUE )
 {

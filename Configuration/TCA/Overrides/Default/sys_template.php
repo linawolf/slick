@@ -5,7 +5,7 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 ExtensionManagementUtility::addStaticFile(
 				'slick'
 				, 'Configuration/TypoScript/Default/'
-				, 'Slick [01.1.1] (based on fluid_css_templates)'
+				, 'Slick [01.1.1] (based on fluid_css_templates) 9.5'
 );
 ExtensionManagementUtility::addStaticFile(
 				'slick'

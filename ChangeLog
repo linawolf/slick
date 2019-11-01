@@ -2,11 +2,49 @@ WHAT'S NEW:	https://bit.ly/2WqXmp6
 ChangeLog		https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+4.5.2
+  19-10-31
+	Bugfixes
+  * #i0064: Pagetree Icon
+						Removed file:
+						* Configuration/ExtLocalconf/Default/index.php
+						New files:
+						* Classes
+							* TCA/Ctrl/Icons.php
+							* Utility/Typo3VersionUtility.php
+						* Configuration/TCA/Overrides/Default/pages.php
+						Affetced file:
+						* ext_localconf.php
+  * #i0063: FalViewHelper is moved
+						from: Netzmacher\Slick\ViewHelpers
+						to:   Netzmacher\Slick\ViewHelpers\v87
+						Affected files:
+						* Resources/Private/Fluid/8.7/Slick
+							* Layouts/Default.html
+							* Templates/Slickitem.html
+	* #i0062: Update for TYPO3 9.5
+						Bug: Undeclared arguments passed to ViewHelper Netzmacher\Slick\ViewHelpers\FalViewHelper: data, as.
+						Thanks to  Georg Demcisin for bug report @ https://forge.typo3.org/issues/89341?issue_count=1&issue_position=1
+						Fix: Netzmacher\Slick\ViewHelpers\FalViewHelper is replaced by API code. See
+						* slickitem.ts (below)
+						Affected files:
+						* Configuration/TypoScript/Default/SlickItem/tt_content/slickitem.ts
+						* Resources/Private/Fluid
+							* Slick/* -> Resources/Private/Fluid/8.7/Slick/*
+							* Default/Slick
+								* Layouts/Default.html
+								* Templates/Slickitem.html
+						New files:
+						* Configuration
+							* TCA/Overrides/8.7/*
+							* TypoScript/8.7/*
+						* Resources/Private/Fluid/Default/Slick/*
+
 4.5.1
   19-10-31
 	Bugfix
 	* #i0061: Uncaught ReferenceError: slickUids is not defined
-						Thanks do Daniel Haupt for error message, https://forge.typo3.org/users/43947
+						Thanks do Daniel Haupt for bug report
 						Affected file:
 						* Configuration/TypoScript/Default/Base/Page/jsFooterInline/slickinit.ts
 						:ref: https://forge.typo3.org/issues/89539
