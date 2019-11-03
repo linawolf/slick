@@ -34,7 +34,7 @@ if( !defined( 'TYPO3_MODE' ) )
  *
  * @author  Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @package TYPO3
- * @subpackage  xBlog
+ * @subpackage  Slick
  * @version     4.5.2
  * @since       4.5.2
  */

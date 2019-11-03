@@ -2,6 +2,13 @@ WHAT IS NEW:	https://bit.ly/2WqXmp6
 ChangeLog		https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+4.5.3
+  19-11-03
+	Bugfixes
+  * #i0065: Wrong php class used
+						Affected file:
+						* Classes/TCA/Ctrl/Icons.php
+
 4.5.2
   19-10-31
 	Bugfixes

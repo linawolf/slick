@@ -2,7 +2,7 @@
 
 namespace Netzmacher\Slick\TCA\Ctrl;
 
-use Netzmacher\Xblog\Utility\Typo3VersionUtility;
+use Netzmacher\Slick\Utility\Typo3VersionUtility;
 
 if( !defined( 'TYPO3_MODE' ) )
 {
