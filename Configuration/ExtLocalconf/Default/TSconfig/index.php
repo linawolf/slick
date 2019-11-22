@@ -5,7 +5,7 @@ if( !defined( 'TYPO3_MODE' ) )
 	die( 'Access denied.' );
 }
 
-$pathToTsConfig = 'FILE:EXT:slick/Configuration/ExtTables/Default/TSconfig/';
+$pathToTsConfig = 'FILE:EXT:slick/Configuration/ExtLocalconf/Default/TSconfig/';
 
 /* * ****************************************************************************
  * mod.wizards.newContentElement.wizardItems

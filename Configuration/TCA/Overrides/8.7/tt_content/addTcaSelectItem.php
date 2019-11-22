@@ -12,7 +12,7 @@
 				, [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.header'
 		, 'slickcontent'
-		, 'app-slick'
+		, 'contains-slick-default'
 				]
 );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
@@ -21,7 +21,7 @@
 				, [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.filecollection.header'
 		, 'slickfilecollection'
-		, 'app-slick'
+		, 'contains-slick-default'
 				]
 );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
@@ -30,14 +30,14 @@
 				, [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.header'
 		, 'slickimage'
-		, 'app-slick'
+		, 'contains-slick-default'
 				]
 );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
 				'tt_content', 'CType', [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.item.header'
 		, 'slickitem'
-		, 'app-slick'
+		, 'contains-slick-default'
 				]
 );
 
@@ -48,41 +48,41 @@
 				'tt_content', 'CType', [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.1.header'
 		, 'slickcarousel'
-		, 'app-slick-deprecated'
+		, 'contains-slick-grey'
 				]
 );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
 				'tt_content', 'CType', [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.2.header'
 		, 'slickcarousel2'
-		, 'app-slick-deprecated'
+		, 'contains-slick-grey'
 				]
 );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
 				'tt_content', 'CType', [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.3.header'
 		, 'slickcarousel3'
-		, 'app-slick-deprecated'
+		, 'contains-slick-grey'
 				]
 );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
 				'tt_content', 'CType', [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.1.header'
 		, 'slickgallery'
-		, 'app-slick-deprecated'
+		, 'contains-slick-grey'
 				]
 );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
 				'tt_content', 'CType', [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.2.header'
 		, 'slickgallery2'
-		, 'app-slick-deprecated'
+		, 'contains-slick-grey'
 				]
 );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
 				'tt_content', 'CType', [
 		'LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.3.header'
 		, 'slickgallery3'
-		, 'app-slick-deprecated'
+		, 'contains-slick-grey'
 				]
 );

@@ -5,7 +5,6 @@ if ( !defined( 'TYPO3_MODE' ) )
   die( 'Access denied.' );
 }
 
-use TYPO3\CMS\Backend\Sprite\SpriteManager;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 
@@ -50,13 +49,32 @@ ExtensionManagementUtility::addPlugin(
         ), 'CType'
 );
 
+
 /**
  * Page tree icons
  */
-$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Slick', 'slick', ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
-SpriteManager::addTcaTypeIcon( 'pages', 'contains-slick', '../typo3conf/ext/slick/ext_icon.gif' );
+
+$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance( \TYPO3\CMS\Core\Imaging\IconRegistry::class );
+
+$extIcon = array(
+		'identifier' => 'contains-slick-default'
+		, 'key' => 'slick' // <- Key must be the part behind contain- of the identifier!
+		, 'label' => 'Slick'
+		, 'source' => 'EXT:slick/ext_icon.svg'
+);
+$iconRegistry->registerIcon(
+				$extIcon[ 'identifier' ]
+				, \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
+				, [ 'source' => $extIcon[ 'source' ] ]
+);
+$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array(
+		$extIcon[ 'label' ]
+		, $extIcon[ 'key' ]
+		, $extIcon[ 'identifier' ]
+);
+$TCA[ 'pages' ][ 'ctrl' ][ 'typeicon_classes' ][ $extIcon[ 'identifier' ] ] = $extIcon[ 'identifier' ];
 
 /**
  * Page TSConfig
  */
-require( PATH_typo3conf . 'ext/slick/Configuration/ExtTables/6.2/TSconfig/index.php' );
+require( PATH_typo3conf . 'ext/slick/Configuration/ExtLocalconf/7.6/TSconfig/index.php' );

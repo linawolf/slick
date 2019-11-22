@@ -15,4 +15,4 @@ if( !defined( 'TYPO3_MODE' ) )
 /**
  * Page TSConfig
  */
-require( PATH_typo3conf . 'ext/slick/Configuration/ExtTables/Default/TSconfig/index.php' );
+require( PATH_typo3conf . 'ext/slick/Configuration/ExtLocalconf/Default/TSconfig/index.php' );

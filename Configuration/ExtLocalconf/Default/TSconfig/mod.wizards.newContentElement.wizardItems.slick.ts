@@ -2,7 +2,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 	header = Slick
 	elements {
 		content {
-			iconIdentifier = app-slick
+			iconIdentifier = contains-slick-default
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.description
 			tt_content_defValues {
@@ -13,7 +13,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		filecollection {
-			iconIdentifier = app-slick
+			iconIdentifier = contains-slick-default
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.filecollection.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.filecollection.description
 			tt_content_defValues {
@@ -24,7 +24,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		image {
-			iconIdentifier = app-slick
+			iconIdentifier = contains-slick-default
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.description
 			tt_content_defValues {
@@ -35,7 +35,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		item {
-			iconIdentifier = app-slick
+			iconIdentifier = contains-slick-default
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.item.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.item.description
 			tt_content_defValues {
@@ -46,7 +46,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		carousel1 {
-			iconIdentifier = app-slick-deprecated
+			iconIdentifier = contains-slick-grey
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.1.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.1.description
 			tt_content_defValues {
@@ -57,7 +57,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		carousel2 {
-			iconIdentifier = app-slick-deprecated
+			iconIdentifier = contains-slick-grey
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.2.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.2.description
 			tt_content_defValues {
@@ -68,7 +68,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		carousel3 {
-			iconIdentifier = app-slick-deprecated
+			iconIdentifier = contains-slick-grey
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.3.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.carousel.3.description
 			tt_content_defValues {
@@ -79,7 +79,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		gallery1 {
-			iconIdentifier = app-slick-deprecated
+			iconIdentifier = contains-slick-grey
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.1.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.1.description
 			tt_content_defValues {
@@ -90,7 +90,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		gallery2 {
-			iconIdentifier = app-slick-deprecated
+			iconIdentifier = contains-slick-grey
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.2.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.2.description
 			tt_content_defValues {
@@ -101,7 +101,7 @@ mod.wizards.newContentElement.wizardItems.slick {
 			}
 		}
 		gallery3 {
-			iconIdentifier = app-slick-deprecated
+			iconIdentifier = contains-slick-grey
 			title = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.3.header
 			description = LLL:EXT:slick/Resources/Private/Language/Backend.xlf:wizardItems.gallery.3.description
 			tt_content_defValues {
