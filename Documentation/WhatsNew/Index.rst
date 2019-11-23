@@ -39,7 +39,7 @@ New features:
 
 * Croping of an image will respected.
 
-* Height of content area is configureable by the flexform / plugin.
+* Height of content area is configurable by the flexform / plugin.
 
 * One of four layouts can selected by the flexform / plugin.
 
