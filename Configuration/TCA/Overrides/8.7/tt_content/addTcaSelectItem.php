@@ -42,7 +42,7 @@
 );
 
 /**
- * DEPRECTAED
+ * DEPRECATED
  */
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
 				'tt_content', 'CType', [

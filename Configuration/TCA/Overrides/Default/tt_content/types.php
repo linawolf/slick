@@ -153,17 +153,3 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickitem' ][ 'showitem' ] = ''
 				. '	 image,'
 				. '  imageheight;LLL:EXT:slick/Resources/Private/Language/Backend.xlf:tca.tt_content.contentheight,'
 ;
-
-/**
- * DEPRECATED
- */
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickcarousel' ][ 'showitem' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'shortcut' ][ 'showitem' ];
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickcarousel2' ][ 'showitem' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'shortcut' ][ 'showitem' ];
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickcarousel3' ][ 'showitem' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'shortcut' ][ 'showitem' ];
-
-// #i0022
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickgallery' ][ 'showitem' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'image' ][ 'showitem' ];
-// #i0018, 17-03-02, dwildt, 2+
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickgallery2' ][ 'showitem' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'image' ][ 'showitem' ];
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickgallery3' ][ 'showitem' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'image' ][ 'showitem' ];
-

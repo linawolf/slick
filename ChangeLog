@@ -22,16 +22,37 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 							* Default/Slick/Templates/Slickcontentelement.html
 						:ref: #i0068
   Improvement
+	* #i0071: TYPO3 9.5: deprecated slick elemeents are removed 
+						Affected files:
+						* Configuration
+							* ExtLocalconf/Default/TSconfig/mod.wizards.newContentElement.wizardItems.slick.ts
+							* TCA/Overrides/Default/tt_content
+								* addTcaSelectItem.php
+								* tt_content/types.php
+							* TypoScript/Default/Base/Page
+								* cssInline.ts
+								* jsFooterInline/slickcarousel.ts
+						Removed files:
+						* Configuration/TypoScript/Default
+							* Base/Page/jsFooterInline
+								* slickcarousel.ts
+								* slickgallery.ts	
+							* Deprecated/*
 	* #i0069: Slickitem is moved to Slickcontentelement
 						Affected files:
 						* Configuration/TypoScript
 							* 7.6/SlickItem/tt_content/slickitem.ts
 							* 8.7/SlickItem/tt_content/slickitem.ts
-							* Default/SlickItem/tt_content/slickitem.ts
+							* Default
+								* Base/Page/includeJSFooter.ts
+								* SlickItem/tt_content/slickitem.ts
 						* Resources
 							* Private/Fluid
 								* 8.7/Slick/Templates/Slickcontentelement.html
 								* Default/Slick/Templates/Slickcontentelement.html
+						Moved files:
+						* Configuration/TypoScript/Default
+							* SlickItem -> Slickcontentelement
 
 	* #i0068: Slick Slider Item: update HTML and CSS
 						=========
