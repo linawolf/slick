@@ -70,7 +70,7 @@ Same as Layout 1 but
 
 	* width is set to auto
 
-	* alignment is reight
+	* alignment is right
 
 	* has a transparent white background
 
@@ -99,3 +99,12 @@ Controlling
 * Height of the content box is controlled by the Flexform / Plugin > field: height
 
 * Layout is controlled by the Flexform / Plugin > field: layout
+
+
+CSS
+---
+
+If you like to adapt the CSS for a layout, please refer to the basic CSS file at
+
+* `Resources/Public/CSS/default.css <https://gitlab.die-netzmacher.de/typo3/slick/blob/master/Resources/Public/CSS/default.css>`_
+ 
