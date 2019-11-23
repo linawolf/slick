@@ -4,7 +4,13 @@
 	margin-right:0;
 }
 
+.slick-slider {
+	/* Must correspond with .slick-slider padding */
+	margin:0 -0.2rem;
+}
+
 .slick-slide {
+	/* Must correspond with .slick-slide margin */
 	padding:0 0.2rem;
 }
 
