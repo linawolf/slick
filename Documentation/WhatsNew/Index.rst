@@ -12,17 +12,28 @@
 What's new
 ==========
 
-4.5
+4.6
 
 
-Slick Slider with Syncing
--------------------------
+YOU MUST ...
+------------
 
-You can enable and syncing by the plugin / flexform. See
+If you are using the Slick Content Element with an adapted CSS,
+**you must update your CSS**.
 
-* :ref:`Frontend <introduction-screenshots-frontendSyncing>`
+Cause:
 
-* :ref:`Backend <introduction_screenshots_backend_syncing>`
+* HTML of the Slick Content Element got an update.
+
+
+Slick Content Element
+---------------------
+
+New features:
+
+* Croping of an image will respected.
+
+* Height of content area is configureable by the flexfrom / plugin.
 
 
 **What was new:**
@@ -31,6 +42,7 @@ You can enable and syncing by the plugin / flexform. See
 	:maxdepth: 3
 	:titlesonly:
 
+	4.5/Index
 	4.4/Index
 	4.3/Index
 	4.2/Index

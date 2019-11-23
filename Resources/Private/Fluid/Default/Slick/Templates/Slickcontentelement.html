@@ -1,0 +1,35 @@
+<f:layout name="Default" />
+<f:debug>{data}</f:debug>
+<f:debug>{data.imageheight}</f:debug>
+<f:section name="Main">
+	<f:format.raw>
+		<f:if condition="{0:data.section_frame} == {0:'62474'}">
+			<f:then>
+				<div class="outerwrap">
+					<f:render partial="Image" arguments="{_all}" />
+				</div>
+			</f:then>
+			<f:else>
+				<f:comment>#i0026, 171217, dwildt, ~</f:comment>
+				<div class="slickcontentelement outerwrap">
+					<f:render partial="Image" arguments="{_all}" />
+					<div class="contentwrap" style="height:{data.imageheight}px;">
+						<div class="slick-header">
+							<f:if condition="{data.header_link}">
+								<f:then>
+									<f:link.page pageUid="{data.header_link}">{data.header}</f:link.page>
+								</f:then>
+								<f:else>
+									{data.header}
+								</f:else>
+							</f:if>
+						</div>
+						<div class="slick-text">
+							<f:format.html>{data.bodytext}</f:format.html>
+						</div>
+					</div>
+				</div>
+			</f:else>
+		</f:if>
+	</f:format.raw>
+</f:section>

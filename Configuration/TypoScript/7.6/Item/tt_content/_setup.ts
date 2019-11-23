@@ -1,2 +1,2 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:slick/Configuration/TypoScript/7.6/Item/tt_content/stdWrap.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:slick/Configuration/TypoScript/7.6/Item/tt_content/slickitem.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:slick/Configuration/TypoScript/7.6/Item/tt_content/slickcontentelement.ts">

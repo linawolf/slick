@@ -17,7 +17,7 @@ You can slide every element of a one or several pages two.
 
 If you like to slide images only, the :ref:`Slick Slider with Images <users_slick_images>` is recommended.
 
-The :ref:`Slick Slider Content Element <users_slick_item>` is a content element optimised for sliding.
+The :ref:`Slick Content Element <users_slickcontentelement>` is a content element optimised for sliding.
 
 
 Recommended

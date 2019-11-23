@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="messages" date="2017-10-12T19:11:39Z" product-name="slick">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2019-11-23T19:11:39Z" product-name="slick">
     <header/>
     <body>
 
+      <trans-unit id="tca.tt_content.contentheight">
+        <source>Height of content</source>
+        <target>Höhe des Inhalts</target>
+      </trans-unit>
       <trans-unit id="tca.tt_content.div.items">
         <source>Slick Items</source>
         <target>Slick Elemente</target>
       </trans-unit>
+			
       <trans-unit id="tca.tt_content.div.slider">
         <source><![CDATA[Slick Slider]]></source>
         <target><![CDATA[Slick Slider]]></target>
       </trans-unit>
+
+			<trans-unit id="tca.tt_content.palette.css">
+        <source>Additional CSS</source>
+        <target>Zusätzliches CSS</target>
+      </trans-unit>
+			
       <trans-unit id="tca.tt_content.pi_flexform">
         <source><![CDATA[Slick Slider]]></source>
         <target><![CDATA[Slick Slider]]></target>
@@ -98,8 +109,8 @@
       </trans-unit>
 
 			<trans-unit id="wizardItems.item.header">
-        <source><![CDATA[Slick Slider Content Element]]></source>
-        <target><![CDATA[Slick Slider Inhaltselement]]></target>
+        <source><![CDATA[Slick Content Element]]></source>
+        <target><![CDATA[Slick Inhaltselement]]></target>
       </trans-unit>
       <trans-unit id="wizardItems.item.description">
         <source><![CDATA[Content Element containing a header, prompt and image. Optimised for the Slick Slider. This corresponding category is in the Constant Editor [Slick Item].]]></source>

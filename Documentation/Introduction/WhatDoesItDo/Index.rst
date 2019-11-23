@@ -57,7 +57,7 @@ TYPO3 Slick provides the four content elements
 
 - Slick Slider with Images
 
-- Slick Slider Content Element
+- Slick Content Element
 
 - Slides can ordered randomized
 

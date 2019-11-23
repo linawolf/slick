@@ -1,0 +1,14 @@
+<f:for each="{images}" as="image">
+	<figure>
+		<f:if condition="{image.link}">
+			<f:then>
+				<f:link.page pageUid="{image.link}">
+					<f:image image="{image}" />
+				</f:link.page>
+			</f:then>
+			<f:else>
+				<f:image image="{image}" />
+			</f:else>
+		</f:if>
+	</figure>
+</f:for>

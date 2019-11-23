@@ -1,7 +1,7 @@
 tt_content {
 	slickitem = FLUIDTEMPLATE
 	slickitem {
-		templateName = Slickitem
+		templateName = Slickcontentelement
 		templateRootPaths {
 			10 = {$plugin.slick.item.templates.10.templateRootPath}
 			20 = {$plugin.slick.item.templates.20.templateRootPath}

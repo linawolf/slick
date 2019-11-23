@@ -18,5 +18,6 @@ Users
     :maxdepth: 2
     :titlesonly:
 
-    Slick/Index
+    Slider/Index
+    Slickcontentelement/Index
     BestPractice/Index

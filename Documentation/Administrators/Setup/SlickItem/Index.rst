@@ -9,7 +9,7 @@
 .. _administrators_setup_slickitem:
 
 
-Slick Slider Content Element
+Slick Content Element
 ============================
 
 You are controlling some properties with the TYPO3-User-Interface Constant Editor.
@@ -18,4 +18,4 @@ See categories:
 
 * SLICK - ITEM ...
 
-Usually you don't need to configure the Slick Slider Content Element.
+Usually you don't need to configure the Slick Content Element.

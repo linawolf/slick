@@ -22,4 +22,3 @@ Slick Slider
     Slickcontent/Index
     Slickfilecollection/Index
     Slickimages/Index
-    Slickitem/Index

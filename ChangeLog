@@ -2,8 +2,49 @@ WHAT IS NEW:	https://bit.ly/2WqXmp6
 ChangeLog:	https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
-4.5.4
+4.6.0
   19-11-22
+	Feature
+  * #i0070: Slick Content Element (former: slick item): height of content configureable by the flexform/plugin
+						Affcted files:
+						* Configuration/TCA/Overrides/Default/tt_content/types.php
+						* Resources
+							* Private
+								* Fluid
+									* 8.7/Slick/Templates/Slickcontentelement.html
+									* Default/Slick/Templates/Slickcontentelement.html
+								* Language/Backend.xlf 
+							* Public/CSS/default.css
+  * #i0067: Slick Content Element (former: slick item): crop of image is respected.
+						Affected files:
+						* Resources/Private/Fluid
+							* 8.7/Slick/Templates/Slickcontentelement.html
+							* Default/Slick/Templates/Slickcontentelement.html
+						:ref: #i0068
+  Improvement
+	* #i0069: Slickitem is moved to Slickcontentelement
+						Affected files:
+						* Configuration/TypoScript
+							* 7.6/SlickItem/tt_content/slickitem.ts
+							* 8.7/SlickItem/tt_content/slickitem.ts
+							* Default/SlickItem/tt_content/slickitem.ts
+						* Resources
+							* Private/Fluid
+								* 8.7/Slick/Templates/Slickcontentelement.html
+								* Default/Slick/Templates/Slickcontentelement.html
+
+	* #i0068: Slick Slider Item: update HTML and CSS
+						=========
+						ATTENTION
+						=========
+						You must adapt your individual CSS!
+						Affected files:
+						* Resources
+							* Private/Fluid
+								* 8.7/Slick/Templates/Slickitem.html
+								* Default/Slick/Templates/Slickitem.html
+							* Public/CSS/default.css
+						:ref: #i0067
 	Bugfix
   * #i0066: Broken backend iconsmin TYPO3 9.5
 						Affected file:
