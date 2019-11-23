@@ -3,7 +3,6 @@ plugin.slick {
 		files {
 				# cat=Slick - CSS -  FILES//100; type=string; label=default:default CSS file
 			default		= EXT:slick/Resources/Public/CSS/default.min.css
-			default		= EXT:slick/Resources/Public/CSS/default.css
 				# cat=Slick - CSS -  FILES//101; type=string; label=CSS base:slick library CSS file
 			library   = EXT:slick/Resources/Public/JavaScript/slick-1.9.0/slick/slick.min.css
 				# cat=Slick - CSS -  FILES//102; type=string; label=CSS default theme:slick default theme CSS file

@@ -29,7 +29,27 @@ You can slide it with the :ref:`Slick Slider with Content Element <users_slick_c
 Properties
 ----------
 
-Properties are controlled by the Constant Editor. You need administration access.
+Properties are controlled
+
+* by the flexform / plugin and
+
+* by the Constant Editor. You need administration access.
+
+
+Flexform / Plugin
+'''''''''''''''''
+
+You are controlling
+
+* the height of the content box
+
+* one of four layouts (see below)
+
+
+Constant Editor
+'''''''''''''''
+
+You can wrap the heder with an HTML tag like h1, h2, ..., p, span. See
 
 * :ref:`Administrators > Setup > Slick Content Element <administrators_setup_slickitem>`
 
@@ -40,11 +60,10 @@ TYPO3 6.2/7.6
 "Slick Content Element" was called "Slick Item".
 
 
-Screenshots
------------
+**Table of Contents**
 
-Please refer to 
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
 
-* :ref:`Screenshots > Frontend <introduction-screenshots-frontend>`
-
-* :ref:`Screenshots > Backend <introduction_screenshots_backend>`
+    Layouts/Index

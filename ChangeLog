@@ -5,7 +5,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 4.6.0
   19-11-22
 	Feature
-  * #i0070: Slick Content Element (former: slick item): height of content configureable by the flexform/plugin
+  * #i0070: Slick Content Element (former: slick item)
+						* height of content configureable by the flexform/plugin
+						* for diferent layouts controlled by the field layout of the flexform/plugin
 						Affcted files:
 						* Configuration/TCA/Overrides/Default/tt_content/types.php
 						* Resources
