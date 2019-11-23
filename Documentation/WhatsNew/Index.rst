@@ -39,7 +39,11 @@ New features:
 
 * Croping of an image will respected.
 
-* Height of content area is configureable by the flexfrom / plugin.
+* Height of content area is configureable by the flexform / plugin.
+
+* One of four layouts can selected by the flexform / plugin.
+
+See @ :ref:`Users > Slick Content Element > Layouts <users_slickcontentelement_layouts>`
 
 
 **What was new:**

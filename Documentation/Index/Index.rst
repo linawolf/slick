@@ -18,7 +18,11 @@ Alphabetical Index
 C
 -
 
-* :ref:`Content Elements <users_slick_content>`
+* Content
+
+  * :ref:`Slider for Content Elements <users_slick_content>`
+
+  * :ref:`Slick Content Element <users_slickcontentelement>`
 
 
 D
@@ -60,6 +64,14 @@ I
 * :ref:`Images <users_slick_images>`
 
 
+L
+-
+
+* Layouts
+
+  * :ref:`Slick Content Element <users_slickcontentelement_layouts>`
+
+
 O
 -
 
@@ -85,7 +97,14 @@ S
 
 * :ref:`Screenshots <introduction-screenshots>`
 
+* Slick
+
+  * :ref:`Content Element <users_slickcontentelement>`
+
+  * :ref:`Slider for Content Elements <users_slick_content>`
+
 * :ref:`Sorting <users_bestpractice_randomized>`
+
 
 Syncing
 '''''''

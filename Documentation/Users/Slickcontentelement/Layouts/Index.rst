@@ -44,13 +44,13 @@ Layout 1
 
 Properties:
 
-* Content box 
+Same as Layout 1 but
 
-	* is placed on the bottom
+* Content box
 
-	* has full width
+	* width is set to auto
 
-	* has a transparent white background
+	* alignment is left
 
 
 Layout 2
@@ -64,11 +64,13 @@ Layout 2
 
 Properties:
 
-* Content box 
+Same as Layout 1 but
 
-	* is placed on the bottom
+* Content box
 
-	* has full width
+	* width is set to auto
+
+	* alignment is reight
 
 	* has a transparent white background
 
@@ -88,6 +90,12 @@ Properties:
 
 	* is placed on the bottom
 
-	* has full width
+	* header and text has a shadow
 
-	* has a transparent white background
+
+Controlling
+-----------
+
+* Height of the content box is controlled by the Flexform / Plugin > field: height
+
+* Layout is controlled by the Flexform / Plugin > field: layout
