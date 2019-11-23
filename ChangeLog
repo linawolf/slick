@@ -26,9 +26,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						Affected files:
 						* Configuration
 							* ExtLocalconf/Default/TSconfig/mod.wizards.newContentElement.wizardItems.slick.ts
-							* TCA/Overrides/Default/tt_content
-								* addTcaSelectItem.php
-								* tt_content/types.php
+							* TCA/Overrides/Default
+								* sys_template.php
+								* tt_content
+									* addTcaSelectItem.php
+									* tt_content/types.php
 							* TypoScript/Default/Base/Page
 								* cssInline.ts
 								* jsFooterInline/slickcarousel.ts

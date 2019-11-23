@@ -17,9 +17,4 @@ ExtensionManagementUtility::addStaticFile(
 				, 'Configuration/TypoScript/Dev/'
 				, 'Slick [99.1.1] +Dev: static JavaScript'
 );
-ExtensionManagementUtility::addStaticFile(
-				'slick'
-				, 'Configuration/TypoScript/7.6/'
-				, 'Slick [XX] - DEPRECATED (based on css_styled_contents)'
-);
 

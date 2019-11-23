@@ -26,6 +26,12 @@ Cause:
 * HTML of the Slick Content Element got an update.
 
 
+Deprecated items
+----------------
+
+Deprecated slick items are removed from TYPO3 9.5.
+
+
 Slick Content Element
 ---------------------
 
