@@ -71,6 +71,7 @@ Slick Slider for TYPO3
 	Users/Index
 	Administrators/Index
 	Developers/Index
+	Upgrade/Index
 	KnownBugs/Index
 	WhatsNew/Index
 	Help/Index
