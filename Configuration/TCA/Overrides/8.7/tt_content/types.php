@@ -154,6 +154,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickitem' ][ 'showitem' ] = ''
 				. '--div--;LLL:EXT:' . $cmsLL . ':tabs.images,'
 				. '	 --palette--;LLL:EXT:' . $cmsLL . ':palette.image_settings;slickgallery,'
 				. '	 image,'
+				. '  imageheight;LLL:EXT:slick/Resources/Private/Language/Backend.xlf:tca.tt_content.contentheight,'
 ;
 
 /**
