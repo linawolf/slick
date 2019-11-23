@@ -3,7 +3,7 @@
 /**
  * slickcontent
  */
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickcontent' ] = 'contains-slick-default';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickcontent' ] = 'contains-slickdefault';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickcontent' ][ 'showitem' ] = ''
 				. '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,'
 				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,'
@@ -38,7 +38,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds
 /**
  * slickfilecollection
  */
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickfilecollection' ] = 'contains-slick-default';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickfilecollection' ] = 'contains-slickdefault';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickfilecollection' ][ 'showitem' ] = ''
 				. '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,'
 				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,'
@@ -70,7 +70,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickfilecollection' ][ 'showitem
 /**
  * slickimage
  */
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickimage' ] = 'contains-slick-default';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickimage' ] = 'contains-slickdefault';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickimage' ][ 'showitem' ] = ''
 				. '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,'
 				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,'

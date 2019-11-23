@@ -1,12 +1,12 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 	<f:spaceless>
 	<f:comment>#i0027, 171217, dwildt, ~</f:comment>
-	<div id="slickid-{data.uid}" class="slick-slider slick-default">
+	<div id="slickid-{data.uid}" class="slick-slider slickdefault">
 		<f:render section="Main" optional="true" />
 	</div>
 	<f:comment>#t4060</f:comment>
 	<f:if condition="{data.pi_flexform.sync-enabled}">
-		<div id="slicksync-{data.uid}" class="slick-sync slick-default">
+		<div id="slicksync-{data.uid}" class="slick-sync slickdefault">
 			<f:render section="Main" optional="true" />
 		</div>
 	</f:if>

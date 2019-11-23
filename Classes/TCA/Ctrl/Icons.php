@@ -43,21 +43,21 @@ class Icons
 {
 
 	private static $icons = [
-			'slick-default' => [
-					'identifier' => 'contains-slick-default'
-					, 'key' => 'slick-default' // <- Key must be the part behind contain- of the identifier!
+			'slickdefault' => [
+					'identifier' => 'contains-slickdefault'
+					, 'key' => 'slickdefault' // <- Key must be the part behind contain- of the identifier!
 					, 'label' => 'Slick'
 					, 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-default'  // <- without ext
 			],
-			'slick-blue' => [
-					'identifier' => 'contains-slick-blue'
-					, 'key' => 'slick-blue' // <- Key must be the part behind contain- of the identifier!
+			'slickblue' => [
+					'identifier' => 'contains-slickblue'
+					, 'key' => 'slickblue' // <- Key must be the part behind contain- of the identifier!
 					, 'label' => 'Slick blue'
 					, 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-blue'  // <- without ext
 			],
-			'slick-grey' => [
-					'identifier' => 'contains-slick-grey'
-					, 'key' => 'slick-grey' // <- Key must be the part behind contain- of the identifier!
+			'slickgrey' => [
+					'identifier' => 'contains-slickgrey'
+					, 'key' => 'slickgrey' // <- Key must be the part behind contain- of the identifier!
 					, 'label' => 'Slick grey'
 					, 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-grey'  // <- without ext
 			],
@@ -139,9 +139,9 @@ class Icons
 //		$ext = SELF::_Ext();
 //
 //		return array(
-//				'ext-slick-default' => SELF::$pathDefault . '.' . $ext
-//				, 'ext-slick-blue' => SELF::$pathBlue . '.' . $ext
-//				, 'ext-slick-grey' => SELF::$pathGrey . '.' . $ext
+//				'ext-slickdefault' => SELF::$pathDefault . '.' . $ext
+//				, 'ext-slickblue' => SELF::$pathBlue . '.' . $ext
+//				, 'ext-slickgrey' => SELF::$pathGrey . '.' . $ext
 //		);
 //	}
 }
