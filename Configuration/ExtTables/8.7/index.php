@@ -33,7 +33,7 @@ ExtensionManagementUtility::addPlugin(
 );
 ExtensionManagementUtility::addPlugin(
         array(
-  'Slick: Carousel Item',
+  'Slick Content Element',
   'slickitem'
         ), 'CType'
 );

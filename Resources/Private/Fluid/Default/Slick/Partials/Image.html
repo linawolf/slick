@@ -1,10 +1,10 @@
-<f:for each="{images}" as="image">
+<f:for each="{all.images}" as="image">
 	<figure>
 		<f:if condition="{image.link}">
 			<f:then>
-				<f:link.page pageUid="{image.link}">
+				<f:link.typolink parameter="{image.link}">
 					<f:image image="{image}" />
-				</f:link.page>
+				</f:link.typolink>
 			</f:then>
 			<f:else>
 				<f:image image="{image}" />

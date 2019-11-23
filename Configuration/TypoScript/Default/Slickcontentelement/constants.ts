@@ -18,8 +18,8 @@ plugin.slick {
 				layoutRootPath = 
 			}
 			settings {
-					# cat=Slick - Content Element - Templates - Settings/150/201; type=string; label=headerTag:
-				headerTag = h1
+					# cat=Slick - Content Element - Templates - Settings/150/201; type=options[div,h1,h2,h3,h4,h5,h6,p,span,];  label= Header tag:HTML tag. I.e: h2. If you leave it empty, there won't be any wrap.
+				headerTag =
 			}
     }
   }

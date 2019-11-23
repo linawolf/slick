@@ -26,7 +26,7 @@ plugin.slick {
 				layoutRootPath = 
 			}
 			settings {
-					# cat=Slick - Slider - Templates//999; type=string; label=headerTag:
+					# cat=Slick - Slider - Templates//999; type=string; type=options[div,h1,h2,h3,h4,h5,h6,p,span,];  label= Header tag:HTML tag. I.e: h2. If you leave it empty, there won't be any wrap.
 				headerTag = h1
 			}
     }
