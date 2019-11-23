@@ -41,7 +41,7 @@
 .slickcontentelement.layout-2 .contentwrap {
 	background: inherit;
 	text-shadow: 0px 0px 4px #000000;
-	width:inherit;
+	width:auto;
 }
 .slickcontentelement .contentwrap *,
 #startBox01 .slick-slider .contentwrap * {
