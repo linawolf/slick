@@ -3,14 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _upgrade:
+.. _upgrade_slick:
 
 
-Upgrade
-=======
+EXT:slick
+=========
 
 **Table of Contents**
 
@@ -18,5 +18,4 @@ Upgrade
 	:maxdepth: 3
 	:titlesonly:
 
-	Slick/Index
-	TYPO3/Index
+	5000000/Index

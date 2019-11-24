@@ -41,7 +41,7 @@ Extensions
 
   * :ref:`Quick Shop <introduction_whatdoesitdo>`
 
-  * :ref:`xBlog <introduction_whatdoesitdo>`
+  * :ref:`xBlog <users_slick_content_xblog>`
 
 
 F
@@ -78,6 +78,14 @@ O
 * :ref:`Order <users_bestpractice_randomized>`
 
 
+Q
+-
+
+* Quick Shop
+
+  * :ref:`Upgrade Slider <upgrade_typo3_9005000_quickshop>`
+
+
 P
 -
 
@@ -103,6 +111,12 @@ S
 
   * :ref:`Slider for Content Elements <users_slick_content>`
 
+* Slider
+
+  * :ref:`Content Elements <users_slick_content>`
+
+  * :ref:`Third party extensions with xBlog <users_slick_content_xblog>`
+
 * :ref:`Sorting <users_bestpractice_randomized>`
 
 
@@ -112,6 +126,26 @@ Syncing
 * :ref:`Frontend <introduction-screenshots-frontendSyncing>`
 
 * :ref:`Backend <introduction_screenshots_backend_syncing>`
+
+
+T
+-
+
+* :ref:`Third party extensions with xBlog <users_slick_content_xblog>`
+
+* TYPO3
+
+  * :ref:`Upgrade 9.5 <upgrade_typo3_9005000>`
+
+
+U
+-
+
+* Upgrade
+
+  * :ref:`EXT:quick_shop <upgrade_typo3_9005000_quickshop>`
+
+  * :ref:`TYPO3 9.5 <upgrade_typo3_9005000>`
 
 
 X

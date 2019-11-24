@@ -2,7 +2,7 @@ WHAT IS NEW:	https://bit.ly/2WqXmp6
 ChangeLog:	https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
-4.6.0
+5.0.0
   19-11-22
 	Feature
   * #i0070: Slick Content Element (former: slick item)
@@ -71,7 +71,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 							* Public/CSS/default.css
 						:ref: #i0067
 	Bugfix
-  * #i0066: Broken backend iconsmin TYPO3 9.5
+  * #i0066: Broken backend icons in TYPO3 9.5
 						Affected file:
 						* Classes/TCA/Ctrl/Icons.php
 
