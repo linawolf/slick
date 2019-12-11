@@ -2,6 +2,16 @@ WHAT IS NEW:	https://bit.ly/2WqXmp6
 ChangeLog:	https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+5.0.1
+  19-12-11
+	Bugfix
+  * #i0072: IE11 does not support Object.assign.
+						* Thanks to Андрей Н. Бурдин for report and solution
+						Details @
+						* https://stackoverflow.com/questions/42091600/how-to-merge-object-in-ie-11
+						Affected file:
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+
 5.0.0
   19-11-22
 	Feature
@@ -24,7 +34,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 							* Default/Slick/Templates/Slickcontentelement.html
 						:ref: #i0068
   Improvement
-	* #i0071: TYPO3 9.5: deprecated slick elemeents are removed 
+	* #i0071: TYPO3 9.5: deprecated slick elements are removed 
 						Affected files:
 						* Configuration
 							* ExtLocalconf/Default/TSconfig/mod.wizards.newContentElement.wizardItems.slick.ts
