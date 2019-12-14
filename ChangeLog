@@ -5,6 +5,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 5.0.3
   19-12-14
 	Feature
+  * #i0076: TCA of slick item: additional fields
+						Is running only with EXT:start and EXT:t3foundation
+						Only: TYPO3 8.7, 9.5
+						Affected files:
+						* Configuration/TCA/Overrides/Default/tt_content/types.php
+						* Configuration/TCA/Overrides/8.7/tt_content/types.php
   * #i0075: Optimise CSS. Here: .slick-sync .contentwrap {display: none;}
 						Don't display text of syncing items
 						Affected file:

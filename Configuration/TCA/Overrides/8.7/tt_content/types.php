@@ -160,7 +160,11 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickitem' ][ 'showitem' ] = ''
 				. '  imageheight;LLL:EXT:slick/Resources/Private/Language/Backend.xlf:tca.tt_content.contentheight,'
 				. '--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,'
 				. '  layout,'
-//				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,'
+				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_palettecss;tx_start_palettecss,'
+				. '  --palette--;LLL:EXT:t3foundation/Resources/Private/Language/locallang_db.xlf:tt_content.tx_t3foundation_visibility;tx_t3foundation_visibility,'
+				. '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,'
+				. '  --palette--;;hidden,'
+				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.access;access,'
 ;
 
 /**
