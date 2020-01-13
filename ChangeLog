@@ -2,6 +2,14 @@ WHAT IS NEW:	https://bit.ly/2WqXmp6
 ChangeLog:	https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+5.0.4
+  20-01-13
+	Improvement
+  * #i0077: Composer: added property autoload.psr-4
+						Thanks to Jennifer Hauß for bug report
+						Affected file:
+						* composer.json
+
 5.0.3
   19-12-14
 	Feature
