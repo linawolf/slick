@@ -2,6 +2,16 @@ WHAT IS NEW:	https://bit.ly/2WqXmp6
 ChangeLog:	https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+5.0.6
+  20-04-24
+	Fetaure
+  * #t4977: Load the slider hidden. Display it after javascript is loaded.
+						Affecetd files:
+						* Resources/Public/CSS/default.css
+						* Resources/Private/Fluid/FluidStyledContent
+							* Layouts/Slickcontent.html
+							* Partials/Javascript.html
+
 5.0.5
   20-01-15
 	Bugfix

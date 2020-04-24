@@ -9,6 +9,11 @@
 	margin:0 -0.2rem;
 }
 
+/* #t4977, 200424, dwildt, 3+ */
+.slick-slider.hidden {
+	display:none;
+}
+
 .slick-slide {
 	/* Must correspond with .slick-slide margin */
 	padding:0 0.2rem;

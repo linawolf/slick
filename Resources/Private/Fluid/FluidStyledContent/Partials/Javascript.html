@@ -142,6 +142,8 @@
       }
       function initSlick{data.uid}() {
         _initSlick{data.uid}();
+				/* #t4977, 200424, dwildt, 1+ */
+				$('#slickid-{data.uid}').removeClass('hidden');
         var r;
         $(window).resize(function() {
             clearTimeout(r);
