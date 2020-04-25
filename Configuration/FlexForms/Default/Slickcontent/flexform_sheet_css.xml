@@ -27,7 +27,7 @@
 						<type>input</type>
 						<max>4</max>
 						<size>4</size>
-						<default>0</default>
+						<default>-25</default>
 						<eval>int,required</eval>
 					</config>
 				</TCEforms>
@@ -40,7 +40,7 @@
 						<type>input</type>
 						<max>4</max>
 						<size>4</size>
-						<default>0</default>
+						<default>-25</default>
 						<eval>int,required</eval>
 					</config>
 				</TCEforms>

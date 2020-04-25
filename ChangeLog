@@ -5,9 +5,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 5.1.0
   20-04-25
 	Author: Dirk Wildt (Verdigado), dirk.wildt@verdigado.com
-	=========================================
-	USERS SHOULD CHECK MARGINS OF THE SLIDER!
-	=========================================
+	============================================
+	USERS SHOULD CHECK MARGINS OF THERE SLIDERS!
+	============================================
 	Feature
 	* #t4986: Respect frame-before-class and frame-after-class from tt_content-plugin
 						Affected file:
