@@ -33,10 +33,11 @@
 	display:none;
 }
 
-.slick-slide {
-	/* Must correspond with .slick-slide margin */
+/* t4986, 200425, dwildt, 4- */
+/*.slick-slide {
+	 Must correspond with .slick-slide margin 
 	padding:0 0.2rem;
-}
+}*/
 
 /* image */
 .slick-slide figure {
