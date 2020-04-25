@@ -4,20 +4,31 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 
 5.1.0
   20-04-25
-	Fetaure
-	* #t4986: Respect margin from tt_content-plugin
+	Author: Dirk Wildt (Verdigado), dirk.wildt@verdigado.com
+	=========================================
+	USERS SHOULD CHECK MARGINS OF THE SLIDER!
+	=========================================
+	Feature
+	* #t4986: Respect frame-before-class and frame-after-class from tt_content-plugin
 						Affected file:
-						* /opt/typo3/extensions/slick/Resources/Private/Fluid/FluidStyledContent/Layouts/Slickcontent.html
+						* Resources
+							* Private/Fluid/FluidStyledContent/Layouts/Slickcontent.html
+							* Public/CSS
+								* default.css
+								* default.min.css
   * #t4984: CSS properties for dots and arrows by plugin and not by constant editor
 						New file:
-						* /opt/typo3/extensions/slick/Configuration/FlexForms/8.7/Slickcontent/flexform_sheet_css.xml
-						* /opt/typo3/extensions/slick/Configuration/FlexForms/Default/Slickcontent/flexform_sheet_css.xml
-						* /opt/typo3/extensions/slick/Resources/Private/Fluid/FluidStyledContent/Partials/Css.html
+						* Configuration/FlexForms
+							* 8.7/Slickcontent/flexform_sheet_css.xml
+							* Default/Slickcontent/flexform_sheet_css.xml
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Css.html
 						Affected files:
-						* /opt/typo3/extensions/slick/Configuration/FlexForms/8.7/Slickcontent/flexform.xml
-						* /opt/typo3/extensions/slick/Configuration/FlexForms/Default/Slickcontent/flexform.xml
-						* /opt/typo3/extensions/slick/Resources/Private/Language/de.Flexform.xlf
-						* /opt/typo3/extensions/slick/Resources/Private/Language/Flexform.xlf
+						* Configuration/FlexForms
+							* 8.7/Slickcontent/flexform.xml
+							* Default/Slickcontent/flexform.xml
+						* Resources/Private/Language
+							* de.Flexform.xlf
+							* Flexform.xlf
 
 5.0.6
   20-04-24

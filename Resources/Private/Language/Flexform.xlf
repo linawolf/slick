@@ -42,20 +42,20 @@
 			</trans-unit>
 			
 			<trans-unit id="sheet.css.title">
-				<source>Layout</source>
-				<target>Layout</target>
+				<source>Offsets</source>
+				<target>Abstände</target>
 			</trans-unit>
 			<trans-unit id="sheet.css.dotsOffsetBottom">
 				<source>Navigation dots: offset bottom</source>
-				<target>Navigationspunkte: Abstand unterer Rand</target>
+				<target>Navigations-Punkte: Abstand unterer Rand</target>
 			</trans-unit>
 			<trans-unit id="sheet.css.arrowPrevOffsetLeft">
 				<source>Navigation arrow previous: offset left margin</source>
-				<target>Navigationspfeil zurück: abstand linker Rand</target>
+				<target>Rückwärts-Pfeil: abstand linker Rand</target>
 			</trans-unit>
 			<trans-unit id="sheet.css.arrowNextOffsetRight">
 				<source>Navigation arrow next: offset right margin</source>
-				<target>Navigationspfeil weiter: abstand rechter Rand</target>
+				<target>Vorwärts-Pfeil: abstand rechter Rand</target>
 			</trans-unit>
 			
 
