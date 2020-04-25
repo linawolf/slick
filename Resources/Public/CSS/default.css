@@ -4,9 +4,28 @@
 	margin-right:0;
 }
 
-.slick-slider {
-	/* Must correspond with .slick-slider padding */
+/* t4986, 200425, dwildt, 4- */
+/*.slick-slider {
+	 Must correspond with .slick-slider padding 
 	margin:0 -0.2rem;
+}*/
+
+/* t4986, 200425, dwildt, 16+ */
+/* Override slick-theme.css */
+.slick-dotted.slick-slider.frame-space-after-extra-small { 
+	margin-bottom: 1em; 
+}
+.slick-dotted.slick-slider.frame-space-after-small { 
+	margin-bottom: 2em; 
+}
+.slick-dotted.slick-slider.frame-space-after-medium { 
+	margin-bottom: 3em; 
+}
+.slick-dotted.slick-slider.frame-space-after-large { 
+	margin-bottom: 4em; 
+}
+.slick-dotted.slick-slider.frame-space-after-extra-large { 
+	margin-bottom: 5em;
 }
 
 /* #t4977, 200424, dwildt, 3+ */
