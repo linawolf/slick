@@ -37,7 +37,7 @@ Slick Slider for TYPO3
 		carousel, contentslider, gallery, imageslider, jquery, random, responsive, slick, slider, slideshow,  
 
 	:Copyright:
-		2014-2019
+		2014-2020
 
 	:Website:
 		

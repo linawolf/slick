@@ -39,14 +39,6 @@ plugin.slick {
           # cat=Slick - Carousel CSS Margins/140/102; type=string; label=Item:Margin of an item. Arrows outside the item: 0. Arrows inside the item: 0 25px 0 25px.
         item  = 0
       }
-      position {
-          # cat=Slick - Carousel CSS Position/150/101; type=string; label=Dots bottom:Offset from the bottom in pixel
-        dots.bottom   = -45px
-          # cat=Slick - Carousel CSS Position/150/102; type=string; label=Arrow next:Offset from right in pixel
-        next.right    = -25px
-          # cat=Slick - Carousel CSS Position/150/103; type=string; label=Arrow previous:Offset from left in pixel
-        prev.left     = -25px
-      }
       text {
           # cat=Slick - Carousel CSS Text/160/104;  type=string;  label=Background color:Background color of the font. If you like opacity, please use a rgba format like "rgba(0,0,0,0.5)".
         background-color  = rgba(0,0,0,0.5)

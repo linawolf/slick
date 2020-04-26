@@ -6,13 +6,14 @@
 .. include:: ../../Includes.txt
 
 
-.. _whatsnew_4003000:
+.. _whatsnew_5:
 
 
-4.3
-===
+Version 5
+=========
 
-Slides in randomized order
---------------------------
+.. toctree::
+	:maxdepth: 3
+	:titlesonly:
 
-Slides can ordered randomized. See @ :ref:`Users > Best Practice <users_bestpractice_randomized>`
+	5.0/Index
