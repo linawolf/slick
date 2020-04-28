@@ -2,6 +2,20 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+5.1.1
+  20-04-28
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	Features
+	* #t5010:	Sync: offset arrows by plugin
+						Affected file:
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Css.html
+	* #t5009: Sync: arrow disable by plugin
+						Affected files:
+						* Configuration/FlexForms
+							* 8.7/Slickcontent/flexform_sheet_sync.xml
+							* Default/Slickcontent/flexform_sheet_sync.xml
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+
 5.1.0
   20-04-25
 	Author: Dirk Wildt (Verdigado), dirk.wildt@verdigado.com

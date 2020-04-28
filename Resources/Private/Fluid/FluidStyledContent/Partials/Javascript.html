@@ -28,6 +28,10 @@
     <f:if condition="{dots-sync} == ''">
       <f:variable name="dots-sync">false</f:variable>
     </f:if>
+    <f:variable name="arrows-sync"><f:format.raw>{data.pi_flexform.arrows-sync}</f:format.raw></f:variable>
+    <f:if condition="{arrows-sync} == ''">
+      <f:variable name="arrows-sync">false</f:variable>
+    </f:if>
     <f:variable name="focusOnSelect-sync"><f:format.raw>{data.pi_flexform.focusOnSelect-sync}</f:format.raw></f:variable>
     <f:if condition="{focusOnSelect-sync} == ''">
       <f:variable name="focusOnSelect-sync">false</f:variable>
@@ -131,7 +135,8 @@
         /* #t4060 */
         if(<f:format.raw>{sync-enabled}</f:format.raw>) {
           $('#slicksync-{data.uid}').slick({
-            asNavFor: '#slickid-<f:format.raw>{data.uid}</f:format.raw>'
+            arrows: <f:format.raw>{arrows-sync}</f:format.raw>
+            , asNavFor: '#slickid-<f:format.raw>{data.uid}</f:format.raw>'
             , centerMode: <f:format.raw>{centerMode-sync}</f:format.raw>
             , dots: <f:format.raw>{dots-sync}</f:format.raw>
             , focusOnSelect: <f:format.raw>{focusOnSelect-sync}</f:format.raw>
