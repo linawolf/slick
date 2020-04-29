@@ -8,4 +8,4 @@ if ( !defined( 'TYPO3_MODE' ) )
 /**
  * Page TSConfig
  */
-require( PATH_typo3conf . 'ext/slick/Configuration/ExtLocalconf/7.6/TSconfig/index.php' );
+require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . 'Configuration/ExtLocalconf/7.6/TSconfig/index.php' );

@@ -1,4 +1,0 @@
-191123:
-	
-	Configuration/TCA/Overrides/Default/tt_content/types.php:
-		* palette for start additional css is missing

@@ -59,4 +59,4 @@ SpriteManager::addTcaTypeIcon( 'pages', 'contains-slick', '../typo3conf/ext/slic
 /**
  * Page TSConfig
  */
-require( PATH_typo3conf . 'ext/slick/Configuration/ExtLocalconf/6.2/TSconfig/index.php' );
+require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . 'Configuration/ExtLocalconf/6.2/TSconfig/index.php' );

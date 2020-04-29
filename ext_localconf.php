@@ -10,8 +10,6 @@ if ( !defined( 'TYPO3_MODE' ) )
  * Register Icons
  * **************************************************************************** */
 
-// https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/Icon/Index.html
-
 \Netzmacher\Slick\TCA\Ctrl\Icons::RegisterIcons();
 
 /* * ****************************************************************************
@@ -23,13 +21,16 @@ $typo3Version = Netzmacher\Slick\Utility\Typo3VersionUtility::get();
 switch( TRUE )
 {
 	case($typo3Version < 7006000):
-		require( PATH_typo3conf . 'ext/slick/Configuration/ExtLocalconf/6.2/index.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . 'Configuration/ExtLocalconf/6.2/index.php' );
 		break;
 	case($typo3Version < 8007000):
-		require( PATH_typo3conf . 'ext/slick/Configuration/ExtLocalconf/7.6/index.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . 'Configuration/ExtLocalconf/7.6/index.php' );
 		break;
-	case($typo3Version >= 8007000):
+	case($typo3Version < 10000000):
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . 'Configuration/ExtLocalconf/9.5/index.php' );
+		break;
+	case($typo3Version >= 10000000):
 	default:
-		require( PATH_typo3conf . 'ext/slick/Configuration/ExtLocalconf/Default/index.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . 'Configuration/ExtLocalconf/Default/index.php' );
 		break;
 }

@@ -2,6 +2,71 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.0.0
+  20-04-29
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	Compatibility
+	* #t5019: TYPO3 10.4
+						*	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . ' > \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . '
+						New files:
+						* Classes/Form/Element/SheetHelpPromptHelp.php
+						* Configuration
+							* ExtLocalconf/9.5
+								* TSconfig
+									* index.php
+									* mod.wizards.newContentElement.wizardItems.slick.ts
+								* index.php
+							* Flexforms
+								* 9.5/flexform.xml                                                                                                                                                                              
+								* Default
+									* flexform.xml                                                                                                                                                                          
+									* flexform_sheet_css.xml                                                                                                                                                                
+									* flexform_sheet_desktop.xml                                                                                                                                                            
+									* flexform_sheet_help.xml                                                                                                                                                               
+									* flexform_sheet_rare.xml                                                                                                                                                               
+									* flexform_sheet_smartphone.xml                                                                                                                                                         
+									* flexform_sheet_sync.xml                                                                                                                                                               
+									* flexform_sheet_tablet.xml                                                                                                                                                             
+									* flexform_sheet_usual.xml                                                                                                                                                              
+									* flexform_sheet_widescreen.xml                                                                                                                                                         
+							* TCA/Overrides/9.5
+								* pages.php                                                                                                                                                                             
+								* sys_template.php                                                                                                                                                                      
+								* tt_content.php                                                                                                                                                                        
+								* tt_content/addTcaSelectItem.php                                                                                                                                                       
+								* tt_content/columns.php                                                                                                                                                                
+								* tt_content/index.php                                                                                                                                                                  
+								* tt_content/types.php                                                                                                                                                                  
+						Affected files:
+						* Classes/DataProcessing/FlexFormProcessor.php
+						* Configuration
+							* ExtLocalconf
+								* 6.2/index.php
+								* 7.6/index.php
+							* ExtLocalconf/Default/index.php
+							* Flexforms
+								* 8.7/flexform.xml
+							* TCA/Overrides
+								* 8.7
+									* tt_content
+										* index.php                                                                                                                                                                  
+										* tt_content/types.php                                                                                                                                                                  
+									* tt_content.php                                                                                                                                                                        
+								* Default
+									* tt_content
+										* index.php                                                                                                                                                                  
+										* tt_content/types.php                                                                                                                                                                  
+									* tt_content.php                                                                                                                                                                        
+								* pages.php                                                                                                                                                                                 
+								* sys_template.php                                                                                                                                                                          
+								* tt_content.php
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* ext_emconf.php
+						* ext_localconf.php
+						* ext_tables.php
+						Removed files:
+						* TODO
+
 5.1.1
   20-04-28
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de

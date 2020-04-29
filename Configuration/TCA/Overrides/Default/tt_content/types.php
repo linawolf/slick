@@ -33,7 +33,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickcontent' ][ 'showitem' ] = '
 				. ''
 ;
 
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickcontent' ] = 'FILE:EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform.xml';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickcontent' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
 
 	// #i0054, 190502, dwildt, 5+
 /**
@@ -129,10 +129,10 @@ $x = '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:ge
 				. '  tx_gridelements_container,'
 				. '  tx_gridelements_columns'
 ;
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickimage' ] = 'FILE:EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform.xml';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickimage' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
 
 
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickfilecollection' ] = 'FILE:EXT:slick/Configuration/FlexForms/Default/Slickcontent/flexform.xml';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickfilecollection' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
 
 /**
  * slickitem
