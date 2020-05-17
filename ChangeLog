@@ -7,7 +7,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	Compatibility
 	* #t5019: TYPO3 10.4
-						*	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . ' > \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . '
+						*	PATH_typo3conf . ' > \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . '
 						New files:
 						* Classes/Form/Element/SheetHelpPromptHelp.php
 						* Configuration
