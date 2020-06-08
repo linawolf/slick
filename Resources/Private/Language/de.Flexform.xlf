@@ -117,6 +117,10 @@
 				<source>Tabbing and arrow key navigation (accessibility)</source>
 				<target>Tabulator- und Pfeiltastennavigation (Barrierefreiheit)</target>
 			</trans-unit>
+			<trans-unit id="sheet.rare.adaptiveHeight">
+				<source>Adaptive Height</source>
+				<target>Angepasste Höhe</target>
+			</trans-unit>
 			<trans-unit id="sheet.rare.centerMode">
 				<source>Centered view with partial prev/next slides. Use with odd numbered slidesToShow counts.</source>
 				<target>Rand des letzten und nächsten Slides einblenden. Mit ungerade Anzahl von Slides.</target>

@@ -2,6 +2,22 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.0.1
+  20-06-08
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	Fearure
+	* #t5328: adaptiveHeight
+						Affected files:
+						* Configuration/Flexforms
+							* 8.7/flexform_sheet_rare.xml
+							* 9.5/flexform_sheet_rare.xml
+							* Default/flexform_sheet_rare.xml
+						* Resources/Private
+							* Language
+								* Flexform.xlf
+								* de.Flexform.xlf
+							* Fluid/FluidStyledContent/Partials/Javascript.html
+
 6.0.0
   20-04-29
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de

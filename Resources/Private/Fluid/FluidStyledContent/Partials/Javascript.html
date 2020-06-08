@@ -12,6 +12,10 @@
     </f:if>
 
     <f:comment>#t4060</f:comment>
+    <f:variable name="adaptiveHeight"><f:format.raw>{data.pi_flexform.adaptiveHeight}</f:format.raw></f:variable>
+    <f:if condition="{adaptiveHeight} == ''">
+      <f:variable name="adaptiveHeight">false</f:variable>
+    </f:if>
     <f:variable name="sync-enabled"><f:format.raw>{data.pi_flexform.sync-enabled}</f:format.raw></f:variable>
     <f:if condition="{sync-enabled} == ''">
       <f:variable name="sync-enabled">false</f:variable>
@@ -60,6 +64,7 @@
       var dataUid = {data.uid};
       $('#slickid-{data.uid}').not('.slick-initialized').slick({
             accessibility: <f:format.raw>{data.pi_flexform.accessibility}</f:format.raw>
+          , adaptiveHeight: <f:format.raw>{adaptiveHeight}</f:format.raw>
           , arrows: <f:format.raw>{data.pi_flexform.arrows-widescreen}</f:format.raw>
           <f:format.raw>{sliderAsNavFor}</f:format.raw>
           , autoplay: <f:format.raw>{data.pi_flexform.autoplay}</f:format.raw>
