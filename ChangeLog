@@ -8,7 +8,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	Bugfix
 	* #i0080: Misspelling in flexform german only
 						Affected files:
-						* Configuration/TCA/Overrides/9.5/sys_template.php
+						* Resources/Private/Language
+							* Flexform.xlf
+							* de.Flexform.xlf
 
 6.0.2
   20-07-01
