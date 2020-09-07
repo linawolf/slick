@@ -14,7 +14,7 @@
 			</trans-unit>
 			<trans-unit id="sheet.all.disabled">
 				<source>Disabled</source>
-				<target>Ausgechaltet</target>
+				<target>Ausgeschaltet</target>
 			</trans-unit>
 			<trans-unit id="sheet.all.dots">
 				<source>Dots for navigation</source>
