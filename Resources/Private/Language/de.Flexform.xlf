@@ -108,7 +108,22 @@
 					</ul>
 ]]></target>
 			</trans-unit>
-
+			<trans-unit id="sheet.note.title">
+				<source>Note</source>
+				<target>Notizen</target>
+			</trans-unit>
+			<trans-unit id="sheet.note.el.note">
+				<source>Note</source>
+				<target>Notizen</target>
+			</trans-unit>
+			<trans-unit id="sheet.rare.title">
+				<source>Rare Adjustments</source>
+				<target>Seltene Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="sheet.rare.accessibility">
+				<source>Tabbing and arrow key navigation (accessibility)</source>
+				<target>Tabulator- und Pfeiltastennavigation (Barrierefreiheit)</target>
+			</trans-unit>
 			<trans-unit id="sheet.rare.title">
 				<source>Rare Adjustments</source>
 				<target>Seltene Einstellungen</target>

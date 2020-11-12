@@ -2,10 +2,24 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.0.6
+  20-11-12
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0084: [FEATURE] New flexform sheet note. TYPO3 10.4 only.
+						New file:
+						* Configuration/Flexforms/Default/flexform_sheet_note.xml
+						Affected file:
+						* Resources/Private/Language
+							* Flexform.xlf
+							* de.Flexform.xlf
+	* #i0083: [BUGFIX] adaptiveHeight was missing in flefform in TYPO3 10.4
+						Affected file:
+						* Configuration/Flexforms/Default/flexform_sheet_rare.xml
+
 6.0.5
   20-09-23
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
-	* #i0081: [TASK] TYPO3 version is updated in composer.json
+	* #i0082: [TASK] TYPO3 version is updated in composer.json
 
 6.0.4
   20-09-23
