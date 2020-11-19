@@ -5,7 +5,7 @@
 		<f:cObject typoscriptObjectPath="lib.slick.tx_slick_pages" data="{data}"/>
 		<f:format.raw>{shortcuts}</f:format.raw>
 	</f:section>
-	<f:media class="image-embed-item" file="{file}" width="{dimensions.width}" height="{dimensions.height}" alt="{file.alternative}" title="{file.title}" />
+	<f:media class="image-embed-item" file="{file}" width="{dimensions.width}" height="{dimensions.height}" alt="{file.alternative}" title="{file.title}" loading="{settings.media.lazyLoading}"/>
 	<f:comment>#i0053</f:comment>
 	<f:debug title="data">{data}</f:debug>
 	<f:debug title="data">{data}</f:debug>

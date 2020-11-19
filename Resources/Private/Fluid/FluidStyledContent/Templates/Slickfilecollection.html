@@ -23,13 +23,13 @@
 		<f:if condition="{files}">
 			<f:for each="{files}" as="file" iteration="fileIterator">
 				<div>
-					<f:media class="image-embed-item" file="{file}" width="{width}" height="{height}" alt="{file.alternative}" title="{file.title}" />
+					<f:media class="image-embed-item" file="{file}" width="{width}" height="{height}" alt="{file.alternative}" title="{file.title}" loading="{settings.media.lazyLoading}"/>
 				</div>
 			</f:for>
 		</f:if>
 
 	</f:section>
-	<f:media class="image-embed-item" file="{file}" width="{dimensions.width}" height="{dimensions.height}" alt="{file.alternative}" title="{file.title}" />
+	<f:media class="image-embed-item" file="{file}" width="{dimensions.width}" height="{dimensions.height}" alt="{file.alternative}" title="{file.title}" loading="{settings.media.lazyLoading}"/>
 	<f:debug title="data">{data}</f:debug>
 	<f:debug>{_all}</f:debug>
 	<f:debug>{test9}</f:debug>

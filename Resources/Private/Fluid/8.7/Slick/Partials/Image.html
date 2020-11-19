@@ -3,11 +3,11 @@
 		<f:if condition="{image.link}">
 			<f:then>
 				<f:link.typolink parameter="{image.link}">
-					<f:image image="{image}" />
+					<f:image image="{image}" loading="{settings.media.lazyLoading}"/>
 				</f:link.typolink>
 			</f:then>
 			<f:else>
-				<f:image image="{image}" />
+				<f:image image="{image}" loading="{settings.media.lazyLoading}"/>
 			</f:else>
 		</f:if>
 	</figure>
