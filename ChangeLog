@@ -2,6 +2,12 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.0.9
+  20-12-01
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0086: [TASK] div-wrap in case of data.space_after_class or data.space_before_class
+						commit: 
+
 6.0.8
   20-12-01
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
