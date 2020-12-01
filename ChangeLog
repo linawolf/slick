@@ -6,6 +6,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
   20-12-01
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #i0085: [FEATURE] Header
+						---------
+						ATTENTION
+						---------
+						Slick slider displays the header now. If you don't like it, please hide the header of the slick elements.
+						---------
+						commit: 29c36c6875f73c8cf996c939beb78a35d838e8e2
 
 6.0.7
   20-11-19
