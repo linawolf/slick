@@ -12,6 +12,7 @@
       <f:variable name="frame-space-before"> frame-space-before-{data.space_before_class}</f:variable>
     </f:if>
 		
+		<f:render partial="Header/All" arguments="{_all}" />
 		<f:comment>#t4977, 200424, dwildt, +hidden</f:comment>
 		<div id="slickid-{data.uid}" class="slick-slider slickdefault hidden{frame-space-before}{frame-space-after}">
 			<f:render section="Main" optional="true" />
