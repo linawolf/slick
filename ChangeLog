@@ -6,7 +6,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
   20-12-01
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #i0086: [TASK] div-wrap in case of data.space_after_class or data.space_before_class
-						commit: 
+						commit: a598b8ea0fe207b7f2e49ba508b97f9b23b189e0
 
 6.0.8
   20-12-01
