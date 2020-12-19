@@ -10,7 +10,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.css.dotsOffsetBottom
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<max>4</max>
 						<size>4</size>
@@ -23,7 +23,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.css.arrowPrevOffsetLeft
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<max>4</max>
 						<size>4</size>
@@ -36,7 +36,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.css.arrowNextOffsetRight
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<max>4</max>
 						<size>4</size>

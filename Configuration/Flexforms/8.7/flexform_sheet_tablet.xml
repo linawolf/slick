@@ -10,7 +10,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.breakpoint
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>600</default>
@@ -21,7 +21,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.slidesToShow
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>2</default>
@@ -32,7 +32,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.slidesToScroll
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1</default>
@@ -42,7 +42,7 @@
 			<arrows-tablet type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.arrows</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
@@ -61,7 +61,7 @@
 			<dots-tablet type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.dots</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
@@ -80,7 +80,7 @@
 			<rows-tablet type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.rows</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1</default>
@@ -91,7 +91,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.slidesPerRow
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1</default>

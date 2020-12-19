@@ -9,7 +9,7 @@
 			<accessibility type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.accessibility</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -29,7 +29,7 @@
 			<centerMode type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.centerMode</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -49,7 +49,7 @@
 			<centerPadding type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.centerPadding</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>50px</default>
@@ -59,7 +59,7 @@
 			<cssEase type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.cssEase</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -79,7 +79,7 @@
 			<dotsClass type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.dotsClass</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>slick-dots</default>
@@ -89,7 +89,7 @@
 			<draggable type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.draggable</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -109,7 +109,7 @@
 			<edgeFriction type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.edgeFriction</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>0.15</default>
@@ -119,7 +119,7 @@
 			<mobileFirst type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.mobileFirst</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -139,7 +139,7 @@
 			<initialSlide type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.initialSlide</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>0</default>
@@ -149,7 +149,7 @@
 			<lazyLoad type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.lazyLoad</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -169,7 +169,7 @@
 			<pauseOnHover type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.pauseOnHover</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -189,7 +189,7 @@
 			<pauseOnDotsHover type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.pauseOnDotsHover</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -209,7 +209,7 @@
 			<respondTo type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.respondTo</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -233,7 +233,7 @@
 			<swipe type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.swipe</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -253,7 +253,7 @@
 			<swipeToSlide type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.swipeToSlide</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -273,7 +273,7 @@
 			<touchMove type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.touchMove</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -293,7 +293,7 @@
 			<useCSS type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.useCSS</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -313,7 +313,7 @@
 			<adaptiveHeight type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.adaptiveHeight</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -333,7 +333,7 @@
 			<variableWidth type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.variableWidth</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
@@ -352,7 +352,7 @@
 			<variableWidth type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.variableWidth</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -372,7 +372,7 @@
 			<verticalSwiping type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.verticalSwiping</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -392,7 +392,7 @@
 			<rtl type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.rtl</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -412,7 +412,7 @@
 			<waitForAnimate type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.waitForAnimate</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -432,7 +432,7 @@
 			<zIndex type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.rare.zIndex</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1000</default>

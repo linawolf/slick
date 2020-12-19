@@ -2,6 +2,47 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.1.0
+  20-12-19
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0055: [FEATURE] flexform field git exclude property
+						---------
+						ATTENTION
+						---------
+						If editors should work with the slick slider, YOU MUST configure access rights!
+						---------
+						Affected files:
+						* Configuration/Flexforms
+							* 8.7
+								* flexform_sheet_css.xml
+								* flexform_sheet_desktop.xml
+								* flexform_sheet_rare.xml
+								* flexform_sheet_smartphone.xml
+								* flexform_sheet_sync.xml
+								* flexform_sheet_tablet.xml
+								* flexform_sheet_usual.xml
+								* flexform_sheet_widescreen.xml
+							* 9.5
+								* flexform_sheet_css.xml
+								* flexform_sheet_desktop.xml
+								* flexform_sheet_rare.xml
+								* flexform_sheet_smartphone.xml
+								* flexform_sheet_sync.xml
+								* flexform_sheet_tablet.xml
+								* flexform_sheet_usual.xml
+								* flexform_sheet_widescreen.xml
+							* Default
+								* flexform_sheet_css.xml
+								* flexform_sheet_desktop.xml
+								* flexform_sheet_rare.xml
+								* flexform_sheet_smartphone.xml
+								* flexform_sheet_sync.xml
+								* flexform_sheet_tablet.xml
+								* flexform_sheet_usual.xml
+								* flexform_sheet_widescreen.xml
+						commit: 
+						* 
+
 6.0.9
   20-12-01
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

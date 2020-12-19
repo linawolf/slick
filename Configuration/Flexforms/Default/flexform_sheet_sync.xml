@@ -10,7 +10,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.sync.enabled</label>
 					<onChange>reload</onChange>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -31,7 +31,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.slidesToShow</label>
 					<displayCond>FIELD:sync-enabled:=:true</displayCond>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>5</default>
@@ -42,7 +42,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.slidesToScroll</label>
 					<displayCond>FIELD:sync-enabled:=:true</displayCond>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1</default>
@@ -53,7 +53,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.dots</label>
 					<displayCond>FIELD:sync-enabled:=:true</displayCond>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -74,7 +74,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.arrows</label>
 					<displayCond>FIELD:sync-enabled:=:true</displayCond>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -95,7 +95,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.sync.focusOnSelect</label>
 					<displayCond>FIELD:sync-enabled:=:true</displayCond>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -116,7 +116,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.sync.centerMode</label>
 					<displayCond>FIELD:sync-enabled:=:true</displayCond>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">

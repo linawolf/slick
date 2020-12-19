@@ -9,7 +9,7 @@
 			<note type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.note.el.note</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>text</type>
 						<cols>40</cols>
 						<rows>15</rows>
