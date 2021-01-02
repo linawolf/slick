@@ -25,6 +25,8 @@ plugin.slick {
 					initialSlide    = 0
 						# cat=Slick - Gallery - 3 - Javascript Properties//310; type=options[true,false]; label=pauseOnHover:Pause Autoplay On Hover
 					pauseOnHover    = true
+						# cat=Slick - Gallery - 3 - Javascript Properties//310; type=options[true,false]; label=pauseOnFocus:Pause Autoplay On Focus
+					pauseOnFocus    = true
 						# cat=Slick - Gallery - 3 - Javascript Properties//311; type=+int; label=rows:Setting this to more than 1 initializes grid mode. Use slidesPerRow to set how many slides should be in each row.
 					rows            = 1
 						# cat=Slick - Gallery - 3 - Javascript Properties//312; type=+int; label=slidesPerRow:With grid mode intialized via the rows option, this sets how many slides are in each grid row.

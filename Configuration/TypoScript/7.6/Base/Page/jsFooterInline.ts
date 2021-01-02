@@ -32,6 +32,7 @@ page {
               , infinite        : {$plugin.slick.carousel.javascript.properties.infinite}
               , initialSlide    : {$plugin.slick.carousel.javascript.properties.initialSlide}
               , pauseOnHover    : {$plugin.slick.carousel.javascript.properties.pauseOnHover}
+              , pauseOnFocus    : {$plugin.slick.carousel.javascript.properties.pauseOnFocus}
               , rows            : {$plugin.slick.carousel.javascript.properties.rows}
               , slidesPerRow    : {$plugin.slick.carousel.javascript.properties.slidesPerRow}
               , slidesToShow    : {$plugin.slick.carousel.javascript.properties.slidesToShow}
@@ -115,6 +116,7 @@ page {
               , infinite        : {$plugin.slick.carousel.2.javascript.properties.infinite}
               , initialSlide    : {$plugin.slick.carousel.2.javascript.properties.initialSlide}
               , pauseOnHover    : {$plugin.slick.carousel.2.javascript.properties.pauseOnHover}
+              , pauseOnFocus    : {$plugin.slick.carousel.2.javascript.properties.pauseOnFocus}
               , rows            : {$plugin.slick.carousel.2.javascript.properties.rows}
               , slidesPerRow    : {$plugin.slick.carousel.2.javascript.properties.slidesPerRow}
               , slidesToShow    : {$plugin.slick.carousel.2.javascript.properties.slidesToShow}
@@ -198,6 +200,7 @@ page {
               , infinite        : {$plugin.slick.carousel.3.javascript.properties.infinite}
               , initialSlide    : {$plugin.slick.carousel.3.javascript.properties.initialSlide}
               , pauseOnHover    : {$plugin.slick.carousel.3.javascript.properties.pauseOnHover}
+              , pauseOnFocus    : {$plugin.slick.carousel.3.javascript.properties.pauseOnFocus}
               , rows            : {$plugin.slick.carousel.3.javascript.properties.rows}
               , slidesPerRow    : {$plugin.slick.carousel.3.javascript.properties.slidesPerRow}
               , slidesToShow    : {$plugin.slick.carousel.3.javascript.properties.slidesToShow}

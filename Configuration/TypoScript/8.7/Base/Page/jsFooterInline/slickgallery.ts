@@ -31,6 +31,7 @@ page {
               , infinite        : {$plugin.slick.gallery.javascript.properties.infinite}
               , initialSlide    : {$plugin.slick.gallery.javascript.properties.initialSlide}
               , pauseOnHover    : {$plugin.slick.gallery.javascript.properties.pauseOnHover}
+              , pauseOnFocus    : {$plugin.slick.gallery.javascript.properties.pauseOnFocus}
               , rows            : {$plugin.slick.gallery.javascript.properties.rows}
               , slidesPerRow    : {$plugin.slick.gallery.javascript.properties.slidesPerRow}
               , slidesToShow    : {$plugin.slick.gallery.javascript.properties.slidesToShow}
@@ -114,6 +115,7 @@ page {
               , infinite        : {$plugin.slick.gallery.2.javascript.properties.infinite}
               , initialSlide    : {$plugin.slick.gallery.2.javascript.properties.initialSlide}
               , pauseOnHover    : {$plugin.slick.gallery.2.javascript.properties.pauseOnHover}
+              , pauseOnFocus    : {$plugin.slick.gallery.2.javascript.properties.pauseOnFocus}
               , rows            : {$plugin.slick.gallery.2.javascript.properties.rows}
               , slidesPerRow    : {$plugin.slick.gallery.2.javascript.properties.slidesPerRow}
               , slidesToShow    : {$plugin.slick.gallery.2.javascript.properties.slidesToShow}
@@ -197,6 +199,7 @@ page {
               , infinite        : {$plugin.slick.gallery.3.javascript.properties.infinite}
               , initialSlide    : {$plugin.slick.gallery.3.javascript.properties.initialSlide}
               , pauseOnHover    : {$plugin.slick.gallery.3.javascript.properties.pauseOnHover}
+              , pauseOnFocus    : {$plugin.slick.gallery.3.javascript.properties.pauseOnFocus}
               , rows            : {$plugin.slick.gallery.3.javascript.properties.rows}
               , slidesPerRow    : {$plugin.slick.gallery.3.javascript.properties.slidesPerRow}
               , slidesToShow    : {$plugin.slick.gallery.3.javascript.properties.slidesToShow}

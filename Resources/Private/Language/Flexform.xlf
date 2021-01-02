@@ -169,6 +169,10 @@
 				<source>Pauses autoplay on hover</source>
 				<target>Karussel anhalten, wenn sich die Maus über einem Slide befindet</target>
 			</trans-unit>
+			<trans-unit id="sheet.rare.pauseOnFocus">
+				<source>Pauses autoplay on focus</source>
+				<target>Karussel anhalten, wenn sich sich der Fokus im Slick Slider befindet</target>
+			</trans-unit>
 			<trans-unit id="sheet.rare.pauseOnDotsHover">
 				<source>Pauses autoplay when a dot is hovered</source>
 				<target>Karussel anhalten, wenn sich die Maus über einem Navigations-Punkt befindet</target>

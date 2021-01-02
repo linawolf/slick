@@ -2,10 +2,48 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.0.7
+  21-01-2
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0083: [FEATURE] Setup for the property pauseonfocus by the plugin
+						Affected files:
+						* Configuration
+							* Flexforms
+								* 8.7/flexform_sheet_rare.xml                                                                                                                                                                   
+								* 9.5/flexform_sheet_rare.xml                                                                                                                                                                   
+								* Default/flexform_sheet_rare.xml                                                                                                                                                               
+							* TypoScript
+								* 7.6
+									* Base/Page/jsFooterInline.ts                                                                                                                                                              
+									* Carousel/Constants/Javascript
+										* constants1.ts                                                                                                                                              
+										* constants2.ts                                                                                                                                              
+										* constants3.ts                                                                                                                                              
+								* 8.7
+									* Base/Page/jsFooterInline
+										* slickcarousel.ts                                                                                                                                                
+										* slickgallery.ts                                                                                                                                                 
+									* Deprecated
+										* Carousel/Constants/Javascript
+											* constants1.ts                                                                                                                                   
+											* constants2.ts
+											* constants3.ts
+										* Gallery/Constants/Javascript
+											* constants1.ts                                                                                                                                   
+											* constants2.ts
+											* constants3.ts
+						* Resources/Private
+							* Fluid/FluidStyledContent/Partials/Javascript.html
+							* Language
+								* Flexform.xlf
+								* de.Flexform.xlf
+						Commit:
+						* 
+
 6.0.6
   20-10-14
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
-	* #i0082: Improvement composer.json
+	* #i0082: [TASK] Improvement composer.json
 
 6.0.5
   20-09-23
