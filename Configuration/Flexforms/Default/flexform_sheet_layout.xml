@@ -23,7 +23,7 @@
 								<numIndex index="1">wibackground</numIndex>
 							</numIndex>
 						</items>
-						<default>true</default>
+						<default></default>
 					</config>
 				</TCEforms>
 			</layout>
