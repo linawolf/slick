@@ -108,6 +108,22 @@
 					</ul>
 ]]></target>
 			</trans-unit>
+			<trans-unit id="sheet.layout.title">
+				<source>Layout</source>
+				<target>Layout</target>
+			</trans-unit>
+			<trans-unit id="sheet.layout.el.layout">
+				<source>Layout</source>
+				<target>Layout</target>
+			</trans-unit>
+			<trans-unit id="sheet.layout.el.layout.default">
+				<source>Default</source>
+				<target>Standard</target>
+			</trans-unit>
+			<trans-unit id="sheet.layout.el.layout.wibackground">
+				<source>With backgroundcolor</source>
+				<target>Mit Hintergrundfarbe</target>
+			</trans-unit>
 			<trans-unit id="sheet.note.title">
 				<source>Note</source>
 				<target>Notizen</target>
