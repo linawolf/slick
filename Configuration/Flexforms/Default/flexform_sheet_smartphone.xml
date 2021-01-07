@@ -10,7 +10,8 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.breakpoint
 					</label>
-					<exclude>1</exclude><config type="array">
+					<exclude>1</exclude>
+					<config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>480</default>

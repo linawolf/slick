@@ -2,6 +2,15 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.1.2
+  21-01-07
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0609: [TASK] Register xml flexforms is improved
+						Affected files:
+						* Configuration/TCA/Overrides/Default/tt_content/types.php
+						Commit
+						* 
+
 6.1.1
   21-01-06
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
