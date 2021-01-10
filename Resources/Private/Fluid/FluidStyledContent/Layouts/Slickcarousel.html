@@ -10,19 +10,13 @@
     <f:if condition="{data.space_before_class}">
       <f:variable name="frame-space-before"> frame-space-before-{data.space_before_class}</f:variable>
     </f:if>
-		
-		<f:if condition="{frame-space-before} || {frame-space-after}">
-			<div class="{frame-space-before}{frame-space-after}">
-		</f:if>
 
-		<f:render partial="Header/All" arguments="{_all}" />
-		<div id="{settings.slickcarouselid}">
-			<f:render section="Main" optional="true" />
-		</div>
-		
-		<f:if condition="{frame-space-before} || {frame-space-after}">
+		<div class="frame-default{frame-space-before}{frame-space-after}">
+			<f:render partial="Header/All" arguments="{_all}" />
+			<div id="{settings.slickcarouselid}">
+				<f:render section="Main" optional="true" />
 			</div>
-		</f:if>
-		
+		</div>
+
 	</f:spaceless>
 </html>

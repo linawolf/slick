@@ -14,26 +14,20 @@
     <f:if condition="{data.pi_flexform.layout}">
       <f:variable name="layout"> {data.pi_flexform.layout}</f:variable>
     </f:if>
-		
-		<f:if condition="{frame-space-before} || {frame-space-after}">
-			<div class="{frame-space-before}{frame-space-after}">
-		</f:if>
-		
-		<f:render partial="Header/All" arguments="{_all}" />
-		<f:comment>#t4977, 200424, dwildt, +hidden</f:comment>
-		<div id="slickid-{data.uid}" class="slick-slider slickdefault hidden {layout}">
-			<f:render section="Main" optional="true" />
-		</div>
-		<f:comment>#t4060</f:comment>
-		<f:if condition="{data.pi_flexform.sync-enabled}">
-			<div id="slicksync-{data.uid}" class="slick-sync slickdefault">
+
+		<div class="frame-default{frame-space-before}{frame-space-after}">
+			<f:render partial="Header/All" arguments="{_all}" />
+			<f:comment>#t4977, 200424, dwildt, +hidden</f:comment>
+			<div id="slickid-{data.uid}" class="slick-slider slickdefault hidden {layout}">
 				<f:render section="Main" optional="true" />
 			</div>
-		</f:if>
-
-		<f:if condition="{frame-space-before} || {frame-space-after}">
-			</div>
-		</f:if>
+			<f:comment>#t4060</f:comment>
+			<f:if condition="{data.pi_flexform.sync-enabled}">
+				<div id="slicksync-{data.uid}" class="slick-sync slickdefault">
+					<f:render section="Main" optional="true" />
+				</div>
+			</f:if>
+		</div>
 
 	</f:spaceless>
 	<f:render partial="Css" arguments="{_all}" />	
