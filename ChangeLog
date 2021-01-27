@@ -2,8 +2,19 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.0.8
+  21-01-27
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0084: [TASK] Set a default value for pauseonfocus
+						Affected file:
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						:ref:
+						* #i0083
+						Commit:
+						* 
+
 6.0.7
-  21-01-2
+  21-01-02
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0083: [FEATURE] Setup for the property pauseonfocus by the plugin
 						Affected files:
@@ -37,8 +48,10 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 							* Language
 								* Flexform.xlf
 								* de.Flexform.xlf
+						:ref:
+						* #i0084
 						Commit:
-						* 
+						* e5a1528de5a536af7f03941cbd9d83c51da81842
 
 6.0.6
   20-10-14
