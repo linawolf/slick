@@ -10,6 +10,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.breakpoint
 					</label>
+					<exclude>1</exclude>
 					<config type="array">
 						<type>input</type>
 						<size>1</size>
@@ -21,7 +22,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.slidesToShow
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1</default>
@@ -32,7 +33,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.slidesToScroll
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1</default>
@@ -42,7 +43,7 @@
 			<arrows-smartphone type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.arrows</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -62,7 +63,7 @@
 			<dots-smartphone type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.dots</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<renderType>selectSingle</renderType>
 						<items type="array">
@@ -82,7 +83,7 @@
 			<rows-smartphone type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.rows</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1</default>
@@ -93,7 +94,7 @@
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.all.slidesPerRow
 					</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>1</default>

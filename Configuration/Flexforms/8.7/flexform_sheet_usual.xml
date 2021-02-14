@@ -9,7 +9,7 @@
 			<autoplay type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.usual.autoplay</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
@@ -28,7 +28,7 @@
 			<autoplaySpeed type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.usual.autoplayspeed</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>5000</default>
@@ -38,7 +38,7 @@
 			<fade type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.usual.fade</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
@@ -57,7 +57,7 @@
 			<infinite type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.usual.infinite</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
@@ -76,7 +76,7 @@
 			<speed type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.usual.speed</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>input</type>
 						<size>1</size>
 						<default>600</default>
@@ -86,7 +86,7 @@
 			<vertical type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.usual.vertical</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
@@ -105,7 +105,7 @@
 			<randomized type="array">
 				<TCEforms type="array">
 					<label>LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:sheet.usual.randomized</label>
-					<config type="array">
+					<exclude>1</exclude><config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">

@@ -11,11 +11,11 @@
 								<f:if condition="{image.link}">
 									<f:then>
 										<f:link.page pageUid="{image.link}">
-											<f:image src="{image.publicUrl}" id="I{image.uid}" title="{image.title}" alt="{image.alternative}" height="{data.imageheight}" width="{data.imagewidth}"/>
+											<f:image src="{image.publicUrl}" id="I{image.uid}" title="{image.title}" alt="{image.alternative}" height="{data.imageheight}" width="{data.imagewidth}" loading="{settings.media.lazyLoading}"/>
 										</f:link.page>
 									</f:then>
 									<f:else>
-										<f:image src="{image.publicUrl}" id="I{image.uid}" title="{image.title}" alt="{image.alternative}" height="{data.imageheight}" width="{data.imagewidth}"/>
+										<f:image src="{image.publicUrl}" id="I{image.uid}" title="{image.title}" alt="{image.alternative}" height="{data.imageheight}" width="{data.imagewidth}" loading="{settings.media.lazyLoading}"/>
 									</f:else>
 								</f:if>
 								<figcaption>{image.description}</figcaption>
@@ -31,11 +31,11 @@
 								<f:if condition="{image.link}">
 									<f:then>
 										<f:link.page pageUid="{image.link}">
-											<f:image src="{image.publicUrl}" id="I{image.uid}" title="{image.title}" alt="{image.alternative}" height="{data.imageheight}" width="{data.imagewidth}"/>
+											<f:image src="{image.publicUrl}" id="I{image.uid}" title="{image.title}" alt="{image.alternative}" height="{data.imageheight}" width="{data.imagewidth}" loading="{settings.media.lazyLoading}"/>
 										</f:link.page>
 									</f:then>
 									<f:else>
-										<f:image src="{image.publicUrl}" id="I{image.uid}" title="{image.title}" alt="{image.alternative}" height="{data.imageheight}" width="{data.imagewidth}"/>
+										<f:image src="{image.publicUrl}" id="I{image.uid}" title="{image.title}" alt="{image.alternative}" height="{data.imageheight}" width="{data.imagewidth}" loading="{settings.media.lazyLoading}"/>
 									</f:else>
 								</f:if>
 								<f:comment>

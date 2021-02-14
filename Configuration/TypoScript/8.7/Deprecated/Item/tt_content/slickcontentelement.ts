@@ -14,8 +14,11 @@ tt_content {
 			10 = {$plugin.slick.item.templates.10.layoutRootPath}
 			20 = {$plugin.slick.item.templates.20.layoutRootPath}
 		}
+			// headerTag, media.lazyLoading
+		settings =
 		settings {
 			headerTag = {$plugin.slick.item.templates.settings.headerTag}
+			media.lazyLoading = {$styles.content.image.lazyLoading}
 		}
 	}
 }

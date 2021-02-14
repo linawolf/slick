@@ -2,6 +2,7 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+<<<<<<< HEAD
 6.0.8
   21-01-27
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
@@ -57,11 +58,156 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
   20-10-14
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0082: [TASK] Improvement composer.json
+=======
+6.1.3
+  21-01-10
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0648: [TASK] div-wrap for the slick slider by default
+						Affected files:
+						* Resources/Private/Fluid/FluidStyledContent/Layouts
+							* Slickcarousel.html
+							* Slickcontent.html
+							* Slickgallery.html
+						Commit:
+						* 9367712
+
+6.1.2
+  21-01-07
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0609: [TASK] Register xml flexforms is improved
+						Affected files:
+						* Configuration/TCA/Overrides/Default/tt_content/types.php
+						Commit:
+						* d0114a2
+
+6.1.1
+  21-01-06
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0584: [FEATURE] Layout class for slick slider content elements
+						* Plugin: new tab [Layout]
+						Affected files:
+						* Configuration/Flexforms
+							* 8.7/flexform.xml
+							* 9.5/flexform.xml
+							* Default/flexform.xml
+						* Resources/Private
+							* Fluid/FluidStyledContent/Layouts/Slickcontent.html
+							* Language
+								* Flexform.xlf
+								* de.Flexform.xlf
+						New files:
+						* Configuration/Flexforms
+							* 8.7
+								* flexform_sheet_layout.xml
+								* flexform_sheet_note.xml
+							* 9.5
+								* flexform_sheet_layout.xml
+								* flexform_sheet_note.xml
+							* Default/flexform_sheet_layout.xml
+						Commits:
+						* 4011a8f
+						* 759727b
+
+6.1.0
+  20-12-19
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0055: [FEATURE] flexform field got exclude property
+						---------
+						ATTENTION
+						---------
+						If editors should work with the slick slider, YOU MUST configure access rights!
+						---------
+						Affected files:
+						* Configuration/Flexforms
+							* 8.7
+								* flexform_sheet_css.xml
+								* flexform_sheet_desktop.xml
+								* flexform_sheet_rare.xml
+								* flexform_sheet_smartphone.xml
+								* flexform_sheet_sync.xml
+								* flexform_sheet_tablet.xml
+								* flexform_sheet_usual.xml
+								* flexform_sheet_widescreen.xml
+							* 9.5
+								* flexform_sheet_css.xml
+								* flexform_sheet_desktop.xml
+								* flexform_sheet_rare.xml
+								* flexform_sheet_smartphone.xml
+								* flexform_sheet_sync.xml
+								* flexform_sheet_tablet.xml
+								* flexform_sheet_usual.xml
+								* flexform_sheet_widescreen.xml
+							* Default
+								* flexform_sheet_css.xml
+								* flexform_sheet_desktop.xml
+								* flexform_sheet_rare.xml
+								* flexform_sheet_smartphone.xml
+								* flexform_sheet_sync.xml
+								* flexform_sheet_tablet.xml
+								* flexform_sheet_usual.xml
+								* flexform_sheet_widescreen.xml
+						commit: 
+						* 0be54d6d154f482cd6e8dc834754ed5ba4f282f0
+
+6.0.9
+  20-12-01
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0086: [TASK] div-wrap in case of data.space_after_class or data.space_before_class
+						commit: a598b8ea0fe207b7f2e49ba508b97f9b23b189e0
+
+6.0.8
+  20-12-01
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0085: [FEATURE] Header
+						---------
+						ATTENTION
+						---------
+						Slick slider displays the header now. If you don't like it, please hide the header of the slick elements.
+						---------
+						commit: 29c36c6875f73c8cf996c939beb78a35d838e8e2
+
+6.0.7
+  20-11-19
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0443: [FEATURE] Lazy Loading. Here: 
+						* <f:image ... loading="{settings.media.lazyLoading}" />
+						* <f:media ... loading="{settings.media.lazyLoading}" />
+						Affected files:
+						* Configuration/TypoScript
+							* 8.7/Deprecated/Item/tt_content/slickcontentelement.ts
+							* Default/Slickcontentelement/tt_content/slickcontentelement.ts
+						* Resources/Private/Fluid
+							* 8.7/Slick
+								* Partials/Image.html
+								* Templates/Slickitem_4.5.3.html
+							* Default/Slick
+								* Partials/Image.html
+								* Templates/Slickitem_4.5.3.html
+							* FluidStyledContent
+								* ImageWoFigure/Partials/Media/Rendering/Image.html
+							* FluidStyledContent/Templates
+								* Slickcontent.html
+								* Slickfilecollection.html
+
+6.0.6
+  20-11-12
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0084: [FEATURE] New flexform sheet note. TYPO3 10.4 only.
+						New file:
+						* Configuration/Flexforms/Default/flexform_sheet_note.xml
+						Affected file:
+						* Resources/Private/Language
+							* Flexform.xlf
+							* de.Flexform.xlf
+	* #i0083: [BUGFIX] adaptiveHeight was missing in flefform in TYPO3 10.4
+						Affected file:
+						* Configuration/Flexforms/Default/flexform_sheet_rare.xml
+>>>>>>> 85f1e49109be5ba11ad9f9fd92b0bcc62136c101
 
 6.0.5
   20-09-23
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
-	* #i0081: [TASK] TYPO3 version is updated in composer.json
+	* #i0082: [TASK] TYPO3 version is updated in composer.json
 
 6.0.4
   20-09-23

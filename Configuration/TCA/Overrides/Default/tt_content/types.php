@@ -7,7 +7,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickcontent
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickcontent' ][ 'showitem' ] = ''
 				. '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,'
 				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,'
-				. '  header;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header.ALT.shortcut_formlabel,'
+				. '  --palette--;;headers,'
 				. '  --palette--;LLL:EXT:slick/Resources/Private/Language/Backend.xlf:tca.tt_content.palette.css,'
 				. '--div--;LLL:EXT:slick/Resources/Private/Language/Backend.xlf:tca.tt_content.div.items,'
 				. '  tx_slick_pages;LLL:EXT:slick/Resources/Private/Language/Backend.xlf:tca.tt_content.tx_slick_pages,'
@@ -33,9 +33,19 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickcontent' ][ 'showitem' ] = '
 				. ''
 ;
 
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickcontent' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
+// #v0609, 200107, dwildt, +
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+				// 'list_type' does not apply here
+				'*',
+				// Flexform configuration schema file
+				'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml',
+				// ctype
+				'slickcontent'
+);
 
-	// #i0054, 190502, dwildt, 5+
+// #v0609, 200107, dwildt, -
+//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickcontent' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
+// #i0054, 190502, dwildt, 5+
 /**
  * slickfilecollection
  */
@@ -43,7 +53,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'slickfilecol
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickfilecollection' ][ 'showitem' ] = ''
 				. '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,'
 				. '  --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,'
-				. '  header;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header.ALT.shortcut_formlabel,'
+				. '  --palette--;;headers,'
 				. '  --palette--;LLL:EXT:slick/Resources/Private/Language/Backend.xlf:tca.tt_content.palette.css,'
 				. '--div--;LLL:EXT:slick/Resources/Private/Language/Backend.xlf:tca.tt_content.div.items,'
 				. '  file_collections;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:file_collections.ALT.uploads_formlabel,'
@@ -129,17 +139,37 @@ $x = '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:ge
 				. '  tx_gridelements_container,'
 				. '  tx_gridelements_columns'
 ;
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickimage' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
 
+// #v0609, 200107, dwildt, +
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+				// 'list_type' does not apply here
+				'*',
+				// Flexform configuration schema file
+				'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml',
+				// ctype
+				'slickimage'
+);
 
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickfilecollection' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
+// #v0609, 200107, dwildt, +
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+				// 'list_type' does not apply here
+				'*',
+				// Flexform configuration schema file
+				'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml',
+				// ctype
+				'slickfilecollection'
+);
+
+// #v0609, 200107, dwildt, -
+//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickimage' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
+//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'pi_flexform' ][ 'config' ][ 'ds' ][ ',slickfilecollection' ] = 'FILE:EXT:slick/Configuration/Flexforms/Default/flexform.xml';
 
 /**
  * slickitem
  */
 $cmsLL = 'frontend/Resources/Private/Language/locallang_ttc.xlf';
 // #i0024, 171205, 4+
-$GLOBALS[ 'TCA' ][ 'tt_content' ]['types']['slickitem']['columnsOverrides']['bodytext']['config'] = array(
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'slickitem' ][ 'columnsOverrides' ][ 'bodytext' ][ 'config' ] = array(
 		'enableRichtext' => '1',
 		'richtextConfiguration' => 'default',
 );
