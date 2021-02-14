@@ -2,6 +2,39 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+6.1.6
+  21-02-14
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0085: [BUGFIX] lazyLoading TYPO3 8.7
+						Affected files:
+						* Resources/Private/Fluid
+							* Default/Slick/Partials/Image.html
+							* Fluid/FluidStyledContent/Templates
+								* Slickcontent.html
+								* Slickfilecollection.html
+						Moved files:
+						* Resources/Private/Fluid/8.7/Slick
+							* Partials/Image.html -> XXXImage.html
+							* Templates/Slickitem_4.5.3.html -> XXXSlickitem_4.5.3.html
+						* Resources/Private/Fluid
+							* Default/Slick/Templates/Slickitem_4.5.3.html -> XXXSlickitem_4.5.3.html
+							* FluidStyledContent/ImageWoFigure/Partials/Media/Rendering/Image.html -> XXXImage.html
+						New files:
+						* Classes/Userfunc/Typo3VersionUserfunc.php
+						* Configuration/TypoScript/Default/Base/Lib/slick/t3version.ts
+						* Resources/Private/Fluid
+							* Default/Slick/Partials/Image
+								* 087.html
+								* 104.html
+								* Version.html
+							* FluidStyledContent/Partials/Media
+								* 087.html
+								* 104.html
+								* Version.html
+						commit:
+						* 
+						:ref: #v0443
+
 6.1.5
   21-01-27
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
@@ -182,6 +215,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 							* FluidStyledContent/Templates
 								* Slickcontent.html
 								* Slickfilecollection.html
+						:ref: #i0085
 
 6.0.6
   20-11-12
