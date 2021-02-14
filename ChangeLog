@@ -2,8 +2,7 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
-<<<<<<< HEAD
-6.0.8
+6.1.5
   21-01-27
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0084: [TASK] Set a default value for pauseonfocus
@@ -14,7 +13,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						Commit:
 						* b843c72
 
-6.0.7
+6.1.4
   21-01-02
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0083: [FEATURE] Setup for the property pauseonfocus by the plugin
@@ -54,11 +53,6 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						Commit:
 						* e5a1528de5a536af7f03941cbd9d83c51da81842
 
-6.0.6
-  20-10-14
-	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
-	* #i0082: [TASK] Improvement composer.json
-=======
 6.1.3
   21-01-10
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
@@ -202,7 +196,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	* #i0083: [BUGFIX] adaptiveHeight was missing in flefform in TYPO3 10.4
 						Affected file:
 						* Configuration/Flexforms/Default/flexform_sheet_rare.xml
->>>>>>> 85f1e49109be5ba11ad9f9fd92b0bcc62136c101
+  20-10-14
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0082: [TASK] Improvement composer.json
 
 6.0.5
   20-09-23
