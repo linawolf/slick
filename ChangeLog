@@ -2,6 +2,17 @@ WHAT IS NEW: https://bit.ly/2WqXmp6
 ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
+
+
+6.1.7
+  21-04-30
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0086: [BUGFIX] Is removed: <f:debug title="@kjbgkadfjb">{file}</f:debug>
+						Affected files:
+						* Resources/Private/Fluid/FluidStyledContent/Partials/Media
+							* Version.html
+							* Version/087.html
+
 6.1.6
   21-02-14
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
