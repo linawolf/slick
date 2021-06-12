@@ -3,6 +3,16 @@ ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
 
+6.1.8
+  21-06-12
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1276: [TASK] CType option group: compatibility with TYPO3 10.4
+						Affected files:
+						* Configuration/TCA/Overrides/Default/tt_content/addTcaSelectItem.php
+	* #i0086: [BUGFIX]
+						Moved file:
+						* Resources/Private/Fluid/8.7/Slick/Partials
+							* XXXImage.html -> Image.html
 
 6.1.7
   21-04-30
