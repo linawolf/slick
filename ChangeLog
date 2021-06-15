@@ -3,6 +3,14 @@ ChangeLog: https://bit.ly/2WuaDgK
 NEWSLETTER: https://die-netzmacher.de/newsletter
 
 
+[BUGFIX] Content Elements will not displayed
+
+6.1.9
+  21-06-15
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t6156: [BUGFIX] Content Elements are not displayed
+						Affected files:
+
 6.1.8
   21-06-12
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
