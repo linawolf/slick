@@ -10,6 +10,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #t6156: [BUGFIX] Content Elements are not displayed
 						Affected files:
+						* Resources/Private/Fluid/8.7/Slick/Partials/Image.html
 
 6.1.8
   21-06-12
