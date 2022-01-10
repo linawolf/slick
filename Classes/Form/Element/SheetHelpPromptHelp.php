@@ -10,7 +10,7 @@ use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 /* * *************************************************************
  *  Copyright notice
  *
- *  (c) 2020 - Dirk Wildt <http://wildt.at.die-netzmacher.de>
+ *  (c) 2020-2022 -  Dirk Wildt <http://wildt.at.die-netzmacher.de>
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is
