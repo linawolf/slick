@@ -5,6 +5,20 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 
 [BUGFIX] Content Elements will not displayed
 
+6.1.10
+  22-01-09
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0089: [TASK] Upgrade TYPO3 11.5
+						Affected files:
+            * composer.json
+	* #i0088: [TASK] f.media got a css id, clean up deprecated file
+						Affected files:
+            * Resources/Private/Fluid/FluidStyledContent
+              * ImageWoFigure/Partials/Media/Rendering/XXXImage.html
+              * Partials/Media/Version
+                * 087.html
+                * 104.html
+
 6.1.9
   21-06-15
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
@@ -28,7 +42,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0086: [BUGFIX] Is removed: <f:debug title="@kjbgkadfjb">{file}</f:debug>
 						Affected files:
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Media
+						* Partials/Media
 							* Version.html
 							* Version/087.html
 
@@ -69,7 +83,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0084: [TASK] Set a default value for pauseonfocus
 						Affected file:
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 						:ref:
 						* #i0083
 						Commit:
@@ -120,7 +134,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0648: [TASK] div-wrap for the slick slider by default
 						Affected files:
-						* Resources/Private/Fluid/FluidStyledContent/Layouts
+						* Layouts
 							* Slickcarousel.html
 							* Slickcontent.html
 							* Slickgallery.html
@@ -365,7 +379,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 								* pages.php                                                                                                                                                                                 
 								* sys_template.php                                                                                                                                                                          
 								* tt_content.php
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 						* ext_emconf.php
 						* ext_localconf.php
 						* ext_tables.php
@@ -378,13 +392,13 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	Features
 	* #t5010:	Sync: offset arrows by plugin
 						Affected file:
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Css.html
+						* Partials/Css.html
 	* #t5009: Sync: arrows can disabled by plugin
 						Affected files:
 						* Configuration/FlexForms
 							* 8.7/Slickcontent/flexform_sheet_sync.xml
 							* Default/Slickcontent/flexform_sheet_sync.xml
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 
 5.1.0
   20-04-25
@@ -405,7 +419,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						* Configuration/FlexForms
 							* 8.7/Slickcontent/flexform_sheet_css.xml
 							* Default/Slickcontent/flexform_sheet_css.xml
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Css.html
+						* Partials/Css.html
 						Affected files:
 						* Configuration/FlexForms
 							* 8.7/Slickcontent/flexform.xml
@@ -478,7 +492,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						Details @
 						* https://stackoverflow.com/questions/42091600/how-to-merge-object-in-ie-11
 						Affected file:
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 
 5.0.0
   19-11-22
@@ -613,7 +627,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	* #t4060: Syncing
 						New files:
 						* Configuration/FlexForms/Default/Slickcontent/flexform_sheet_sync.xml
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 						Affected files:
 						* Configuration/FlexForms/Default/Slickcontent/flexform.xml
 						* Resources
@@ -639,7 +653,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	* #i0059: Javascript with new feature: slick slider can used as reference
 						Affected files:
 						* Configuration/TypoScript/Default/Base/Page/jsFooterInline/slickinit.ts
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 
 4.4.3
   19-08-27	
@@ -668,7 +682,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						Thanks to Marjan Ratkovic (solutix.com) for the contract :)
 						New files:
 						* Configuration/TypoScript/Default/Image/tt_content/setup.ts
-						* Resources/Private/Fluid/FluidStyledContent/Templates/Slickfilecollection.html
+						* Templates/Slickfilecollection.html
 						Affected files:
 						* Configuration
 							* ExtTables/Default/TSconfig/mod.wizards.newContentElement.wizardItems.slick.ts
@@ -730,7 +744,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	Bugfix
 	* #i0049: There was a JavaScript error, if plugin/flexform wasn't initialized.
 						Affected file:
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 						:ref: #i0047
 
 4.3.1
@@ -751,7 +765,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 							* TypoScript/Default/Base/Page
 								* includeJSFooter.ts
 								* slickinit.ts
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 						:ref: #i0049
 
 4.2.1
@@ -841,7 +855,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						New file:
 						* Configuration/TypoScript/Default/Base/Page/jsFooterInline/slickinit.ts
 						Affected file:
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 						:ref: #i0034
 	Update
 	* #i0036: Slick 1.8.0 -> 1.9.0
@@ -856,7 +870,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 						* Resources/Public/JavaScript/initSlickDocumentReady.js
 						Affected files:
 						* Configuration/TypoScript/Default/Base/Page/includeJSFooter.ts
-						* Resources/Private/Fluid/FluidStyledContent/Partials/Javascript.html
+						* Partials/Javascript.html
 						:REF: #i0037
 
 4.0.8
@@ -894,7 +908,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 	* #t1836: IS CANCELED BY #i0031 above!
 						Slick Slider: Remove waste a-tag
 						Heavy intervention: Fluid template Default.html is overriden! See
-						* Resources/Private/Fluid/FluidStyledContent/Layouts/Default.html
+						* Layouts/Default.html
 	* #t1833:	CSS Styled Content > Fluid Styled Content
 	* #i0027: Update for t3foundation 3.0
 						* additional start CSS classes are removed from

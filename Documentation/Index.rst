@@ -8,9 +8,9 @@
 
 .. _root:
 
-	.. figure:: ext_icon_300x300.jpg
-		:width: 300px
-		:alt: TYPO3 Slick Slider
+.. figure:: ext_icon_300x300.jpg
+	:width: 300px
+	:alt: TYPO3 Slick Slider
 
 ======================
 Slick Slider for TYPO3
