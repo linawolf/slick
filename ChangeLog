@@ -8,9 +8,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 6.1.10
   22-01-09
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0090: [TASK] Update (c) 2022
 	* #i0089: [TASK] Upgrade TYPO3 11.5
 						Affected files:
             * composer.json
+            * Documentation/Introduction/WhatDoYouNeed/Index.rst
 	* #i0088: [TASK] f.media got a css id, clean up deprecated file
 						Affected files:
             * Resources/Private/Fluid/FluidStyledContent

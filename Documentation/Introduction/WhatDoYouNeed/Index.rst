@@ -19,6 +19,10 @@ TYPO3 Versions
 
 Slick should run proper with
 
+- TYPO3 11.5 all features with Fluid Styled Content (fluid_styled_content)
+
+- TYPO3 10.4 all features with Fluid Styled Content (fluid_styled_content)
+
 - TYPO3 9.5 all features with Fluid Styled Content (fluid_styled_content)
 
 - TYPO3 8.7 all features with Fluid Styled Content (fluid_styled_content)
