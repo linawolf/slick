@@ -105,6 +105,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
               * 8.7/Image/tt_content/setup.ts
               * Default/Slicksliderimage/tt_content/setup.ts
 
+6.1.11
+  22-02-11
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0091: [TASK] Update composer.json
+            * Property replace is removed
+
 6.1.10
   22-01-09
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
