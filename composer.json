@@ -11,10 +11,6 @@
 			"extension-key": "slick"
 		}
 	},
-	"replace": {
-		"netzmacher/slick": "self.version",
-		"typo3-ter/slick": "self.version"
-	},
 	"autoload": {
 		"psr-4": {
 			"Netzmacher\\Slick\\": "Classes/" 
