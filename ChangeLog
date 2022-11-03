@@ -5,6 +5,13 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 
 [BUGFIX] Content Elements will not displayed
 
+6.1.12
+  22-11-03
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t6425: [TASK] Update view helper for slick content element
+						Affected files:
+            * Classes/ViewHelpers/v87/FalViewHelper.php
+
 6.1.11
   22-02-11
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de

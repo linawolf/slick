@@ -29,7 +29,7 @@ namespace Netzmacher\Slick\ViewHelpers\v87;
 /**
  * @author Dirk Wildt <http://wildt.at.die-netzmacher.de/>
  */
-class FalViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper
+class FalViewHelper extends \TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper
 {
 
   /**
