@@ -5,6 +5,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 
 [BUGFIX] Content Elements will not displayed
 
+10.0.1
+  22-11-04
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0092: New branch main
+
 10.0.0
   22-11-03
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
