@@ -22,5 +22,4 @@ Backend
     Slickfilecollection/Index
     Slickimage/Index
     Syncing/Index
-    TYPO3_76/Index
 

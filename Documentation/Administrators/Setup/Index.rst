@@ -31,4 +31,3 @@ Usually you don't need to change any property.
     :titlesonly:
 
     SlickItem/Index
-    TYPO3_76/Index

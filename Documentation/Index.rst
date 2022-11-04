@@ -34,7 +34,7 @@ Slick Slider for TYPO3
 		randomized order among others. Users can setup more than 50 properties by the plugin.
 
 	:Keywords:
-		carousel, contentslider, gallery, imageslider, jquery, random, responsive, slick, slider, slideshow,  
+		carousel, contentslider, gallery, imageslider, slick, slider, slideshow,  
 
 	:Copyright:
 		2014-2022
@@ -46,7 +46,7 @@ Slick Slider for TYPO3
 		Dirk Wildt (Die Netzmacher)
 
 	:Email:
-		https://wildt.at.die-netzmacher.de
+		http://wildt.at.die-netzmacher.de
 
 	:License:
 		This document is published under the Open Publication License available from http://www.opencontent.org/openpub/
@@ -64,15 +64,18 @@ Slick Slider for TYPO3
 **Table of Contents**
 
 .. toctree::
-	:maxdepth: 3
+	:maxdepth: 1
 	:titlesonly:
 
 	Introduction/Index
 	Users/Index
 	Administrators/Index
 	Developers/Index
-	Upgrade/Index
-	KnownBugs/Index
-	WhatsNew/Index
-	Help/Index
-	Index/Index
+
+.. Meta Menu
+
+.. toctree::
+   :hidden:
+
+   Sitemap
+   genindex

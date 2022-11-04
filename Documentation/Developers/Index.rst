@@ -23,5 +23,4 @@ If you like to use the latest extensions, you can get them at `gitlab.die-netzma
   :titlesonly:
 
   Debugging/Index
-  Git/Index
   ThirdPartyExtensions/Index

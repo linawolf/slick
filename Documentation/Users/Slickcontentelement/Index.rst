@@ -54,12 +54,6 @@ You can wrap the heder with an HTML tag like h1, h2, ..., p, span. See
 * :ref:`Administrators > Setup > Slick Content Element <administrators_setup_slickitem>`
 
 
-TYPO3 6.2/7.6
--------------
-
-"Slick Content Element" was called "Slick Item".
-
-
 **Table of Contents**
 
 .. toctree::

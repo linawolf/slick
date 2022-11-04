@@ -63,12 +63,6 @@ TYPO3 Slick provides the four content elements
 
 You can use the sliders unlimited on the same page.
 
-TYPO3 6.2/7.6
-^^^^^^^^^^^^^
-
-* Slick Sliders with images aren't available.
-
-* You can use upto three sliders on the same page.
 
 
 Extensions

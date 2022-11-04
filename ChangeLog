@@ -5,6 +5,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 
 [BUGFIX] Content Elements will not displayed
 
+10.0.0
+  22-11-03
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t6425: Version for TYPO3 10.4 und 11.5
+
 6.2.0
   22-11-03
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
