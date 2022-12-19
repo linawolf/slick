@@ -64,6 +64,14 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
               * Partials/Media/Version
                 * 087.html
                 * 104.html
+6.1.10
+  22-12-19
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v3418: [BUGFIX] Get rid of double header
+						Affected files:
+            * Configuration/TypoScript
+              * 8.7/Image/tt_content/setup.ts
+              * Default/Slicksliderimage/tt_content/setup.ts
 
 6.1.9
   21-06-15
