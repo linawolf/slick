@@ -1,5 +1,3 @@
-tt_content.slickcontent >
-
 tt_content.slickcontent =< lib.contentElement
 tt_content.slickcontent {
 	templateName = Slickcontent

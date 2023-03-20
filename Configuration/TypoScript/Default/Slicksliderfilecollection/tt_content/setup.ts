@@ -1,5 +1,3 @@
-tt_content.slickfilecollection >
-
 tt_content.slickfilecollection =< lib.contentElement
 tt_content.slickfilecollection {
 	templateName = Slickfilecollection
