@@ -105,6 +105,13 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
               * 8.7/Image/tt_content/setup.ts
               * Default/Slicksliderimage/tt_content/setup.ts
 
+10.0.3
+  23-03-20
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v3893: [BUGFIX] Double header slick image
+						Affected file:
+            * Configuration/TypoScript/Default/Slicksliderimage/tt_content/setup.ts
+
 10.0.2
   23-01-07
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
