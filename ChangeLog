@@ -7,7 +7,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter
 10.0.3
   23-03-20
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #i0092: [TASK] Remove rest line in TypoScript templates
+	* #i0092: [TASK] Remove reset line in TypoScript templates
 						Affected files:
             * Configuration/TypoScript/Default
               * Slickslidercontent/tt_content/setup.ts
