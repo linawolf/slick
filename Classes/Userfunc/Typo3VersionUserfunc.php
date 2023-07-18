@@ -2,9 +2,11 @@
 
 namespace Netzmacher\Slick\Userfunc;
 
-if( !defined( 'TYPO3_MODE' ) )
-{
-	die( 'Access denied.' );
+use TYPO3\CMS\Core\Information\Typo3Version;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+
+if (!defined('TYPO3')) {
+    die('Access denied.');
 }
 
 /* * *************************************************************
@@ -31,158 +33,145 @@ if( !defined( 'TYPO3_MODE' ) )
  * ************************************************************* */
 
 /**
- *
  * @author  Dirk Wildt <http://wildt.at.die-netzmacher.de>
- * @package TYPO3
- * @subpackage  slick
  * @version     6.1.6
  * @since       6.1.6
  */
 class Typo3VersionUserfunc
 {
+    /**
+     * get( ):
+     *
+     * @return  int
+     * @version 6.1.6
+     * @since 6.1.6
+     */
+    public static function get()
+    {
+        static $TYPO3v = null;
 
-	/**
-	 * get( ):
-	 *
-	 * @return  integer
-	 * @version 6.1.6
-	 * @since 6.1.6
-	 */
-	static public function get()
-	{
-		static $TYPO3v = NULL;
+        if ($TYPO3v !== null) {
+            return $TYPO3v;
+        }
 
-		if( $TYPO3v !== NULL )
-		{
-			return $TYPO3v;
-		}
+        [$main, $sub, $bugfix] = explode('.', GeneralUtility::makeInstance(Typo3Version::class)->getVersion());
+        $version = ((int)$main) * 1_000_000;
+        $version = $version + ((int)$sub) * 1000;
+        $version = $version + ((int)$bugfix) * 1;
+        $TYPO3v = $version;
 
-		list( $main, $sub, $bugfix ) = explode( '.', TYPO3_version );
-		$version = ( ( int ) $main ) * 1000000;
-		$version = $version + ( ( int ) $sub ) * 1000;
-		$version = $version + ( ( int ) $bugfix ) * 1;
-		$TYPO3v = $version;
+        return $TYPO3v;
+    }
 
-		return $TYPO3v;
-	}
+    /**
+     * isGreaterThan087( ):
+     *
+     * @return  int
+     * @version 6.1.6
+     * @since 6.1.6
+     */
+    public static function isGreaterThan087(): int
+    {
+        $t3version = self::get();
+        if ($t3version >= 8_007_000) {
+            return 1;
+        }
+        return 0;
+    }
 
-	/**
-	 * isGreaterThan087( ):
-	 *
-	 * @return  int
-	 * @version 6.1.6
-	 * @since 6.1.6
-	 */
-	static public function isGreaterThan087(): int
-	{
-		$t3version = self::get();
-		if( $t3version >= 8007000 )
-		{
-			return 1;
-		}
-		return 0;
-	}
+    /**
+     * isGreaterThan095( ):
+     *
+     * @return  int
+     * @version 6.1.6
+     * @since 6.1.6
+     */
+    public static function isGreaterThan095(): int
+    {
+        $t3version = self::get();
+        if ($t3version >= 9_005_000) {
+            return 1;
+        }
+        return 0;
+    }
 
-	/**
-	 * isGreaterThan095( ):
-	 *
-	 * @return  int
-	 * @version 6.1.6
-	 * @since 6.1.6
-	 */
-	static public function isGreaterThan095(): int
-	{
-		$t3version = self::get();
-		if( $t3version >= 9005000 )
-		{
-			return 1;
-		}
-		return 0;
-	}
+    /**
+     * isGreaterThan104( ):
+     *
+     * @return  int
+     * @version 6.1.6
+     * @since 6.1.6
+     */
+    public static function isGreaterThan104(): int
+    {
+        $t3version = self::get();
+        if ($t3version >= 10_004_000) {
+            return 1;
+        }
+        return 0;
+    }
 
-	/**
-	 * isGreaterThan104( ):
-	 *
-	 * @return  int
-	 * @version 6.1.6
-	 * @since 6.1.6
-	 */
-	static public function isGreaterThan104(): int
-	{
-		$t3version = self::get();
-		if( $t3version >= 10004000 )
-		{
-			return 1;
-		}
-		return 0;
-	}
+    /**
+     * isSmallerThan087( ):
+     *
+     * @return  int
+     * @version 6.1.6
+     * @since 6.1.6
+     */
+    public static function isSmallerThan087(): int
+    {
+        $t3version = self::get();
+        if ($t3version < 8_007_000) {
+            return 1;
+        }
+        return 0;
+    }
 
-	/**
-	 * isSmallerThan087( ):
-	 *
-	 * @return  int
-	 * @version 6.1.6
-	 * @since 6.1.6
-	 */
-	static public function isSmallerThan087(): int
-	{
-		$t3version = self::get();
-		if( $t3version < 8007000 )
-		{
-			return 1;
-		}
-		return 0;
-	}
+    /**
+     * isSmallerThan095( ):
+     *
+     * @return  int
+     * @version 6.1.6
+     * @since 6.1.6
+     */
+    public static function isSmallerThan095(): int
+    {
+        $t3version = self::get();
+        if ($t3version < 9_005_000) {
+            return 1;
+        }
+        return 0;
+    }
 
-	/**
-	 * isSmallerThan095( ):
-	 *
-	 * @return  int
-	 * @version 6.1.6
-	 * @since 6.1.6
-	 */
-	static public function isSmallerThan095(): int
-	{
-		$t3version = self::get();
-		if( $t3version < 9005000 )
-		{
-			return 1;
-		}
-		return 0;
-	}
+    /**
+     * isSmallerThan104( ):
+     *
+     * @return  int
+     * @version 6.1.6
+     * @since 6.1.6
+     */
+    public static function isSmallerThan100(): int
+    {
+        $t3version = self::get();
+        if ($t3version < 10_000_000) {
+            return 1;
+        }
+        return 0;
+    }
 
-	/**
-	 * isSmallerThan104( ):
-	 *
-	 * @return  int
-	 * @version 6.1.6
-	 * @since 6.1.6
-	 */
-	static public function isSmallerThan100(): int
-	{
-		$t3version = self::get();
-		if( $t3version < 10000000 )
-		{
-			return 1;
-		}
-		return 0;
-	}
-
-	/**
-	 * isSmallerThan104( ):
-	 *
-	 * @return  int
-	 * @version 6.1.6
-	 * @since 6.1.6
-	 */
-	static public function isSmallerThan104(): int
-	{
-		$t3version = self::get();
-		if( $t3version < 10004000 )
-		{
-			return 1;
-		}
-		return 0;
-	}
-
+    /**
+     * isSmallerThan104( ):
+     *
+     * @return  int
+     * @version 6.1.6
+     * @since 6.1.6
+     */
+    public static function isSmallerThan104(): int
+    {
+        $t3version = self::get();
+        if ($t3version < 10_004_000) {
+            return 1;
+        }
+        return 0;
+    }
 }

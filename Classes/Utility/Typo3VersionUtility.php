@@ -2,9 +2,11 @@
 
 namespace Netzmacher\Slick\Utility;
 
-if( !defined( 'TYPO3_MODE' ) )
-{
-	die( 'Access denied.' );
+use TYPO3\CMS\Core\Information\Typo3Version;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+
+if (!defined('TYPO3')) {
+    die('Access denied.');
 }
 
 /* * *************************************************************
@@ -31,61 +33,54 @@ if( !defined( 'TYPO3_MODE' ) )
  * ************************************************************* */
 
 /**
- *
  * @author  Dirk Wildt <http://wildt.at.die-netzmacher.de>
- * @package TYPO3
- * @subpackage  Slick
  * @version     4.5.2
  * @since       4.5.2
  */
 class Typo3VersionUtility
 {
+    /**
+     * get( ):
+     *
+     * @return  int
+     * @version 4.5.2
+     * @since 4.5.2
+     */
+    public static function get()
+    {
+        static $TYPO3v = null;
 
-	/**
-	 * get( ):
-	 *
-	 * @return  integer
-	 * @version 4.5.2
-	 * @since 4.5.2
-	 */
-	static function get()
-	{
-		static $TYPO3v = NULL;
+        if ($TYPO3v !== null) {
+            return $TYPO3v;
+        }
 
-		if( $TYPO3v !== NULL )
-		{
-			return $TYPO3v;
-		}
+        [$main, $sub, $bugfix] = explode('.', GeneralUtility::makeInstance(Typo3Version::class)->getVersion());
+        $version = ((int)$main) * 1_000_000;
+        $version = $version + ((int)$sub) * 1000;
+        $version = $version + ((int)$bugfix) * 1;
+        $TYPO3v = $version;
 
-		list( $main, $sub, $bugfix ) = explode( '.', TYPO3_version );
-		$version = ( ( int ) $main ) * 1000000;
-		$version = $version + ( ( int ) $sub ) * 1000;
-		$version = $version + ( ( int ) $bugfix ) * 1;
-		$TYPO3v = $version;
+        if ($TYPO3v >= 6_000_000) {
+            return $TYPO3v;
+        }
 
-		if( $TYPO3v >= 6000000 )
-		{
-			return $TYPO3v;
-		}
-
-		$prompt = '<h1>ERROR</h1>
+        $prompt = '<h1>ERROR</h1>
         <h2>Unproper TYPO3 version</h2>
         <ul>
           <li>
             TYPO3 version is smaller than 6.0.0
           </li>
           <li>
-            constant TYPO3_version: ' . TYPO3_version . '
+            constant TYPO3_version: ' . GeneralUtility::makeInstance(Typo3Version::class)->getVersion() . '
           </li>
           <li>
-            integer $TYPO3v: ' . ( int ) $TYPO3v . '
+            integer $TYPO3v: ' . (int)$TYPO3v . '
           </li>
           <li>
             ' . __METHOD__ . ' (#' . __LINE__ . ')
           </li>
         </ul>
           ';
-		die( $prompt );
-	}
-
+        die($prompt);
+    }
 }

@@ -1,18 +1,19 @@
 <?php
 
-if( !defined( 'TYPO3_MODE' ) )
-{
-	die( 'Access denied.' );
+use Netzmacher\Slick\Form\Element\SheetHelpPromptHelp;
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
+if (!defined('TYPO3')) {
+    die('Access denied.');
 }
 
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['formEngine']['nodeRegistry']['1588144983'] = [
     'nodeName' => 'sheetHelpPromptHelp',
     'priority' => 40,
-    'class' => Netzmacher\Slick\Form\Element\SheetHelpPromptHelp::class,
+    'class' => SheetHelpPromptHelp::class,
 ];
 
 /**
  * Page TSConfig
  */
-
-require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'slick' ) . 'Configuration/ExtLocalconf/Default/TSconfig/index.php' );
+require(ExtensionManagementUtility::extPath('slick') . 'Configuration/ExtLocalconf/Default/TSconfig/index.php');

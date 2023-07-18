@@ -3,10 +3,12 @@
 namespace Netzmacher\Slick\TCA\Ctrl;
 
 use Netzmacher\Slick\Utility\Typo3VersionUtility;
+use TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider;
+use TYPO3\CMS\Core\Imaging\IconRegistry;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
 
-if( !defined( 'TYPO3_MODE' ) )
-{
-	die( 'Access denied.' );
+if (!defined('TYPO3')) {
+    die('Access denied.');
 }
 
 /* * *************************************************************
@@ -34,114 +36,103 @@ if( !defined( 'TYPO3_MODE' ) )
 
 /**
  * @author      Dirk Wildt <http://wildt.at.die-netzmacher.de>
- * @package     TYPO3
- * @subpackage  Slick
  * @version     4.5.2
  * @since       4.5.2
  */
 class Icons
 {
+    private static array $icons = [
+            'slickdefault' => [
+                    'identifier' => 'contains-slickdefault'
+                    , 'key' => 'slickdefault' // <- Key must be the part behind contain- of the identifier!
+                    , 'label' => 'Slick'
+                    , 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-default',  // <- without ext
+            ],
+            'slickblue' => [
+                    'identifier' => 'contains-slickblue'
+                    , 'key' => 'slickblue' // <- Key must be the part behind contain- of the identifier!
+                    , 'label' => 'Slick blue'
+                    , 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-blue',  // <- without ext
+            ],
+            'slickgrey' => [
+                    'identifier' => 'contains-slickgrey'
+                    , 'key' => 'slickgrey' // <- Key must be the part behind contain- of the identifier!
+                    , 'label' => 'Slick grey'
+                    , 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-grey',  // <- without ext
+            ],
+    ];
 
-	private static $icons = [
-			'slickdefault' => [
-					'identifier' => 'contains-slickdefault'
-					, 'key' => 'slickdefault' // <- Key must be the part behind contain- of the identifier!
-					, 'label' => 'Slick'
-					, 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-default'  // <- without ext
-			],
-			'slickblue' => [
-					'identifier' => 'contains-slickblue'
-					, 'key' => 'slickblue' // <- Key must be the part behind contain- of the identifier!
-					, 'label' => 'Slick blue'
-					, 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-blue'  // <- without ext
-			],
-			'slickgrey' => [
-					'identifier' => 'contains-slickgrey'
-					, 'key' => 'slickgrey' // <- Key must be the part behind contain- of the identifier!
-					, 'label' => 'Slick grey'
-					, 'source' => 'EXT:slick/Resources/Public/Icons/ext_icon-grey'  // <- without ext
-			],
-	];
+    /**
+     * Get Icons
+     *
+     * @version     4.5.2
+     * @since       4.5.2
+     * @internal		#i0064
+     */
+    public static function GetIcons()
+    {
+        $ext = SELF::_Ext();
+        $icons = self::$icons;
+        foreach ((array)$icons as $key => $icon) {
+            $icons[ $key ][ 'source' ] = $icon[ 'source' ] . '.' . $ext;
+        }
+        return $icons;
+    }
 
-	/**
-	 * Get Icons
-	 *
-	 * @return      void
-	 * @version     4.5.2
-	 * @since       4.5.2
-	 * @internal		#i0064
-	 */
-	static public function GetIcons()
-	{
-		$ext = SELF::_Ext();
-		$icons = self::$icons;
-		foreach( ( array ) $icons as $key => $icon )
-		{
-			$icons[ $key ][ 'source' ] = $icon[ 'source' ] . '.' . $ext;
-		}
-		return $icons;
-	}
+    /**
+     * Register Icons
+     *
+     * @version     4.5.2
+     * @since       4.5.2
+     */
+    public static function RegisterIcons()
+    {
+        if (Typo3VersionUtility::get() < 7_006_000) {
+            return;
+        }
 
-	/**
-	 * Register Icons
-	 *
-	 * @return      void
-	 * @version     4.5.2
-	 * @since       4.5.2
-	 */
-	static public function RegisterIcons()
-	{
-		if( Typo3VersionUtility::get() < 7006000 )
-		{
-			return;
-		}
+        $iconRegistry = GeneralUtility::makeInstance(IconRegistry::class);
+        $icons = self::GetIcons();
+        foreach ((array)$icons as $icon) {
+            $iconRegistry->registerIcon(
+                $icon[ 'identifier' ],
+                SvgIconProvider::class,
+                [ 'source' => $icon[ 'source' ] ]
+            );
+        }
+    }
 
-		$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance( \TYPO3\CMS\Core\Imaging\IconRegistry::class );
-		$icons = self::GetIcons();
-		foreach( ( array ) $icons as $icon )
-		{
-			$iconRegistry->registerIcon(
-							$icon[ 'identifier' ]
-							, \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
-							, [ 'source' => $icon[ 'source' ] ]
-			);
-		}
-	}
+    /**
+     * @return      string
+     * @version     4.5.2
+     * @since       4.5.2
+     */
+    private static function _Ext()
+    {
+        switch(true) {
+            case Typo3VersionUtility::get() < 7_006_000 :
+                return 'gif';
+            case Typo3VersionUtility::get() >= 7_006_000 :
+            default:
+                return 'svg';
+        }
+    }
 
-	/**
-	 *
-	 * @return      string
-	 * @access			private
-	 * @version     4.5.2
-	 * @since       4.5.2
-	 */
-	static private function _Ext()
-	{
-		switch( TRUE )
-		{
-			case( Typo3VersionUtility::get() < 7006000 ):
-				return 'gif';
-			case( Typo3VersionUtility::get() >= 7006000 ):
-			default:
-				return 'svg';
-		}
-	}
-
-//	/**
-//	 * Get icon array with classes and paths
-//	 *
-//	 * @return      void
-//	 * @version     4.5.2
-//	 * @since       4.5.2
-//	 */
-//	static private function _getClassWiIcons()
-//	{
-//		$ext = SELF::_Ext();
-//
-//		return array(
-//				'ext-slickdefault' => SELF::$pathDefault . '.' . $ext
-//				, 'ext-slickblue' => SELF::$pathBlue . '.' . $ext
-//				, 'ext-slickgrey' => SELF::$pathGrey . '.' . $ext
-//		);
-//	}
+    //	/**
+    //	 * Get icon array with classes and paths
+    //	 *
+    //	 * @return      void
+    //	 * @version     4.5.2
+    //	 * @since       4.5.2
+    //	 */
+    //	static private function _getClassWiIcons()
+    //	{
+    //		$ext = SELF::_Ext();
+    //
+    //		return array(
+    //				'ext-slickdefault' => SELF::$pathDefault . '.' . $ext
+    //				, 'ext-slickblue' => SELF::$pathBlue . '.' . $ext
+    //				, 'ext-slickgrey' => SELF::$pathGrey . '.' . $ext
+    //		);
+    //	}
 }

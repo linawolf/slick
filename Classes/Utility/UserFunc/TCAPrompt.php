@@ -30,71 +30,63 @@ use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 /**
  * Class for rendering a HTML page by TCPDF methods
  *
- * @package TYPO3
- * @subpackage org
  * @author Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @version 4.0.0
  * @since 4.0.0
  */
 class TCAPrompt
 {
+    /**
+     * Path to locallang file (with : as postfix)
+     *
+     * @var string
+     */
+    protected $_locallangPath = 'LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:';
 
-  /**
-   * Path to locallang file (with : as postfix)
-   *
-   * @var string
-   */
-  protected $_locallangPath = 'LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:';
+    /**
+     * Max width of the div area of the prompt
+     *
+     * @var string
+     */
+    protected $_maxWidth = '600px';
 
-  /**
-   * Max width of the div area of the prompt
-   *
-   * @var string
-   */
-  protected $_maxWidth = '600px';
+    /**
+     * tx_org_downloads( ) : Returns a note, how to configure filter by constant editor
+     *
+     * @return string
+     * @version 4.0.0
+     * @since 4.0.0
+     */
+    public function sheetHelpPrompt()
+    {
+        return $this->_divPrompt('sheet.help.prompt');
+    }
 
-  /**
-   * tx_org_downloads( ) : Returns a note, how to configure filter by constant editor
-   *
-   * @return string
-   * @access public
-   * @version 4.0.0
-   * @since 4.0.0
-   *
-   */
-  public function sheetHelpPrompt()
-  {
-    return $this->_divPrompt( 'sheet.help.prompt' );
-  }
+    /**
+     * tx_org_jobs( ) :
+     *
+     * @param string $llLabel
+     * @return string
+     * @version 7.8.0
+     * @since 7.8.0
+     */
+    private function _divPrompt($llLabel)
+    {
+        //.message-notice
+        //.message-information
+        //.message-ok
+        //.message-warning
+        //.message-error
 
-  /**
-   * tx_org_jobs( ) :
-   *
-   * @param string $llLabel
-   * @return string
-   * @access private
-   * @version 7.8.0
-   * @since 7.8.0
-   *
-   */
-  private function _divPrompt( $llLabel )
-  {
-    //.message-notice
-    //.message-information
-    //.message-ok
-    //.message-warning
-    //.message-error
+        $subject = LocalizationUtility::translate($this->_locallangPath . $llLabel, '<i>' . $llLabel . '</i>');
 
-    $subject = LocalizationUtility::translate( $this->_locallangPath . $llLabel, '<i>' . $llLabel . '</i>' );
-
-    $prompt = '
+        $prompt = '
       <div class="typo3-message message-information" style="max-width:' . $this->_maxWidth . ';">
         <div class="message-body">
           ' . $subject . '
         </div>
       </div>';
 
-    return $prompt;
-  }
-
+        return $prompt;
+    }
 }

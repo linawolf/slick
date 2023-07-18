@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Netzmacher\Slick\Form\Element;
 
@@ -33,71 +33,63 @@ use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 /**
  * Class for rendering a HTML page by TCPDF methods
  *
- * @package TYPO3
- * @subpackage org
  * @author Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @version 6.0.0
  * @since 6.0.0
  */
 class SheetHelpPromptHelp extends AbstractFormElement
 {
+    /**
+     * Path to locallang file (with : as postfix)
+     *
+     * @var string
+     */
+    protected $_locallangPath = 'LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:';
 
-	/**
-	 * Path to locallang file (with : as postfix)
-	 *
-	 * @var string
-	 */
-	protected $_locallangPath = 'LLL:EXT:slick/Resources/Private/Language/Flexform.xlf:';
+    /**
+     * Max width of the div area of the prompt
+     *
+     * @var string
+     */
+    protected $_maxWidth = '600px';
 
-	/**
-	 * Max width of the div area of the prompt
-	 *
-	 * @var string
-	 */
-	protected $_maxWidth = '600px';
+    /**
+     * render( ) : Returns a note, how to configure filter by constant editor
+     *
+     * @return string
+     * @version 6.0.0
+     * @since 6.0.0
+     */
+    public function render()
+    {
+        return $this->_divPrompt('sheet.help.prompt');
+    }
 
-	/**
-	 * render( ) : Returns a note, how to configure filter by constant editor
-	 *
-	 * @return string
-	 * @access public
-	 * @version 6.0.0
-	 * @since 6.0.0
-	 *
-	 */
-	public function render()
-	{
-		return $this->_divPrompt( 'sheet.help.prompt' );
-	}
+    /**
+     * _divPrompt( ) :
+     *
+     * @param string $llLabel
+     * @return string
+     * @version 6.0.0
+     * @since 6.0.0
+     */
+    private function _divPrompt($llLabel)
+    {
+        //.message-notice
+        //.message-information
+        //.message-ok
+        //.message-warning
+        //.message-error
 
-	/**
-	 * _divPrompt( ) :
-	 *
-	 * @param string $llLabel
-	 * @return string
-	 * @access private
-	 * @version 6.0.0
-	 * @since 6.0.0
-	 *
-	 */
-	private function _divPrompt( $llLabel )
-	{
-		//.message-notice
-		//.message-information
-		//.message-ok
-		//.message-warning
-		//.message-error
+        $subject = LocalizationUtility::translate($this->_locallangPath . $llLabel, '<i>' . $llLabel . '</i>');
 
-		$subject = LocalizationUtility::translate( $this->_locallangPath . $llLabel, '<i>' . $llLabel . '</i>' );
-
-		$prompt = '
+        $prompt = '
       <div class="typo3-message message-information" style="max-width:' . $this->_maxWidth . ';">
         <div class="message-body">
           ' . $subject . '
         </div>
       </div>';
 
-		return $prompt;
-	}
-
+        return $prompt;
+    }
 }
